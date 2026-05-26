@@ -1,13 +1,13 @@
-package Base;
+package base;
 
-import Page.RegistrationPage;
+import page.RegistrationPage;
 import org.openqa.selenium.WebDriver;
 
 public class PageManager {
-
     public WebDriver driver;
     public RegistrationPage registrationPage;
 
+    //CONSTRUCTOR
     public PageManager(WebDriver driver) {
         driver = DriverManager.getDriver();
     }

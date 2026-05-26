@@ -1,4 +1,4 @@
-package Base;
+package base;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -8,17 +8,15 @@ public class DriverManager {
 
     private static WebDriver driver;
 
-    public static WebDriver getDriver() {
+    public static void initializeDriver() {
 
         if (driver == null) {
-
-            WebDriverManager.chromedriver().setup();
-
             driver = new ChromeDriver();
-
             driver.manage().window().maximize();
         }
+    }
 
+    public static WebDriver getDriver() {
         return driver;
     }
 
