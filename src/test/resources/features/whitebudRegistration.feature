@@ -1,7 +1,11 @@
 Feature: Whitebud Registration
   Background:
     Given Member navigates to the SMAC Web Registration Portal
+      Scenario:
 
-  Scenario: SMAC Web Registration Portal is displayed
+      Scenario: SMAC Web Registration Portal is displayed
         Then the "SMAC Registration" portal is displayed
-#
+
+
+
+

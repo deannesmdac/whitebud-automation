@@ -1,0 +1,142 @@
+2026-05-28 09:59:16 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 09:59:21 INFO  hooks.Hooks - Browser opened
+2026-05-28 09:59:23 INFO  stepDefinition.RegistrationStep - Validating SMAC Web Portal UI...
+2026-05-28 09:59:24 INFO  stepDefinition.RegistrationStep - PASSED: SMAC Registration Title is displayed
+2026-05-28 09:59:24 INFO  stepDefinition.RegistrationStep - PASSED: Details Tab is displayed
+2026-05-28 09:59:38 INFO  hooks.Hooks - Browser closed
+2026-05-28 11:08:09 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 11:08:18 INFO  hooks.Hooks - Browser opened
+2026-05-28 11:08:24 INFO  stepDefinition.RegistrationStep - PASS: SMAC Registration Title is displayed
+2026-05-28 11:08:27 INFO  hooks.Hooks - Browser closed
+2026-05-28 11:16:30 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 11:16:38 INFO  hooks.Hooks - Browser opened
+2026-05-28 11:16:41 INFO  stepDefinition.RegistrationStep - PASS: SMAC Registration Title is displayed
+2026-05-28 11:16:42 INFO  stepDefinition.RegistrationStep - PASS: Details Tab is displayed
+2026-05-28 11:16:57 INFO  hooks.Hooks - Browser closed
+2026-05-28 11:26:35 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 11:26:41 INFO  hooks.Hooks - Browser opened
+2026-05-28 11:26:45 INFO  stepDefinition.RegistrationStep - PASS: SMAC Registration Title is displayed
+2026-05-28 11:26:45 INFO  stepDefinition.RegistrationStep - PASS: Details Tab is displayed
+2026-05-28 11:26:55 ERROR stepDefinition.RegistrationStep - FAIL: Link Card is not displayed
+2026-05-28 11:27:00 INFO  hooks.Hooks - Browser closed
+2026-05-28 11:41:06 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 11:41:13 INFO  hooks.Hooks - Browser opened
+2026-05-28 11:41:17 INFO  stepDefinition.RegistrationStep - PASS: SMAC Registration Title is displayed
+2026-05-28 11:41:17 INFO  stepDefinition.RegistrationStep - PASS: Details Tab is displayed
+2026-05-28 11:41:17 INFO  stepDefinition.RegistrationStep - PASS: Link Card is displayed
+2026-05-28 11:41:17 INFO  stepDefinition.RegistrationStep - PASS: Verification Tab is displayed
+2026-05-28 11:41:18 INFO  stepDefinition.RegistrationStep - PASS: Name Txt is displayed
+2026-05-28 11:41:21 INFO  hooks.Hooks - Browser closed
+2026-05-28 11:42:57 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 11:43:04 INFO  hooks.Hooks - Browser opened
+2026-05-28 11:43:07 INFO  stepDefinition.RegistrationStep - PASS: SMAC Registration Title is displayed
+2026-05-28 11:43:07 INFO  stepDefinition.RegistrationStep - PASS: Details Tab is displayed
+2026-05-28 11:43:07 INFO  stepDefinition.RegistrationStep - PASS: Link Card is displayed
+2026-05-28 11:43:07 INFO  stepDefinition.RegistrationStep - PASS: Verification Tab is displayed
+2026-05-28 11:43:07 INFO  stepDefinition.RegistrationStep - PASS: Field name "Name" is displayed
+2026-05-28 11:43:12 INFO  hooks.Hooks - Browser closed
+2026-05-28 13:54:28 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 13:54:34 INFO  hooks.Hooks - Browser opened
+2026-05-28 13:54:48 ERROR stepDefinition.RegistrationStep - FAIL: SMAC Registration Portal is not displayed
+2026-05-28 13:54:51 INFO  hooks.Hooks - Browser closed
+2026-05-28 13:59:00 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 13:59:04 INFO  hooks.Hooks - Browser opened
+2026-05-28 13:59:19 ERROR stepDefinition.RegistrationStep - FAIL: SMAC Registration Portal is not displayed
+2026-05-28 13:59:21 INFO  hooks.Hooks - Browser closed
+2026-05-28 14:00:42 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 14:00:48 INFO  hooks.Hooks - Browser opened
+2026-05-28 14:01:00 ERROR stepDefinition.RegistrationStep - FAIL: SMAC Registration Portal is not displayed
+2026-05-28 14:01:05 INFO  hooks.Hooks - Browser closed
+2026-05-28 14:09:01 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 14:09:07 INFO  hooks.Hooks - Browser opened
+2026-05-28 14:09:20 ERROR stepDefinition.RegistrationStep - FAIL: SMAC Registration Portal is not displayed
+2026-05-28 14:09:23 INFO  hooks.Hooks - Browser closed
+2026-05-28 14:19:12 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 14:19:17 INFO  hooks.Hooks - Browser opened
+2026-05-28 14:19:32 ERROR stepDefinition.RegistrationStep - FAIL: SMAC Registration Portal is not displayed
+2026-05-28 14:22:43 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 14:22:48 INFO  hooks.Hooks - Browser opened
+2026-05-28 14:23:01 ERROR stepDefinition.RegistrationStep - FAIL: SMAC Registration Portal is not displayed
+2026-05-28 14:25:34 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 14:25:39 INFO  hooks.Hooks - Browser opened
+2026-05-28 14:25:55 ERROR stepDefinition.RegistrationStep - FAIL: SMAC Registration Portal is not displayed
+2026-05-28 14:29:25 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 14:29:30 INFO  hooks.Hooks - Browser opened
+2026-05-28 14:29:44 ERROR stepDefinition.RegistrationStep - FAIL: SMAC Registration Portal is not displayed
+2026-05-28 14:29:47 INFO  hooks.Hooks - Browser closed
+2026-05-28 14:40:33 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 14:40:38 INFO  hooks.Hooks - Browser opened
+2026-05-28 14:40:51 ERROR stepDefinition.RegistrationStep - FAIL: SMAC Registration Portal is not displayed
+2026-05-28 14:40:54 INFO  hooks.Hooks - Browser closed
+2026-05-28 15:09:37 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 15:09:46 INFO  hooks.Hooks - Browser opened
+2026-05-28 15:10:00 ERROR stepDefinition.RegistrationStep - FAIL: SMAC Registration Portal is not displayed
+2026-05-28 15:10:03 INFO  hooks.Hooks - Browser closed
+2026-05-28 15:12:17 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 15:12:22 INFO  hooks.Hooks - Browser opened
+2026-05-28 15:12:36 ERROR stepDefinition.RegistrationStep - FAIL: SMAC Registration Portal is not displayed
+2026-05-28 15:12:39 INFO  hooks.Hooks - Browser closed
+2026-05-28 15:14:39 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 15:14:44 INFO  hooks.Hooks - Browser opened
+2026-05-28 15:14:59 ERROR stepDefinition.RegistrationStep - FAIL: SMAC Registration Portal is not displayed
+2026-05-28 15:15:01 INFO  hooks.Hooks - Browser closed
+2026-05-28 15:16:54 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 15:16:59 INFO  hooks.Hooks - Browser opened
+2026-05-28 15:17:02 INFO  stepDefinition.RegistrationStep - PASS: SMAC Registration Portal is displayed
+2026-05-28 15:17:05 INFO  hooks.Hooks - Browser closed
+2026-05-28 15:20:02 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 15:20:07 INFO  hooks.Hooks - Browser opened
+2026-05-28 15:20:11 INFO  stepDefinition.RegistrationStep - PASS: SMAC Registration Portal is displayed
+2026-05-28 15:20:13 INFO  hooks.Hooks - Browser closed
+2026-05-28 16:01:19 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 16:01:24 INFO  hooks.Hooks - Browser opened
+2026-05-28 16:01:38 ERROR stepDefinition.RegistrationStep - FAIL: SMAC Registration Portal is not displayed
+2026-05-28 16:01:44 INFO  hooks.Hooks - Browser closed
+2026-05-28 16:03:22 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 16:03:27 INFO  hooks.Hooks - Browser opened
+2026-05-28 16:03:31 INFO  stepDefinition.RegistrationStep - PASS: SMAC Registration Portal is displayed
+2026-05-28 16:03:33 INFO  hooks.Hooks - Browser closed
