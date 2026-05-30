@@ -13,42 +13,76 @@ import org.slf4j.LoggerFactory;
 
 public class Hooks {
 
+    // Shared PageManager instance
     private static PageManager pageManager;
+
+    // Shared WebDriver instance
     private static WebDriver driver;
 
-    private static final Logger logger = LoggerFactory.getLogger(Hooks.class);
+    // Logger for framework logs
+    private static final Logger logger =
+            LoggerFactory.getLogger(Hooks.class);
 
+    /**
+     * Returns PageManager instance.
+     * Allows access to page objects in step definitions.
+     *
+     * @return PageManager instance
+     */
     public static PageManager getPageManager() {
+
         return pageManager;
     }
 
+    /**
+     * Runs before each scenario.
+     * Initializes browser and page objects.
+     */
     @Before
     public void setUp() {
 
+        // Initialize browser driver
         DriverManager.initializeDriver();
 
+        // Retrieve active driver instance
         driver = DriverManager.getDriver();
 
+        // Verify driver was initialized successfully
         if (driver == null) {
-            throw new RuntimeException("Driver was not initialized properly");
+
+            throw new RuntimeException(
+                    "Driver was not initialized properly"
+            );
         }
 
+        // Initialize page manager
         pageManager = new PageManager(driver);
 
         logger.info("Browser opened");
     }
 
+    /**
+     * Runs after each scenario.
+     * Captures screenshot and closes browser.
+     *
+     * @param scenario current executed scenario
+     */
     @After
     public void tearDown(Scenario scenario) {
 
-        //FOR FAILED AND PASSED END-STATE SCREENSHOTS
+        // =========================
+        // SCREENSHOT CAPTURE
+        // =========================
         try {
 
+            // Verify driver exists before screenshot
             if (driver != null) {
 
+                // Capture screenshot as byte array
                 byte[] screenshot = ((TakesScreenshot) driver)
                         .getScreenshotAs(OutputType.BYTES);
 
+                // Attach screenshot to Cucumber report
                 scenario.attach(
                         screenshot,
                         "image/png",
@@ -60,25 +94,39 @@ public class Hooks {
 
         } catch (Exception e) {
 
-            logger.error("Failed to capture screenshot", e);
-
+            logger.error(
+                    "Failed to capture screenshot",
+                    e
+            );
         }
 
+        // =========================
+        // CLOSE BROWSER
+        // =========================
         try {
 
+            // Quit browser session
             DriverManager.quitDriver();
+
             logger.info("Browser closed");
 
         } catch (Exception e) {
 
-            logger.error("Failed to close browser", e);
-
+            logger.error(
+                    "Failed to close browser",
+                    e
+            );
         }
 
+        // =========================
+        // CLEANUP
+        // =========================
+
+        // Reset objects for next test execution
         driver = null;
         pageManager = null;
-
     }
+}
         //FAILED SCREENSHOTS ONLY
 //        try {
 //            if (scenario.isFailed() && driver != null) {
@@ -101,4 +149,3 @@ public class Hooks {
 //        driver = null;
 //        pageManager = null;
 //    }
-}

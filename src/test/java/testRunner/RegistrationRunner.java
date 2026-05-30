@@ -5,22 +5,53 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
-        features = "src/test/resources/features/whitebudRegistration.feature",   // path to your .feature files
-        glue = {"stepDefinition", "hooks"},        // step definitions + hooks
-        plugin = {"pretty",
-                "html:target/cucumber-report.html", // for reporting
-                "json:target/cucumber.json" //for reporting
-                //"json:target/cucumber-json/initial/account.json", //Machine-readable, for merging reports, rerun handling, and CI dashboards.
-                //"rerun:target/rerun-txt/initial/rerun-account.txt"   // <-- automatically logs failed scenarios
+
+        // Path to feature files
+        features = "src/test/resources/features/whitebudRegistration.feature",
+
+        // Packages containing step definitions and hooks
+        glue = {"stepDefinition", "hooks"},
+
+        // Reporting plugins
+        plugin = {
+
+                // Console output
+                "pretty",
+
+                // Generates HTML report
+                "html:target/cucumber-report.html",
+
+                // Generates JSON report
+                "json:target/cucumber.json"
+
+                // Additional optional plugins:
+
+                // Machine-readable report for CI/CD integration
+                // "json:target/cucumber-json/initial/account.json",
+
+                // Stores failed scenarios for rerun execution
+                // "rerun:target/rerun-txt/initial/rerun-account.txt"
         },
+
+        // Makes console output cleaner and more readable
         monochrome = true
 )
 
-
 public class RegistrationRunner extends AbstractTestNGCucumberTests {
+
+    /**
+     * Controls scenario execution.
+     *
+     * parallel = false
+     * → scenarios run one at a time
+     *
+     * parallel = true
+     * → scenarios run simultaneously
+     */
     @Override
     @DataProvider(parallel = false)
     public Object[][] scenarios() {
+
         return super.scenarios();
     }
 }
