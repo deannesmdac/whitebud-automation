@@ -1,18 +1,18 @@
 package stepDefinition;
 
-import io.cucumber.java.PendingException;
-import io.cucumber.java.en.Then;
-import org.testng.Assert;
-import page.RegistrationPage;
-import hooks.Hooks;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import hooks.Hooks;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+import org.testng.Assert;
+import page.RegistrationPage;
 
 public class RegistrationStep {
 
-   private final RegistrationPage registrationPage = Hooks.getPageManager().getRegistrationPage();
+    private final RegistrationPage registrationPage =
+            Hooks.getPageManager().getRegistrationPage();
 
     private static final Logger logger =
             LoggerFactory.getLogger(RegistrationStep.class);
@@ -20,23 +20,60 @@ public class RegistrationStep {
     @Given("Member navigates to the SMAC Web Registration Portal")
     public void memberNavigatesToTheSMACWebRegistrationPortal() {
 
-        registrationPage.openUrl("https://awsstgexternal-outsys.smadvantage.com/SMACOnlineAcquisition/");
+        logger.info("⚙️Navigating to SMAC Registration Portal");
+
+        registrationPage.openUrl(
+                "https://awsstgexternal-outsys.smadvantage.com/SMACOnlineAcquisition/"
+        );
+
+        logger.info("✅Navigation completed");
     }
 
     @Then("the {string} portal is displayed")
-    public void theSMACWebPortalIsDisplayed(String arg0) {
+    public void thePortalIsDisplayed(String portalName) {
 
-        //SMAC Registration Title is displayed checking
-        try{
-            Assert.assertTrue(registrationPage.isSmacRegistrationPageDisplayed());
-            logger.info("PASS: SMAC Registration Portal is displayed");
+        logger.info("⚙️Verifying portal display: {}", portalName);
 
-        } catch (Exception e) {
-            logger.error("FAIL: SMAC Registration Portal is not displayed");
-            throw e;
-        }
+        Assert.assertTrue(
+                registrationPage.isSmacRegistrationPageDisplayed(),
+                "SMAC Registration portal is not displayed"
+        );
 
+        logger.info("✅Portal displayed successfully: {}", portalName);
+    }
 
+    @When("the member leaves the {string} field blank")
+    public void theMemberLeavesTheFieldBlank(String fieldName) {
 
+        logger.info("⚙️Leaving '{}' field blank", fieldName);
+
+        registrationPage.leaveFirstNameFieldBlank();
+
+        logger.info("✅Field '{}' left blank successfully", fieldName);
+    }
+
+    @Then("the inline error message {string} should be displayed")
+    public void theInlineErrorMessageShouldBeDisplayed(String expectedMessage) {
+
+        logger.info("⚙️Validating inline error message");
+
+        Assert.assertTrue(
+                registrationPage.isFirstNameRequiredErrorDisplayed(),
+                "Expected error message is not displayed"
+        );
+
+        String actualMessage =
+                registrationPage.getFNameFieldRequiredErrorTxt();
+
+        logger.info("🔎Expected message: {}", expectedMessage);
+        logger.info("🔎Actual message: {}", actualMessage);
+
+        Assert.assertEquals(
+                actualMessage,
+                expectedMessage,
+                "Inline error message mismatch"
+        );
+
+        logger.info("✅Inline error message validation passed");
     }
 }

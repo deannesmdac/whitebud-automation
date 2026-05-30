@@ -16,7 +16,7 @@ public class Hooks {
     private static PageManager pageManager;
     private static WebDriver driver;
 
-    private static Logger logger = LoggerFactory.getLogger(Hooks.class);
+    private static final Logger logger = LoggerFactory.getLogger(Hooks.class);
 
     public static PageManager getPageManager() {
         return pageManager;
@@ -25,13 +25,14 @@ public class Hooks {
     @Before
     public void setUp() {
 
-        // Initialize driver first
         DriverManager.initializeDriver();
 
-        // Get initialized driver
         driver = DriverManager.getDriver();
 
-        // Pass driver to PageManager
+        if (driver == null) {
+            throw new RuntimeException("Driver was not initialized properly");
+        }
+
         pageManager = new PageManager(driver);
 
         logger.info("Browser opened");
@@ -40,18 +41,25 @@ public class Hooks {
     @After
     public void tearDown(Scenario scenario) {
 
-        if (scenario.isFailed() && driver != null) {
-            byte[] screenshot = ((TakesScreenshot) driver)
-                    .getScreenshotAs(OutputType.BYTES);
+        try {
+            if (scenario.isFailed() && driver != null) {
+                byte[] screenshot = ((TakesScreenshot) driver)
+                        .getScreenshotAs(OutputType.BYTES);
 
-            scenario.attach(screenshot, "image/png", "Failure Screenshot");
+                scenario.attach(screenshot, "image/png", "Failure Screenshot");
+            }
+        } catch (Exception e) {
+            logger.error("Failed to capture screenshot", e);
         }
 
-        if (driver != null) {
-            driver.quit();
+        try {
+            DriverManager.quitDriver();
             logger.info("Browser closed");
+        } catch (Exception e) {
+            logger.error("Error while quitting driver", e);
         }
 
+        driver = null;
         pageManager = null;
     }
 }

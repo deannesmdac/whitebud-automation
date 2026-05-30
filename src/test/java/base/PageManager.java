@@ -4,17 +4,18 @@ import page.RegistrationPage;
 import org.openqa.selenium.WebDriver;
 
 public class PageManager {
-    public WebDriver driver;
-    public RegistrationPage registrationPage;
 
-    //CONSTRUCTOR
+    private WebDriver driver;
+
+    private RegistrationPage registrationPage;
+
     public PageManager(WebDriver driver) {
-        driver = DriverManager.getDriver();
+        this.driver = driver;
     }
 
     public RegistrationPage getRegistrationPage() {
         if (registrationPage == null) {
-            registrationPage = new RegistrationPage();
+            registrationPage = new RegistrationPage(driver);
         }
         return registrationPage;
     }
