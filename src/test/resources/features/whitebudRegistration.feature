@@ -3,7 +3,7 @@ Feature: Whitebud Registration
     Given Member navigates to the SMAC Web Registration Portal
 
       Scenario: SMAC Web Registration Portal is displayed
-        Then the "SMAC Registration" portal is displayed
+        Then the "SMAC Web Registration" portal is displayed
 
       Scenario: First Name field is required
         When the member leaves the "First Name" field blank

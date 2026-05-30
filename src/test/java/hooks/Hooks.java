@@ -41,25 +41,64 @@ public class Hooks {
     @After
     public void tearDown(Scenario scenario) {
 
+        //FOR FAILED AND PASSED END-STATE SCREENSHOTS
         try {
-            if (scenario.isFailed() && driver != null) {
+
+            if (driver != null) {
+
                 byte[] screenshot = ((TakesScreenshot) driver)
                         .getScreenshotAs(OutputType.BYTES);
 
-                scenario.attach(screenshot, "image/png", "Failure Screenshot");
+                scenario.attach(
+                        screenshot,
+                        "image/png",
+                        scenario.isFailed()
+                                ? "Failure Screenshot"
+                                : "End State Screenshot"
+                );
             }
+
         } catch (Exception e) {
+
             logger.error("Failed to capture screenshot", e);
+
         }
 
         try {
+
             DriverManager.quitDriver();
             logger.info("Browser closed");
+
         } catch (Exception e) {
-            logger.error("Error while quitting driver", e);
+
+            logger.error("Failed to close browser", e);
+
         }
 
         driver = null;
         pageManager = null;
+
     }
+        //FAILED SCREENSHOTS ONLY
+//        try {
+//            if (scenario.isFailed() && driver != null) {
+//                byte[] screenshot = ((TakesScreenshot) driver)
+//                        .getScreenshotAs(OutputType.BYTES);
+//
+//                scenario.attach(screenshot, "image/png", "Failure Screenshot");
+//            }
+//        } catch (Exception e) {
+//            logger.error("Failed to capture screenshot", e);
+//        }
+//
+//        try {
+//            DriverManager.quitDriver();
+//            logger.info("Browser closed");
+//        } catch (Exception e) {
+//            logger.error("Error while quitting driver", e);
+//        }
+//
+//        driver = null;
+//        pageManager = null;
+//    }
 }

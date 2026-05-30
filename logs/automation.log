@@ -238,3 +238,22 @@
 2026-05-30 15:58:49 INFO  stepDefinition.RegistrationStep - 🔎Actual message: This field is required.
 2026-05-30 15:58:49 INFO  stepDefinition.RegistrationStep - ✅Inline error message validation passed
 2026-05-30 15:58:49 INFO  hooks.Hooks - Browser closed
+2026-05-30 18:26:55 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-05-30 18:26:58 INFO  hooks.Hooks - Browser opened
+2026-05-30 18:26:58 INFO  stepDefinition.RegistrationStep - ⚙️Navigating to SMAC Registration Portal
+2026-05-30 18:26:59 INFO  stepDefinition.RegistrationStep - ✅Navigation completed
+2026-05-30 18:26:59 INFO  stepDefinition.RegistrationStep - ⚙️Verifying portal display: SMAC Web Registration
+2026-05-30 18:27:01 INFO  stepDefinition.RegistrationStep - ✅Portal displayed successfully: SMAC Web Registration
+2026-05-30 18:27:01 INFO  hooks.Hooks - Browser closed
+2026-05-30 18:27:03 INFO  hooks.Hooks - Browser opened
+2026-05-30 18:27:03 INFO  stepDefinition.RegistrationStep - ⚙️Navigating to SMAC Registration Portal
+2026-05-30 18:27:04 INFO  stepDefinition.RegistrationStep - ✅Navigation completed
+2026-05-30 18:27:04 INFO  stepDefinition.RegistrationStep - ⚙️Leaving 'First Name' field blank
+2026-05-30 18:27:05 INFO  stepDefinition.RegistrationStep - ✅Field 'First Name' left blank successfully
+2026-05-30 18:27:05 INFO  stepDefinition.RegistrationStep - ⚙️Validating inline error message
+2026-05-30 18:27:05 INFO  stepDefinition.RegistrationStep - 🔎Expected message: This field is required.
+2026-05-30 18:27:05 INFO  stepDefinition.RegistrationStep - 🔎Actual message: This field is required.
+2026-05-30 18:27:05 INFO  stepDefinition.RegistrationStep - ✅Inline error message validation passed
+2026-05-30 18:27:06 INFO  hooks.Hooks - Browser closed
