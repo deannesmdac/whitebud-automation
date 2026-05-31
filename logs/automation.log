@@ -314,3 +314,259 @@
 2026-05-31 00:56:00 INFO  stepDefinition.RegistrationStep - 🔎 Actual message: This field is required.
 2026-05-31 00:56:00 INFO  stepDefinition.RegistrationStep - ✅ Inline error message validation passed
 2026-05-31 00:56:00 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:11:26 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-05-31 02:11:30 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:11:30 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:11:30 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:11:30 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-05-31 02:11:32 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-05-31 02:11:32 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:11:33 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:11:33 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:11:35 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:11:35 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:11:36 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:11:36 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:11:37 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:11:37 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:11:38 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:11:38 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:11:39 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:11:40 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:11:41 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:11:41 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:11:42 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:11:42 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:11:43 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:11:43 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:11:44 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:11:45 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:19:14 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-05-31 02:19:17 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:19:17 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:19:18 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:19:18 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-05-31 02:19:19 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-05-31 02:19:19 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:19:20 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:19:20 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:19:21 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:19:21 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:19:23 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:19:23 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:19:23 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:19:24 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:19:25 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:19:25 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:19:25 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:19:27 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:19:28 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:19:28 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:19:29 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:19:29 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:19:30 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:19:30 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:19:31 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:19:32 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:22:16 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-05-31 02:22:18 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:22:18 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:22:19 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:22:19 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-05-31 02:22:21 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-05-31 02:22:21 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:22:22 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:22:22 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:22:23 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:22:23 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:22:24 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:22:24 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:22:25 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:22:26 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:22:27 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:22:27 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:22:27 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:22:29 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:22:30 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:22:30 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:22:31 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:22:31 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:22:32 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:22:32 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:22:33 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:22:34 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:37:12 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-05-31 02:37:14 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:37:14 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:37:16 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:37:16 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-05-31 02:37:17 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-05-31 02:37:17 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:37:18 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:37:18 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:37:19 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:37:19 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message for field: FirstName
+2026-05-31 02:37:20 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:37:21 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:37:21 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:37:22 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:37:22 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message for field: LastName
+2026-05-31 02:37:22 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:37:23 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:37:23 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:37:24 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:37:25 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message for field: Birthday
+2026-05-31 02:37:25 INFO  stepDefinition.RegistrationStep - 🔎 Expected Message: <ErrorMessage>
+2026-05-31 02:37:25 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: 
+2026-05-31 02:37:25 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:37:27 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:37:27 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:37:27 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:37:27 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message for field: MobileNumber
+2026-05-31 02:37:28 INFO  hooks.Hooks - Browser closed
+2026-05-31 02:37:29 INFO  hooks.Hooks - Browser opened
+2026-05-31 02:37:29 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-05-31 02:37:30 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-05-31 02:37:31 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message for field: Password
+2026-05-31 02:37:31 INFO  stepDefinition.RegistrationStep - 🔎 Expected Message: <ErrorMessage>
+2026-05-31 02:37:31 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: Password not strong enough.
+2026-05-31 02:37:31 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:03:43 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-01 00:03:47 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:03:47 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:03:48 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:03:48 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-06-01 00:03:49 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-06-01 00:03:49 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:03:51 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:03:51 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:03:52 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:03:52 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:03:53 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:03:53 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:03:54 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:03:54 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:03:55 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:03:55 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:03:56 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:03:58 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:03:59 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:03:59 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:04:00 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:04:00 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:04:01 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:04:01 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:04:02 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:04:03 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:06:24 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-01 00:06:26 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:06:26 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:06:27 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:06:27 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-06-01 00:06:29 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-06-01 00:06:29 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:06:30 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:06:30 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:06:31 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:06:31 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:06:32 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:06:32 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:06:33 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:06:33 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:06:35 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:06:35 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:06:35 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:06:37 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:06:38 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:06:38 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:06:39 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:06:39 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:06:40 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:06:40 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:06:41 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:06:42 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:14:55 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:14:55 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:14:56 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:14:56 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-06-01 00:14:58 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-06-01 00:14:58 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:14:59 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:14:59 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:15:00 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:15:00 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message for field: FirstName
+2026-06-01 00:15:00 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:15:02 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:15:02 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:15:02 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:15:02 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message for field: LastName
+2026-06-01 00:15:02 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:15:04 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:15:04 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:15:04 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:15:06 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message for field: Birthday
+2026-06-01 00:15:06 INFO  stepDefinition.RegistrationStep - 🔎 Expected Message: <ErrorMessage>
+2026-06-01 00:15:06 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: 
+2026-06-01 00:15:06 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:15:07 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:15:07 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:15:08 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:15:08 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message for field: MobileNumber
+2026-06-01 00:15:08 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:15:09 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:15:09 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:15:10 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:15:11 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message for field: Password
+2026-06-01 00:15:11 INFO  stepDefinition.RegistrationStep - 🔎 Expected Message: <ErrorMessage>
+2026-06-01 00:15:11 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: Password not strong enough.
+2026-06-01 00:15:11 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:27:37 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-01 00:27:40 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:27:40 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:27:41 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:27:41 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-06-01 00:27:42 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-06-01 00:27:43 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:27:44 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:27:44 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:27:45 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:27:45 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message for field: FirstName
+2026-06-01 00:27:45 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:27:47 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:27:47 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:27:47 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:27:47 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message for field: LastName
+2026-06-01 00:27:47 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:27:49 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:27:49 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:27:49 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:27:51 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message for field: Birthday
+2026-06-01 00:27:51 INFO  stepDefinition.RegistrationStep - 🔎 Expected Message: <ErrorMessage>
+2026-06-01 00:27:51 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: This field is required.
+2026-06-01 00:27:51 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:27:52 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:27:52 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:27:53 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:27:53 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message for field: MobileNumber
+2026-06-01 00:27:53 INFO  hooks.Hooks - Browser closed
+2026-06-01 00:27:54 INFO  hooks.Hooks - Browser opened
+2026-06-01 00:27:54 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-01 00:27:55 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-01 00:27:56 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message for field: Password
+2026-06-01 00:27:56 INFO  stepDefinition.RegistrationStep - 🔎 Expected Message: <ErrorMessage>
+2026-06-01 00:27:56 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: Password not strong enough.
+2026-06-01 00:27:56 INFO  hooks.Hooks - Browser closed

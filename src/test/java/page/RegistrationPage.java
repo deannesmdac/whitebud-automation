@@ -4,6 +4,8 @@ import base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import java.util.Map;
+
 public class RegistrationPage extends BasePage {
 
     /**
@@ -115,7 +117,12 @@ public class RegistrationPage extends BasePage {
     // =========================
 
     private final By firstNameRequiredError =
-            By.xpath("//span[text()='This field is required.']");
+            By.xpath("//*[@id=\"b6-b1-b2-Column1\"]/div/span/span");
+    private final By lastNameRequiredError = By.xpath("//*[@id=\"b6-b1-b2-Column2\"]/div/span/span");
+    private final By birthdayRequiredError = By.xpath("//*[@id=\"b6-b1-b5-Input\"]/span/span");
+    private final By mobileNumberRequiredError = By.xpath("//span[text()=\"Please enter a complete mobile number.\"]");
+    private final By passwordRequiredError = By.xpath("//span[text()=\"Password not strong enough.\"]");
+
 
     // =========================
     // PAGE VALIDATION
@@ -176,9 +183,132 @@ public class RegistrationPage extends BasePage {
      * by clicking field then pressing TAB.
      * Triggers validation message.
      */
-    public void leaveFirstNameFieldBlank() {
+//    public void leaveFirstNameFieldBlank() {
+//
+//        clickAndTab(firstNameField);
+//    }
 
-        clickAndTab(firstNameField);
+    /**
+     * Leaves specific field blank
+     * by using switch-case in
+     */
+    public void leaveFieldBlank(String fieldName) {
+
+        switch (fieldName.toLowerCase()) {
+
+            case "first name":
+                clickAndTab(firstNameField);
+                break;
+
+            case "last name":
+                clickAndTab(lastNameField);
+                break;
+
+            case "birthday":
+                clickAndTab(birthdayField);
+                break;
+
+            case "mobile number":
+                clickAndTab(mobileNumberField);
+                break;
+
+            case "password":
+                clickAndTab(passwordField);
+                break;
+        }
+    }
+
+//    public String getFieldErrorMessage(String fieldName) {
+//
+//        switch (fieldName.toLowerCase()) {
+//
+//            case "first name":
+//                return getText(firstNameRequiredError);
+//
+//            case "last name":
+//                return getText(lastNameRequiredError);
+//
+//            case "birthday":
+//                return getText(birthdayRequiredError);
+//
+//            case "mobile number":
+//                return getText(mobileNumberRequiredError);
+//
+//            case "password":
+//                return getText(passwordRequiredError);
+//
+//            default:
+//                throw new IllegalArgumentException(
+//                        "Invalid field name: " + fieldName
+//                );
+//        }
+//    }
+
+    // =========================
+    // ERROR MAP
+    // =========================
+
+    private final Map<String, By> requiredFieldErrors = Map.of(
+
+            "first name", firstNameRequiredError,
+            "last name", lastNameRequiredError,
+            "birthday", birthdayField,
+            "mobile number", mobileNumberRequiredError,
+            "password", passwordRequiredError
+    );
+
+    // =========================
+    // METHODS
+    // =========================
+
+    public boolean isFieldErrorDisplayed(String fieldName) {
+        By locator = getFieldErrorLocator(fieldName);
+
+        if (locator == null) {
+            throw new IllegalArgumentException(
+                    "No error locator defined for field: " + fieldName);
+        }
+
+        return driver.findElement(locator).isDisplayed();
+    }
+
+    private By getFieldErrorLocator(String fieldName) {
+
+        switch (fieldName) {
+
+            case "FirstName":
+                return firstNameRequiredError;
+
+            case "LastName":
+                return lastNameRequiredError;
+
+            case "Birthday":
+                return birthdayRequiredError;
+
+            case "MobileNumber":
+                return mobileNumberRequiredError;
+
+            case "Password":
+                return passwordRequiredError;
+
+            default:
+                throw new IllegalArgumentException(
+                        "Invalid field name: " + fieldName);
+        }
+    }
+
+    public String getFieldErrorMessage(String fieldName) {
+
+        By locator = getFieldErrorLocator(fieldName);
+
+        if (locator == null) {
+            throw new IllegalArgumentException(
+                    "No error locator defined for field: " + fieldName);
+        }
+
+        return driver.findElement(locator)
+                .getText()
+                .trim();
     }
 
     // =========================
@@ -190,10 +320,10 @@ public class RegistrationPage extends BasePage {
      *
      * @return validation message text
      */
-    public String getFNameFieldRequiredErrorTxt() {
-
-        return getText(firstNameRequiredError);
-    }
+//    public String getFNameFieldRequiredErrorTxt() {
+//
+//        return getText(firstNameRequiredError);
+//    }
 
     /**
      * Verifies whether First Name required
@@ -201,8 +331,11 @@ public class RegistrationPage extends BasePage {
      *
      * @return true if error message is visible
      */
-    public boolean isFirstNameRequiredErrorDisplayed() {
+//    public boolean isFirstNameRequiredErrorDisplayed() {
+//
+//        return isDisplayed(firstNameRequiredError);
+//    }
 
-        return isDisplayed(firstNameRequiredError);
-    }
+
+
 }
