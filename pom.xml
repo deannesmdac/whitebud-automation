@@ -107,6 +107,22 @@
             <version>${jackson.version}</version>
         </dependency>
 
+        <!-- ExtentReports Core for visual charts reporting-->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.1.1</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- ExtentReports Cucumber 7 Adapter to link the plugin to cucumber -->
+        <dependency>
+            <groupId>tech.grasshopper</groupId>
+            <artifactId>extentreports-cucumber7-adapter</artifactId>
+            <version>1.14.0</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>

@@ -19,7 +19,10 @@ import org.testng.annotations.DataProvider;
                 "pretty",
 
                 // Generates HTML report
-                "html:target/cucumber-report.html",
+//                "html:target/cucumber-report.html",
+
+                //"html:target/cucumber-reports/report.html",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 
                 // Generates JSON report
                 "json:target/cucumber.json"

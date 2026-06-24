@@ -1642,3 +1642,101 @@
 2026-06-24 14:37:41 INFO  stepDefinition.RegistrationStep - ⚙️ Waiting for Link Card Page visibility
 2026-06-24 14:37:43 INFO  stepDefinition.RegistrationStep - ✅ Link Card Page is displayed successfully
 2026-06-24 14:37:48 INFO  hooks.Hooks - Browser closed
+2026-06-24 15:31:50 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-06-24 15:31:55 INFO  hooks.Hooks - Browser opened
+2026-06-24 15:31:55 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-24 15:31:57 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-24 15:31:57 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-06-24 15:32:00 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-06-24 15:32:04 INFO  hooks.Hooks - Browser closed
+2026-06-24 15:32:06 INFO  hooks.Hooks - Browser opened
+2026-06-24 15:32:06 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-24 15:32:07 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-24 15:32:07 INFO  stepDefinition.RegistrationStep - ⚙️ Leaving the first name field blank
+2026-06-24 15:32:09 INFO  stepDefinition.RegistrationStep - ✅ First name field left blank successfully
+2026-06-24 15:32:09 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message
+2026-06-24 15:32:09 INFO  stepDefinition.RegistrationStep - 🔎 Expected Message: This field is required.
+2026-06-24 15:32:09 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: This field is required.
+2026-06-24 15:32:09 INFO  stepDefinition.RegistrationStep - ✅ Error message validation passed
+2026-06-24 15:32:12 INFO  hooks.Hooks - Browser closed
+2026-06-24 15:32:15 INFO  hooks.Hooks - Browser opened
+2026-06-24 15:32:15 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-24 15:32:16 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-24 15:32:16 INFO  stepDefinition.RegistrationStep - ⚙️ Entering valid registration details
+2026-06-24 15:32:19 INFO  stepDefinition.RegistrationStep - ✅ Entering valid registration detail done
+2026-06-24 15:32:19 INFO  stepDefinition.RegistrationStep - ⚙️ Clearing the first name field
+2026-06-24 15:32:19 INFO  stepDefinition.RegistrationStep - ✅ First Name field is cleared successfully
+2026-06-24 15:32:19 INFO  stepDefinition.RegistrationStep - ⚙️ Entering value in the First Name field
+2026-06-24 15:32:19 INFO  stepDefinition.RegistrationStep - ✅ Value entered in the First Name field successfully
+2026-06-24 15:32:19 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-24 15:32:19 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-24 15:32:19 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-24 15:32:20 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-24 15:32:20 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message
+2026-06-24 15:32:20 INFO  stepDefinition.RegistrationStep - 🔎 Expected Message: Enter a valid first name.
+2026-06-24 15:32:20 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: Enter a valid first name.
+2026-06-24 15:32:20 INFO  stepDefinition.RegistrationStep - ✅ Error message validation passed
+2026-06-24 15:32:23 INFO  hooks.Hooks - Browser closed
+2026-06-24 15:32:26 INFO  hooks.Hooks - Browser opened
+2026-06-24 15:32:26 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-24 15:32:26 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-24 15:32:26 INFO  stepDefinition.RegistrationStep - ⚙️ Entering valid registration details
+2026-06-24 15:32:29 INFO  stepDefinition.RegistrationStep - ✅ Entering valid registration detail done
+2026-06-24 15:32:29 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-24 15:32:29 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-24 15:32:29 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-24 15:32:29 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-24 15:32:29 INFO  stepDefinition.RegistrationStep - ⚙️ Waiting for Link Card Page visibility
+2026-06-24 15:32:32 INFO  stepDefinition.RegistrationStep - ✅ Link Card Page is displayed successfully
+2026-06-24 15:32:35 INFO  hooks.Hooks - Browser closed
+2026-06-24 15:35:51 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\daespiritu\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-06-24 15:35:57 INFO  hooks.Hooks - Browser opened
+2026-06-24 15:35:57 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-24 15:35:59 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-24 15:35:59 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-06-24 15:36:00 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-06-24 15:36:03 INFO  hooks.Hooks - Browser closed
+2026-06-24 15:36:06 INFO  hooks.Hooks - Browser opened
+2026-06-24 15:36:06 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-24 15:36:08 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-24 15:36:08 INFO  stepDefinition.RegistrationStep - ⚙️ Leaving the first name field blank
+2026-06-24 15:36:10 INFO  stepDefinition.RegistrationStep - ✅ First name field left blank successfully
+2026-06-24 15:36:10 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message
+2026-06-24 15:36:10 INFO  stepDefinition.RegistrationStep - 🔎 Expected Message: This field is required.
+2026-06-24 15:36:10 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: This field is required.
+2026-06-24 15:36:10 INFO  stepDefinition.RegistrationStep - ✅ Error message validation passed
+2026-06-24 15:36:12 INFO  hooks.Hooks - Browser closed
+2026-06-24 15:36:16 INFO  hooks.Hooks - Browser opened
+2026-06-24 15:36:16 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-24 15:36:16 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-24 15:36:16 INFO  stepDefinition.RegistrationStep - ⚙️ Entering valid registration details
+2026-06-24 15:36:19 INFO  stepDefinition.RegistrationStep - ✅ Entering valid registration detail done
+2026-06-24 15:36:19 INFO  stepDefinition.RegistrationStep - ⚙️ Clearing the first name field
+2026-06-24 15:36:19 INFO  stepDefinition.RegistrationStep - ✅ First Name field is cleared successfully
+2026-06-24 15:36:19 INFO  stepDefinition.RegistrationStep - ⚙️ Entering value in the First Name field
+2026-06-24 15:36:19 INFO  stepDefinition.RegistrationStep - ✅ Value entered in the First Name field successfully
+2026-06-24 15:36:19 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-24 15:36:19 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-24 15:36:19 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-24 15:36:19 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-24 15:36:19 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message
+2026-06-24 15:36:20 INFO  stepDefinition.RegistrationStep - 🔎 Expected Message: Enter a valid first name.
+2026-06-24 15:36:20 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: Enter a valid first name.
+2026-06-24 15:36:20 INFO  stepDefinition.RegistrationStep - ✅ Error message validation passed
+2026-06-24 15:36:23 INFO  hooks.Hooks - Browser closed
+2026-06-24 15:36:26 INFO  hooks.Hooks - Browser opened
+2026-06-24 15:36:26 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-24 15:36:27 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-24 15:36:27 INFO  stepDefinition.RegistrationStep - ⚙️ Entering valid registration details
+2026-06-24 15:36:29 INFO  stepDefinition.RegistrationStep - ✅ Entering valid registration detail done
+2026-06-24 15:36:29 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-24 15:36:30 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-24 15:36:30 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-24 15:36:30 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-24 15:36:30 INFO  stepDefinition.RegistrationStep - ⚙️ Waiting for Link Card Page visibility
+2026-06-24 15:36:31 INFO  stepDefinition.RegistrationStep - ✅ Link Card Page is displayed successfully
+2026-06-24 15:36:34 INFO  hooks.Hooks - Browser closed
