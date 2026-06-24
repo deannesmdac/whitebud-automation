@@ -2,7 +2,9 @@ package page;
 
 import base.BasePage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.Map;
 
@@ -64,6 +66,7 @@ public class RegistrationPage extends BasePage {
     // FIELD LOCATORS
     // =========================
 
+    // Details Page
     private final By firstNameField =
             By.id("b6-b1-Input_FirstName");
 
@@ -85,6 +88,10 @@ public class RegistrationPage extends BasePage {
     private final By confirmPasswordField =
             By.id("b6-b1-Input_PasswordConfirmation");
 
+    //Link Card Page
+    private final By enterSMACNumberField = By.id("b6-b2-Input_CardNumber");
+
+
     // =========================
     // CHECKBOX LOCATORS
     // =========================
@@ -99,8 +106,13 @@ public class RegistrationPage extends BasePage {
     // BUTTON LOCATORS
     // =========================
 
-    private final By proceedButton =
-            By.xpath("//button[text()='Proceed' and @disabled]");
+    //Details Page
+    private final By proceedButtonDP =
+            By.xpath("//*[@class='btn btn-primary full-width' and text() = 'Proceed']");
+
+    //Link Card Page
+    private final By backButtonLCP = By.id("b3-Icon");
+    private final By homeButtonLCP = By.id("b4-Icon");
 
     // =========================
     // LINK LOCATORS
@@ -116,13 +128,12 @@ public class RegistrationPage extends BasePage {
     // ERROR LOCATORS
     // =========================
 
-    private final By firstNameRequiredError =
-            By.xpath("//*[@id=\"b6-b1-b2-Column1\"]/div/span/span");
-    private final By lastNameRequiredError = By.xpath("//*[@id=\"b6-b1-b2-Column2\"]/div/span/span");
+    private final By fieldIsRequiredError = By.xpath("//*[text()='This field is required.']");
+    private final By enterValidFNameError = By.xpath("//*[text()='Enter a valid first name.']");
+    private final By enterValidLNameError = By.xpath("//*[text()='Enter a valid last name.']");
     private final By birthdayRequiredError = By.xpath("//*[@id=\"b6-b1-b5-Input\"]/span/span");
     private final By mobileNumberRequiredError = By.xpath("//span[text()=\"Please enter a complete mobile number.\"]");
     private final By passwordRequiredError = By.xpath("//span[text()=\"Password not strong enough.\"]");
-
 
     // =========================
     // PAGE VALIDATION
@@ -157,12 +168,29 @@ public class RegistrationPage extends BasePage {
                 confirmPasswordField,
                 updatesCheckbox,
                 consentCheckbox,
-                proceedButton,
+                proceedButtonDP,
                 termsAndConditionsLink,
                 privacyPolicyLink
         };
 
         // Verify all elements are displayed
+        for (By element : pageElements) {
+
+            if (!isDisplayed(element)) {
+
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public boolean linkCarPageDisplayed() {
+        By[] pageElements = {
+                enterSMACNumberField,
+                backButtonLCP,
+                homeButtonLCP
+        };
         for (By element : pageElements) {
 
             if (!isDisplayed(element)) {
@@ -183,136 +211,57 @@ public class RegistrationPage extends BasePage {
      * by clicking field then pressing TAB.
      * Triggers validation message.
      */
-//    public void leaveFirstNameFieldBlank() {
-//
-//        clickAndTab(firstNameField);
-//    }
+    public void leaveFirstNameFieldBlank() {
 
-    /**
-     * Leaves specific field blank
-     * by using switch-case in
-     */
-    public void leaveFieldBlank(String fieldName) {
-
-        switch (fieldName.toLowerCase()) {
-
-            case "first name":
-                clickAndTab(firstNameField);
-                break;
-
-            case "last name":
-                clickAndTab(lastNameField);
-                break;
-
-            case "birthday":
-                clickAndTab(birthdayField);
-                break;
-
-            case "mobile number":
-                clickAndTab(mobileNumberField);
-                break;
-
-            case "password":
-                clickAndTab(passwordField);
-                break;
-        }
+        clickAndTab(firstNameField);
     }
 
-//    public String getFieldErrorMessage(String fieldName) {
-//
-//        switch (fieldName.toLowerCase()) {
-//
-//            case "first name":
-//                return getText(firstNameRequiredError);
-//
-//            case "last name":
-//                return getText(lastNameRequiredError);
-//
-//            case "birthday":
-//                return getText(birthdayRequiredError);
-//
-//            case "mobile number":
-//                return getText(mobileNumberRequiredError);
-//
-//            case "password":
-//                return getText(passwordRequiredError);
-//
-//            default:
-//                throw new IllegalArgumentException(
-//                        "Invalid field name: " + fieldName
-//                );
-//        }
-//    }
-
-    // =========================
-    // ERROR MAP
-    // =========================
-
-    private final Map<String, By> requiredFieldErrors = Map.of(
-
-            "first name", firstNameRequiredError,
-            "last name", lastNameRequiredError,
-            "birthday", birthdayField,
-            "mobile number", mobileNumberRequiredError,
-            "password", passwordRequiredError
-    );
-
-    // =========================
-    // METHODS
-    // =========================
-
-    public boolean isFieldErrorDisplayed(String fieldName) {
-        By locator = getFieldErrorLocator(fieldName);
-
-        if (locator == null) {
-            throw new IllegalArgumentException(
-                    "No error locator defined for field: " + fieldName);
-        }
-
-        return driver.findElement(locator).isDisplayed();
+    public void clearFirstNameField() {
+        clearField(firstNameField);
     }
 
-    private By getFieldErrorLocator(String fieldName) {
-
-        switch (fieldName) {
-
-            case "FirstName":
-                return firstNameRequiredError;
-
-            case "LastName":
-                return lastNameRequiredError;
-
-            case "Birthday":
-                return birthdayRequiredError;
-
-            case "MobileNumber":
-                return mobileNumberRequiredError;
-
-            case "Password":
-                return passwordRequiredError;
-
-            default:
-                throw new IllegalArgumentException(
-                        "Invalid field name: " + fieldName);
-        }
+    public void enterFirstNameField(String firstName) {
+        clickAndTab(firstNameField);
+        type(firstNameField, firstName);
     }
 
-    public String getFieldErrorMessage(String fieldName) {
+    public void enterValidRegistrationDetails(){
+        click(firstNameField);
+        type(firstNameField,"Jane");
 
-        By locator = getFieldErrorLocator(fieldName);
+        click(lastNameField);
+        type(lastNameField,"Doe");
 
-        if (locator == null) {
-            throw new IllegalArgumentException(
-                    "No error locator defined for field: " + fieldName);
-        }
+        click(mobileNumberField);
+        type(mobileNumberField,"9497379639");
 
-        return driver.findElement(locator)
-                .getText()
-                .trim();
+        click(birthdayField);
+        type(birthdayField,"01/01/1990");
+
+        click(passwordField);
+        type(passwordField,"Alpha123!");
+
+        driver.findElement(passwordField)
+                .sendKeys(Keys.TAB);
+
+        click(confirmPasswordField);
+        type(confirmPasswordField,"Alpha123!");
+
+    }
+
+    public void clickConsentCheckbox() {
+        click(consentCheckbox);
+    }
+
+    public void clickProceedButtonDP() {
+
+        driver.findElement(consentCheckbox).sendKeys(Keys.TAB);
+        scrollTo(proceedButtonDP);
+        click(proceedButtonDP);
     }
 
     // =========================
-    // VALIDATIONS
+    // GETTER METHODS
     // =========================
 
     /**
@@ -320,10 +269,21 @@ public class RegistrationPage extends BasePage {
      *
      * @return validation message text
      */
-//    public String getFNameFieldRequiredErrorTxt() {
-//
-//        return getText(firstNameRequiredError);
-//    }
+    public String getFNameFieldRequiredErrorTxt() {
+
+        return getText(fieldIsRequiredError);
+    }
+
+    public String getEnterValidFNameErrorTxt() {
+
+        return getText(enterValidFNameError);
+    }
+
+
+
+    // =========================
+    // VALIDATIONS
+    // =========================
 
     /**
      * Verifies whether First Name required
@@ -331,11 +291,17 @@ public class RegistrationPage extends BasePage {
      *
      * @return true if error message is visible
      */
-//    public boolean isFirstNameRequiredErrorDisplayed() {
+    public boolean isFirstNameRequiredErrorDisplayed() {
+
+        return isDisplayed(fieldIsRequiredError);
+    }
+
+    public boolean isEnterValidFNameErrorDisplayed() {
+
+        return isDisplayed(enterValidFNameError);
+    }
+
+//    public boolean isLastNameRequiredErrorDisplayed() {
 //
-//        return isDisplayed(firstNameRequiredError);
 //    }
-
-
-
 }

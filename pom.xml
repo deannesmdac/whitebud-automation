@@ -16,14 +16,13 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <!-- Versions -->
-        <selenium.version>4.21.0</selenium.version>
-        <cucumber.version>7.18.1</cucumber.version>
-        <testng.version>7.10.2</testng.version>
-        <log4j.version>2.23.1</log4j.version>
-        <slf4j.version>2.0.13</slf4j.version>
-        <webdrivermanager.version>5.8.0</webdrivermanager.version>
-        <jackson.version>2.17.1</jackson.version>
+        <selenium.version>4.34.0</selenium.version>
+        <cucumber.version>7.23.0</cucumber.version>
+        <testng.version>7.11.0</testng.version>
+        <log4j.version>2.25.1</log4j.version>
+        <slf4j.version>2.0.17</slf4j.version>
+        <webdrivermanager.version>6.3.2</webdrivermanager.version>
+        <jackson.version>2.19.2</jackson.version>
     </properties>
 
     <dependencies>
@@ -42,14 +41,13 @@
             <version>${webdrivermanager.version}</version>
         </dependency>
 
-        <!-- Cucumber Java -->
+        <!-- Cucumber -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>${cucumber.version}</version>
         </dependency>
 
-        <!-- Cucumber TestNG -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
@@ -71,28 +69,26 @@
             <version>${slf4j.version}</version>
         </dependency>
 
-        <!-- Log4j2 API -->
+        <!-- Log4j -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
             <version>${log4j.version}</version>
         </dependency>
 
-        <!-- Log4j2 Core -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
             <version>${log4j.version}</version>
         </dependency>
 
-        <!-- Log4j2 SLF4J Binding -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j2-impl</artifactId>
             <version>${log4j.version}</version>
         </dependency>
 
-        <!-- Jackson Fix -->
+        <!-- Jackson -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
@@ -116,24 +112,20 @@
     <build>
         <plugins>
 
-            <!-- Java Compiler -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
-
                 <configuration>
                     <source>${maven.compiler.source}</source>
                     <target>${maven.compiler.target}</target>
                 </configuration>
             </plugin>
 
-            <!-- Maven Surefire -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
-
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>

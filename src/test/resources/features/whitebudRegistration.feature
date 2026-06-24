@@ -5,25 +5,28 @@ Feature: Whitebud Registration
       Scenario: SMAC Web Registration Portal is displayed
         Then the "SMAC Web Registration" portal is displayed
 
-  Scenario Outline: Validate required fields
-    When the member leaves the "<FieldName>" field blank
-    Then the inline error message for missing "<FieldName>" is "<ErrorMessage>"
-    Examples:
-      | FieldName    | ErrorMessage
-      | FirstName    | This field is required.
-      | LastName     | This field is required.
-      | Birthday     | This field is required.
-      | MobileNumber | Please enter a complete mobile number.
-      | Password     | Password not strong enough.
+      Scenario: First Name field is blank
+        When the member leaves the first name field blank
+        Then the inline error message "This field is required." should be displayed
+
+      Scenario Outline: First Name field is numeric
+        When the member enters valid registration details
+        And the member enters "<value>" in the First Name field
+        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
+        And the member clicks the Proceed button
+        Then the inline error message "Enter a valid first name." is displayed
+        Examples:
+          |value  |
+          |123    |
+
+      Scenario: Member should be able to proceed when all required fields are completed correctly
+        When the member enters valid registration details
+        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
+        And the member clicks the Proceed button
+        Then the Link Card Page should be displayed
 
 
-#      Scenario: First Name field is required
-#        When the member leaves the "First Name" field blank
-#        Then the inline error message "This field is required." should be displayed
-#
-#      Scenario: Numeric character is entered in the First Name field
-#        When the member enters numeric characters in the First Name field
-#        Then the inline error message "Enter a valid first name." is displayed
+
 
 
 
