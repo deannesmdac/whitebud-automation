@@ -10,6 +10,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import page.RegistrationPage;
+import utils.CsvReader;
+import java.util.Map;
 
 import java.util.Locale;
 
@@ -109,10 +111,20 @@ public class RegistrationStep {
     @When("the member enters valid registration details")
     public void theMemberEntersTheMemberEntersValidRegistrationDetails() {
 
-        logger.info("⚙️ Entering valid registration details");
-        registrationPage.enterValidRegistrationDetails();
-        logger.info("✅ Entering valid registration detail done");
+        Map<String, String> data =
+                CsvReader.getTestData("ValidUser");
 
+        logger.info("⚙️ Entering valid registration details");
+        registrationPage.enterFirstNameField(data.get("FirstName"));
+        registrationPage.enterLastNameField(data.get("LastName"));
+        registrationPage.enterMobileNumberField(data.get("MobileNumber"));
+        registrationPage.enterBirthdayField(data.get("Birthday"));
+        registrationPage.enterPasswordField(data.get("Password"));
+        logger.info("⚙️ Entering value in confirm password field");
+        registrationPage.enterConfirmPasswordField(data.get("ConfirmPassword"));
+        logger.info("✅ Successfully entered valid registration detail done");
+
+        logger.info("✅ Entering valid registration detail done");
     }
 
     @And("the member enters {string} in the First Name field")
@@ -177,5 +189,27 @@ public class RegistrationStep {
         logger.info("✅ Error message validation passed");
     }
 
+    @When("the member enters registration details for {string}")
+    public void theMemberEntersRegistrationDetailsFor(String testCaseName) {
+        logger.info("⚙️ Entering details in the field");
 
+        Map<String, String> data =
+                CsvReader.getTestData("fnIsNumericChar");
+
+                registrationPage.enterFirstNameField(
+                data.get("FirstName"));
+        registrationPage.enterLastNameField(
+                data.get("LastName"));
+        registrationPage.enterMobileNumberField(
+                data.get("MobileNumber"));
+        registrationPage.enterBirthdayField(
+                data.get("Birthday"));
+        registrationPage.enterPasswordField(
+                data.get("Password"));
+        registrationPage.enterConfirmPasswordField(
+                data.get("ConfirmPassword"));
+
+        logger.info("✅ Successfully entered values in the field");
+
+    }
 }

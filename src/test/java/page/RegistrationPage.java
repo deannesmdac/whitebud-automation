@@ -1,12 +1,9 @@
 package page;
 
 import base.BasePage;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import java.util.Map;
 
 public class RegistrationPage extends BasePage {
 
@@ -221,36 +218,75 @@ public class RegistrationPage extends BasePage {
     }
 
     public void enterFirstNameField(String firstName) {
-        clickAndTab(firstNameField);
+//        clickAndTab(firstNameField);
+        click(firstNameField);
         type(firstNameField, firstName);
     }
 
-    public void enterValidRegistrationDetails(){
-        click(firstNameField);
-        type(firstNameField,"Jane");
-
+    public void enterLastNameField(String lastName) {
         click(lastNameField);
-        type(lastNameField,"Doe");
-
-        click(mobileNumberField);
-        type(mobileNumberField,"9497379639");
-
-        click(birthdayField);
-        type(birthdayField,"01/01/1990");
-
-        click(passwordField);
-        type(passwordField,"Alpha123!");
-
-        driver.findElement(passwordField)
-                .sendKeys(Keys.TAB);
-
-        click(confirmPasswordField);
-        type(confirmPasswordField,"Alpha123!");
-
+        type(lastNameField, lastName);
     }
 
+    public void enterMobileNumberField(String mobileNumber) {
+        click(mobileNumberField);
+        type(mobileNumberField, mobileNumber);
+    }
+
+    public void enterBirthdayField(String birthday) {
+        click(birthdayField);
+        type(birthdayField, birthday);
+    }
+
+    public void enterPasswordField(String password) {
+        click(passwordField);
+        type(passwordField, password);
+        tab(passwordField);
+    }
+
+    public void enterConfirmPasswordField(String password) {
+
+        type(confirmPasswordField, password);
+    }
+
+//    public void enterValidRegistrationDetails(){
+//        click(firstNameField);
+//        type(firstNameField,"Jane");
+//
+//        click(lastNameField);
+//        type(lastNameField,"Doe");
+//
+//        click(mobileNumberField);
+//        type(mobileNumberField,"9497379639");
+//
+//        click(birthdayField);
+//        type(birthdayField,"01/01/1990");
+//
+//        click(passwordField);
+//        type(passwordField,"Alpha123!");
+//
+//        driver.findElement(passwordField)
+//                .sendKeys(Keys.TAB);
+//
+//        click(confirmPasswordField);
+//        type(confirmPasswordField,"Alpha123!");
+//
+//    }
+
     public void clickConsentCheckbox() {
-        click(consentCheckbox);
+//        scrollTo(proceedButtonDP);
+//        click(consentCheckbox);
+
+        WebElement checkbox = wait.until(
+                ExpectedConditions.elementToBeClickable(consentCheckbox));
+
+        ((JavascriptExecutor) driver)
+                .executeScript(
+                        "arguments[0].scrollIntoView({block:'center'});",
+                        checkbox);
+
+        ((JavascriptExecutor) driver)
+                .executeScript("arguments[0].click();", checkbox);
     }
 
     public void clickProceedButtonDP() {

@@ -1,0 +1,5 @@
+﻿testCaseName,FirstName,LastName,MobileNumber,Birthday,Password,ConfirmPassword
+fnIsNumericChar,123,Doe,9497379639,01011990,Alpha123!,Alpha123!
+fnIsSpecialChar,!@#$%,Doe,9497379639,01011990,Alpha123!,Alpha123!
+lnIsNumericChar,Jane,123,9497379639,01011990,Alpha123!,Alpha123!
+lnIsSpecialChar,Jane,!@#$%,9497379639,01011990,Alpha123!,Alpha123!

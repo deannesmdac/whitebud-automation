@@ -67,6 +67,14 @@ public class BasePage {
         element.sendKeys(Keys.TAB);
     }
 
+    public void tab(By locator) {
+
+        WebElement element = wait.until(
+                ExpectedConditions.elementToBeClickable(locator)
+        );
+        element.sendKeys(Keys.TAB);
+    }
+
     /**
      * Retrieves visible text from an element.
      *
