@@ -3,6 +3,7 @@ package hooks;
 import base.DriverManager;
 import base.PageManager;
 import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
@@ -126,6 +127,7 @@ public class Hooks {
         driver = null;
         pageManager = null;
     }
+
 }
         //FAILED SCREENSHOTS ONLY
 //        try {
