@@ -27,11 +27,9 @@ public class Hooks {
     /**
      * Returns PageManager instance.
      * Allows access to page objects in step definitions.
-     *
      * @return PageManager instance
      */
     public static PageManager getPageManager() {
-
         return pageManager;
     }
 
