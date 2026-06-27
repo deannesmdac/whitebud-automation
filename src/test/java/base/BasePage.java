@@ -18,13 +18,9 @@ public class BasePage {
      * Constructor
      * Initializes driver and wait.
      */
-    public BasePage() {
-
-        // Retrieve active browser instance from DriverManager
-        driver = DriverManager.getDriver();
-
-        // Initialize explicit wait
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    public BasePage(WebDriver driver) {
+        this.driver = driver;
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
     /**

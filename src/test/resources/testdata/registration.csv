@@ -1,5 +1,8 @@
-﻿testCaseName,FirstName,LastName,MobileNumber,Birthday,Password,ConfirmPassword
-fnIsNumericChar,123,Doe,9497379639,01011990,Alpha123!,Alpha123!
-fnIsSpecialChar,!@#$%,Doe,9497379639,01011990,Alpha123!,Alpha123!
-lnIsNumericChar,Jane,123,9497379639,01011990,Alpha123!,Alpha123!
-lnIsSpecialChar,Jane,!@#$%,9497379639,01011990,Alpha123!,Alpha123!
+﻿testCaseName,FirstName,LastName,MobileNumber,Birthday,Password,ConfirmPassword,ErrorMessage
+fnIsBlank,,Doe,9497379639,01011990,Alpha123!,Alpha123!,This field is required.
+fnIsNumericChar,123,Doe,9497379639,01011990,Alpha123!,Alpha123!,Enter a valid first name.
+fnIsSpecialChar,!@#$%,Doe,9497379639,01011990,Alpha123!,Alpha123!,Enter a valid first name.
+lnIsBlank,Jane,,9497379639,01011990,Alpha123!,Alpha123!,This field is required.
+lnIsNumericChar,Jane,123,9497379639,01011990,Alpha123!,Alpha123!,Enter a valid last name.
+lnIsSpecialChar,Jane,!@#$%,9497379639,01011990,Alpha123!,Alpha123!,Enter a valid last name.
+validFields,Jane,Doe,9497379639,01011990,Alpha123!,Alpha123!,

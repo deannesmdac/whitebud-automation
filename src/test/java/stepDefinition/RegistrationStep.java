@@ -1,215 +1,208 @@
 package stepDefinition;
 
 import hooks.Hooks;
-import io.cucumber.java.PendingException;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import page.RegistrationPage;
+import report.ReportLogger;
 import utils.CsvReader;
-import java.util.Map;
 
-import java.util.Locale;
+import java.util.Map;
 
 public class RegistrationStep {
 
-    // Page object instance
     private final RegistrationPage registrationPage =
             Hooks.getPageManager().getRegistrationPage();
 
-    // Logger for execution logs
-    private static final Logger logger =
-            LoggerFactory.getLogger(RegistrationStep.class);
-
-    /**
-     * Navigates user to SMAC Registration Portal.
-     */
     @Given("Member navigates to the SMAC Web Registration Portal")
     public void memberNavigatesToTheSMACWebRegistrationPortal() {
 
-        logger.info("⚙️ Navigating to SMAC Registration Portal");
+        ReportLogger.info("Navigating to SMAC Registration Portal");
 
-        // Open registration portal URL
         registrationPage.openUrl(
-                "https://awsuat-outsys.smadvantage.com/smaconlineacquisition/"
+                "https://awsstgexternal-outsys.smadvantage.com/smaconlineacquisition/"
         );
 
-        logger.info("✅ Navigation completed");
+        ReportLogger.pass("Successfully opened SMAC Registration Portal");
     }
 
-    /**
-     * Verifies whether the registration portal is displayed.
-     *
-     * @param portalName expected portal name
-     */
     @Then("the {string} portal is displayed")
     public void thePortalIsDisplayed(String portalName) {
 
-        logger.info(
-                "⚙️ Verifying portal display: {}",
-                portalName
-        );
+        ReportLogger.info("Verifying portal: " + portalName);
 
-        // Validate registration page visibility
         Assert.assertTrue(
                 registrationPage.isRegistrationPageDisplayed(),
-                "SMAC Registration portal is not displayed"
+                "Registration portal is not displayed."
         );
 
-        logger.info(
-                "✅ Portal displayed successfully: {}",
-                portalName
-        );
+        ReportLogger.pass(portalName + " displayed successfully");
     }
 
-    /**
-     * Leaves specified field blank.
-     * Triggers inline validation error.
-     */
-    @When("the member leaves the first name field blank")
-    public void theMemberLeavesTheFirstNameFieldBlank() {
+    @When("the member enters registration details for {string}")
+    public void theMemberEntersRegistrationDetailsFor(String testCaseName) {
 
-        logger.info("⚙️ Leaving the first name field blank");
-        registrationPage.leaveFirstNameFieldBlank();
-        logger.info("✅ First name field left blank successfully");
-    }
-
-    /**
-     * Verifies inline validation error message.
-     *
-     * @param errorMessage expected validation message
-     */
-    @Then("the inline error message {string} should be displayed")
-    public void theInlineErrorMessageShouldBeDisplayed(String errorMessage) {
-
-        logger.info("⚙️ Validating error message");
-
-        Assert.assertTrue(
-                registrationPage.isFirstNameRequiredErrorDisplayed(),
-                "Expected error message is not displayed"
-        );
-
-        String actualMessage =
-                registrationPage.getFNameFieldRequiredErrorTxt();
-
-        logger.info("🔎 Expected Message: {}", errorMessage);
-        logger.info("🔎 Actual Message: {}", actualMessage);
-
-        Assert.assertEquals(
-                actualMessage,
-                errorMessage,
-                "Inline error message mismatch"
-        );
-
-        logger.info("✅ Error message validation passed");
-    }
-
-    @When("the member enters valid registration details")
-    public void theMemberEntersTheMemberEntersValidRegistrationDetails() {
+        ReportLogger.info("Loading test data: " + testCaseName);
 
         Map<String, String> data =
-                CsvReader.getTestData("ValidUser");
+                CsvReader.getTestData(testCaseName);
 
-        logger.info("⚙️ Entering valid registration details");
         registrationPage.enterFirstNameField(data.get("FirstName"));
         registrationPage.enterLastNameField(data.get("LastName"));
         registrationPage.enterMobileNumberField(data.get("MobileNumber"));
         registrationPage.enterBirthdayField(data.get("Birthday"));
         registrationPage.enterPasswordField(data.get("Password"));
-        logger.info("⚙️ Entering value in confirm password field");
         registrationPage.enterConfirmPasswordField(data.get("ConfirmPassword"));
-        logger.info("✅ Successfully entered valid registration detail done");
 
-        logger.info("✅ Entering valid registration detail done");
-    }
-
-    @And("the member enters {string} in the First Name field")
-    public void theMemberEntersInTheFirstNameField(String value) {
-
-        logger.info("⚙️ Clearing the first name field");
-        registrationPage.clearFirstNameField();
-        logger.info("✅ First Name field is cleared successfully");
-
-        logger.info("⚙️ Entering value in the First Name field");
-        registrationPage.enterFirstNameField(value);
-        logger.info("✅ Value entered in the First Name field successfully");
+        ReportLogger.pass("Registration details entered successfully");
     }
 
     @And("the member ticks the SMAC Terms and Conditions and Data Privacy Policy")
     public void theMemberTicksTheSMACTermsAndConditionsAndDataPrivacyPolicy() {
 
-        logger.info("⚙️ Consent checkbox is visible");
-        registrationPage.clickConsentCheckbox();
-        logger.info("✅ Consent checkbox is ticked");
+        ReportLogger.info("Ticking consent checkbox");
 
+        registrationPage.clickConsentCheckbox();
+
+        ReportLogger.pass("Consent checkbox selected");
     }
 
     @And("the member clicks the Proceed button")
     public void memberClicksTheProceedButton() {
 
-        logger.info("⚙️ Proceed button is clickable");
+        ReportLogger.info("Clicking Proceed button");
+
         registrationPage.clickProceedButtonDP();
-        logger.info("✅ Proceed button is clicked");
+
+        ReportLogger.pass("Proceed button clicked");
     }
 
     @Then("the Link Card Page should be displayed")
     public void theLinkCardTabShouldBeDisplayed() {
 
-        logger.info("⚙️ Waiting for Link Card Page visibility");
-        registrationPage.linkCarPageDisplayed();
-        logger.info("✅ Link Card Page is displayed successfully");
-    }
-
-
-    @Then("the inline error message {string} is displayed")
-    public void theInlineErrorMessageIsDisplayed(String errorMessage) {
-        logger.info("⚙️ Validating error message");
+        ReportLogger.info("Verifying Link Card page");
 
         Assert.assertTrue(
-                registrationPage.isEnterValidFNameErrorDisplayed(),
-                "Expected error message is not displayed"
+                registrationPage.linkCarPageDisplayed(),
+                "Link Card Page is not displayed."
         );
 
-        String actualMessage =
-                registrationPage.getEnterValidFNameErrorTxt();
+        ReportLogger.pass("Link Card Page displayed successfully");
+    }
 
-        logger.info("🔎 Expected Message: {}", errorMessage);
-        logger.info("🔎 Actual Message: {}", actualMessage);
+    @Then("the inline error message {string} is displayed")
+    public void theInlineErrorMessageIsDisplayed(String testCaseName) {
+
+        ReportLogger.info("Validating inline error message for: " + testCaseName);
+
+        String actualMessage;
+
+        switch (testCaseName) {
+
+            case "fnIsBlank":
+                Assert.assertTrue(
+                        registrationPage.isFirstNameRequiredErrorDisplayed(),
+                        "First Name required error is not displayed."
+                );
+                actualMessage =
+                        registrationPage.getFNameFieldRequiredErrorTxt();
+                break;
+
+            case "fnIsNumericChar":
+            case "fnIsSpecialChar":
+                Assert.assertTrue(
+                        registrationPage.isEnterValidFNameErrorDisplayed(),
+                        "Invalid First Name error is not displayed."
+                );
+                actualMessage =
+                        registrationPage.getEnterValidFNameErrorTxt();
+                break;
+
+            case "lnIsBlank":
+                Assert.assertTrue(
+                        registrationPage.isLastNameRequiredErrorDisplayed(),
+                        "Last Name required error is not displayed."
+                );
+                actualMessage =
+                        registrationPage.getLNameFieldRequiredErrorTxt();
+                break;
+
+            case "lnIsNumericChar":
+            case "lnIsSpecialChar":
+                Assert.assertTrue(
+                        registrationPage.isEnterValidLNameErrorDisplayed(),
+                        "Invalid Last Name error is not displayed."
+                );
+                actualMessage =
+                        registrationPage.getEnterValidLNameErrorTxt();
+                break;
+
+            default:
+                ReportLogger.fail("Unknown test case: " + testCaseName);
+                throw new IllegalArgumentException(
+                        "Unknown test case: " + testCaseName);
+        }
+
+        Map<String, String> data =
+                CsvReader.getTestData(testCaseName);
+
+        String expectedMessage =
+                data.get("ErrorMessage");
+
+        ReportLogger.info("Expected: " + expectedMessage);
+        ReportLogger.info("Actual: " + actualMessage);
 
         Assert.assertEquals(
                 actualMessage,
-                errorMessage,
-                "Inline error message mismatch"
+                expectedMessage,
+                "Inline error message mismatch."
         );
 
-        logger.info("✅ Error message validation passed");
+        ReportLogger.pass("Inline error message validated successfully");
     }
 
-    @When("the member enters registration details for {string}")
-    public void theMemberEntersRegistrationDetailsFor(String testCaseName) {
-        logger.info("⚙️ Entering details in the field");
+//    @Then("the inline error message {string} is displayed")
+//    public void theInlineErrorMessageIsDisplayed(String errorMessage) {
+//        logger.info("⚙️ Validating error message");
+//
+//        Assert.assertTrue(
+//                registrationPage.isEnterValidFNameErrorDisplayed(),
+//                "Expected error message is not displayed"
+//        );
+//
+//        String actualMessage =
+//                registrationPage.getEnterValidFNameErrorTxt();
+//
+//        logger.info("🔎 Expected Message: {}", errorMessage);
+//        logger.info("🔎 Actual Message: {}", actualMessage);
+//
+//        Assert.assertEquals(
+//                actualMessage,
+//                errorMessage,
+//                "Inline error message mismatch"
+//        );
+//
+//        logger.info("✅ Error message validation passed");
+//    }
 
-        Map<String, String> data =
-                CsvReader.getTestData("fnIsNumericChar");
-
-                registrationPage.enterFirstNameField(
-                data.get("FirstName"));
-        registrationPage.enterLastNameField(
-                data.get("LastName"));
-        registrationPage.enterMobileNumberField(
-                data.get("MobileNumber"));
-        registrationPage.enterBirthdayField(
-                data.get("Birthday"));
-        registrationPage.enterPasswordField(
-                data.get("Password"));
-        registrationPage.enterConfirmPasswordField(
-                data.get("ConfirmPassword"));
-
-        logger.info("✅ Successfully entered values in the field");
-
-    }
+//    @When("the member enters registration details for {string}")
+//    public void theMemberEntersRegistrationDetailsFor(String testCaseName) {
+//
+//        logger.info("⚙️ Entering details for test case: {}", testCaseName);
+//
+//        Map<String, String> data = CsvReader.getTestData(testCaseName);
+//
+//        registrationPage.enterFirstNameField(data.get("FirstName"));
+//        registrationPage.enterLastNameField(data.get("LastName"));
+//        registrationPage.enterMobileNumberField(data.get("MobileNumber"));
+//        registrationPage.enterBirthdayField(data.get("Birthday"));
+//        registrationPage.enterPasswordField(data.get("Password"));
+//        registrationPage.enterConfirmPasswordField(data.get("ConfirmPassword"));
+//
+//        logger.info("✅ Successfully entered values.");
+//
+//    }
 }

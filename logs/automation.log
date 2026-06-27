@@ -2757,3 +2757,919 @@ Session ID: 21dc087307349a5caeca065725e3626f
 2026-06-26 11:20:48 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: Enter a valid first name.
 2026-06-26 11:20:48 INFO  stepDefinition.RegistrationStep - ✅ Error message validation passed
 2026-06-26 11:20:50 INFO  hooks.Hooks - Browser closed
+2026-06-27 22:12:09 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-27 22:12:12 INFO  hooks.Hooks - Browser opened
+2026-06-27 22:12:12 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-27 22:12:13 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-27 22:12:13 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-06-27 22:12:14 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-06-27 22:12:15 INFO  hooks.Hooks - Browser closed
+2026-06-27 22:12:16 INFO  hooks.Hooks - Browser opened
+2026-06-27 22:12:16 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-27 22:12:17 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-27 22:12:17 INFO  stepDefinition.RegistrationStep - ⚙️ Leaving the first name field blank
+2026-06-27 22:12:18 INFO  stepDefinition.RegistrationStep - ✅ First name field left blank successfully
+2026-06-27 22:12:18 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message
+2026-06-27 22:12:18 INFO  stepDefinition.RegistrationStep - 🔎 Expected Message: This field is required.
+2026-06-27 22:12:18 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: This field is required.
+2026-06-27 22:12:18 INFO  stepDefinition.RegistrationStep - ✅ Error message validation passed
+2026-06-27 22:12:19 INFO  hooks.Hooks - Browser closed
+2026-06-27 22:12:20 INFO  hooks.Hooks - Browser opened
+2026-06-27 22:12:20 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-27 22:12:21 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-27 22:12:21 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-27 22:12:22 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-27 22:12:22 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-27 22:12:22 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-27 22:12:22 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-27 22:12:22 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-27 22:12:22 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message
+2026-06-27 22:12:23 INFO  stepDefinition.RegistrationStep - 🔎 Expected Message: Enter a valid first name.
+2026-06-27 22:12:23 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: Enter a valid first name.
+2026-06-27 22:12:23 INFO  stepDefinition.RegistrationStep - ✅ Error message validation passed
+2026-06-27 22:12:23 INFO  hooks.Hooks - Browser closed
+2026-06-27 23:21:21 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-27 23:21:24 INFO  hooks.Hooks - Browser opened
+2026-06-27 23:21:24 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-27 23:21:26 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-27 23:21:26 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-06-27 23:21:28 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-06-27 23:21:28 INFO  hooks.Hooks - Browser closed
+2026-06-27 23:21:30 INFO  hooks.Hooks - Browser opened
+2026-06-27 23:21:30 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-27 23:21:31 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-27 23:21:31 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-27 23:21:33 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-27 23:21:33 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-27 23:21:33 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-27 23:21:33 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-27 23:21:33 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-27 23:21:33 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message
+2026-06-27 23:21:44 INFO  hooks.Hooks - Browser closed
+2026-06-27 23:21:45 INFO  hooks.Hooks - Browser opened
+2026-06-27 23:21:45 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-27 23:21:46 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-27 23:21:46 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-27 23:21:48 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-27 23:21:48 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-27 23:21:48 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-27 23:21:48 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-27 23:21:48 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-27 23:21:48 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message
+2026-06-27 23:21:49 INFO  stepDefinition.RegistrationStep - 🔎 Expected Message: Enter a valid first name.
+2026-06-27 23:21:49 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: Enter a valid first name.
+2026-06-27 23:21:49 INFO  stepDefinition.RegistrationStep - ✅ Error message validation passed
+2026-06-27 23:21:49 INFO  hooks.Hooks - Browser closed
+2026-06-27 23:21:50 INFO  hooks.Hooks - Browser opened
+2026-06-27 23:21:50 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-27 23:21:51 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-27 23:21:51 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-27 23:21:53 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-27 23:21:53 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-27 23:21:53 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-27 23:21:53 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-27 23:21:53 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-27 23:21:53 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message
+2026-06-27 23:21:54 INFO  stepDefinition.RegistrationStep - 🔎 Expected Message: Enter a valid first name.
+2026-06-27 23:21:54 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: Enter a valid first name.
+2026-06-27 23:21:54 INFO  stepDefinition.RegistrationStep - ✅ Error message validation passed
+2026-06-27 23:21:54 INFO  hooks.Hooks - Browser closed
+2026-06-27 23:21:55 INFO  hooks.Hooks - Browser opened
+2026-06-27 23:21:55 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-27 23:21:56 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-27 23:21:56 INFO  hooks.Hooks - Browser closed
+2026-06-27 23:23:45 INFO  hooks.Hooks - Browser opened
+2026-06-27 23:23:45 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-27 23:23:46 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-27 23:23:46 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-27 23:23:48 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-27 23:23:48 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-27 23:23:48 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-27 23:23:48 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-27 23:23:48 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-27 23:23:48 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message
+2026-06-27 23:23:59 INFO  hooks.Hooks - Browser closed
+2026-06-27 23:24:05 INFO  hooks.Hooks - Browser opened
+2026-06-27 23:24:05 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-27 23:24:06 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-27 23:24:06 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-27 23:24:08 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-27 23:24:08 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-27 23:24:08 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-27 23:24:08 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-27 23:24:09 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-27 23:24:09 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message
+2026-06-27 23:24:19 INFO  hooks.Hooks - Browser closed
+2026-06-27 23:24:39 INFO  hooks.Hooks - Browser opened
+2026-06-27 23:24:39 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-27 23:24:40 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-27 23:24:40 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-27 23:24:42 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-27 23:24:42 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-27 23:24:42 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-27 23:24:42 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-27 23:24:42 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-27 23:24:42 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message
+2026-06-27 23:24:52 INFO  hooks.Hooks - Browser closed
+2026-06-27 23:25:21 INFO  hooks.Hooks - Browser opened
+2026-06-27 23:25:21 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-27 23:25:22 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-27 23:25:22 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-27 23:25:24 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-27 23:25:24 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-27 23:25:24 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-27 23:25:24 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-27 23:25:34 INFO  hooks.Hooks - Browser closed
+2026-06-27 23:28:30 INFO  hooks.Hooks - Browser opened
+2026-06-27 23:28:30 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-27 23:28:31 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-27 23:28:31 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-27 23:28:33 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-27 23:28:33 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-27 23:28:33 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-27 23:28:33 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-27 23:28:44 INFO  hooks.Hooks - Browser closed
+2026-06-27 23:29:57 INFO  hooks.Hooks - Browser opened
+2026-06-27 23:29:57 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-27 23:29:59 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-27 23:29:59 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-27 23:30:02 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-27 23:30:02 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-27 23:30:02 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-27 23:30:02 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message
+2026-06-27 23:30:02 INFO  stepDefinition.RegistrationStep - 🔎 Expected Message: This field is required
+2026-06-27 23:30:02 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: This field is required.
+2026-06-27 23:30:02 INFO  hooks.Hooks - Browser closed
+2026-06-27 23:30:46 INFO  hooks.Hooks - Browser opened
+2026-06-27 23:30:46 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-27 23:30:47 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-27 23:30:47 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-27 23:30:49 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-27 23:30:49 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-27 23:30:49 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-27 23:30:49 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message
+2026-06-27 23:30:49 INFO  stepDefinition.RegistrationStep - 🔎 Expected Message: This field is required.
+2026-06-27 23:30:49 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: This field is required.
+2026-06-27 23:30:49 INFO  stepDefinition.RegistrationStep - ✅ Error message validation passed
+2026-06-27 23:30:49 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:05:49 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-28 00:05:53 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:05:53 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:05:54 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:05:54 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:05:56 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:05:56 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:05:57 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:05:57 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:05:58 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:05:58 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:05:59 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:05:59 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:06:00 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:06:00 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:06:01 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:06:01 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:06:03 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:06:03 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:06:03 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:06:04 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:06:05 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:06:05 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:06:06 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:06:06 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:07:23 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-28 00:07:25 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:07:25 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:07:26 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:07:27 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:07:28 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:07:28 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:07:29 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:07:29 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:07:30 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:07:30 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:07:31 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:07:31 ERROR hooks.Hooks - Failed to capture screenshot
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.217)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.4', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9fef97779a65853bf6b34b65e3849952, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: /var/folders/yc/bjc1bvdd3cs...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52839}, goog:processID: 6607, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52839/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9fef97779a65853bf6b34b65e3849952
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:333)
+	at hooks.Hooks.tearDown(Hooks.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:68)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:92)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2026-06-28 00:07:31 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:07:58 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:07:58 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:07:59 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:07:59 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:08:01 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:08:01 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:08:01 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:08:02 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:08:03 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:08:03 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:09:33 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-28 00:09:35 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:09:35 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:09:37 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:09:37 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:09:38 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:09:38 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:09:46 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:09:46 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:09:47 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:09:47 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:09:48 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:09:48 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:12:17 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-28 00:12:20 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:12:20 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:12:21 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:12:21 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-06-28 00:12:22 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-06-28 00:12:23 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:12:24 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:12:24 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:12:25 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:12:25 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-28 00:12:27 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-28 00:12:27 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 00:12:27 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 00:12:27 INFO  stepDefinition.RegistrationStep - ⚙️ Validating error message
+2026-06-28 00:12:27 INFO  stepDefinition.RegistrationStep - 🔎 Expected Message: This field is required.
+2026-06-28 00:12:27 INFO  stepDefinition.RegistrationStep - 🔎 Actual Message: This field is required.
+2026-06-28 00:12:27 INFO  stepDefinition.RegistrationStep - ✅ Error message validation passed
+2026-06-28 00:12:27 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:12:28 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:12:28 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:12:29 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:12:29 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-28 00:12:31 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-28 00:12:31 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 00:12:31 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 00:12:31 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 00:12:41 INFO  hooks.Hooks - Browser closed
+2026-06-28 00:12:43 INFO  hooks.Hooks - Browser opened
+2026-06-28 00:12:43 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 00:12:43 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 00:12:43 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-28 00:12:45 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-28 00:12:45 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 00:12:45 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 00:12:45 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 00:12:56 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:03:48 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:03:48 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:03:49 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:03:49 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-28 03:03:51 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-28 03:03:51 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:03:51 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:03:51 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:04:14 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-28 03:04:17 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:04:17 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:04:17 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:04:17 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-06-28 03:04:19 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-06-28 03:04:19 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:04:20 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:04:20 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:04:21 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:04:21 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-28 03:04:23 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-28 03:04:23 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:04:23 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:04:23 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:04:25 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:04:25 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:04:25 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:04:25 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-28 03:04:27 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-28 03:04:27 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:04:27 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:04:27 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 03:04:38 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:04:39 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:04:39 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:04:40 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:04:40 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details in the field
+2026-06-28 03:04:42 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values in the field
+2026-06-28 03:04:42 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:04:42 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:04:42 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 03:08:10 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-28 03:08:13 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:08:13 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:08:14 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:08:14 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-06-28 03:08:15 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-06-28 03:08:15 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:08:17 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:08:17 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:08:17 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:08:17 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsBlank
+2026-06-28 03:08:19 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:08:19 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:08:19 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:08:19 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:08:21 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:08:21 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:08:21 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:08:21 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsNumericChar
+2026-06-28 03:08:23 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:08:23 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:08:23 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:08:23 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 03:08:23 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 03:08:34 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:08:35 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:08:35 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:08:36 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:08:36 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsSpecialChar
+2026-06-28 03:08:38 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:08:38 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:08:38 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:08:38 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 03:08:38 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 03:08:48 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:09:42 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:09:42 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:09:43 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:09:43 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsNumericChar
+2026-06-28 03:09:44 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:09:44 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:09:44 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:09:44 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 03:09:44 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 03:09:55 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:10:54 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:10:54 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:10:55 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:10:55 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsSpecialChar
+2026-06-28 03:10:57 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:10:57 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:10:57 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:10:57 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 03:10:57 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 03:11:08 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:31:51 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:31:51 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:31:52 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:31:52 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsNumericChar
+2026-06-28 03:31:53 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:31:53 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:31:53 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:31:53 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 03:31:53 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 03:31:54 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:32:12 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-28 03:32:15 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:32:15 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:32:16 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:32:16 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-06-28 03:32:17 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-06-28 03:32:18 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:32:19 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:32:19 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:32:20 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:32:20 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsBlank
+2026-06-28 03:32:22 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:32:22 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:32:22 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:32:22 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:32:24 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:32:24 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:32:24 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:32:24 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsNumericChar
+2026-06-28 03:32:26 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:32:26 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:32:26 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:32:26 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 03:32:26 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 03:32:27 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:32:29 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:32:29 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:32:29 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:32:29 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsSpecialChar
+2026-06-28 03:32:30 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:32:31 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:32:31 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:32:31 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 03:32:31 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 03:32:31 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:35:33 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:35:33 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:35:34 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:35:34 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsBlank
+2026-06-28 03:35:35 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:35:35 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:35:35 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:35:36 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:36:27 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-28 03:36:29 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:36:29 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:36:30 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:36:30 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-06-28 03:36:32 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-06-28 03:36:32 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:36:33 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:36:33 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:36:34 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:36:34 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsBlank
+2026-06-28 03:36:36 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:36:36 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:36:36 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:36:36 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:36:38 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:36:38 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:36:39 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:36:39 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsNumericChar
+2026-06-28 03:36:40 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:36:40 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:36:40 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:36:40 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 03:36:40 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 03:36:41 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:36:42 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:36:42 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:36:43 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:36:43 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsSpecialChar
+2026-06-28 03:36:45 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:36:45 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:36:45 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:36:45 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 03:36:45 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 03:36:46 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:39:20 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-28 03:39:22 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:39:22 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:39:23 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:39:23 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-06-28 03:39:25 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-06-28 03:39:25 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:39:27 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:39:27 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:39:27 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:39:27 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsBlank
+2026-06-28 03:39:29 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:39:29 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:39:29 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:39:29 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:39:31 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:39:31 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:39:31 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:39:31 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsNumericChar
+2026-06-28 03:39:33 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:39:33 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:39:33 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:39:33 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 03:39:33 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 03:39:34 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:39:36 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:39:36 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:39:36 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:39:36 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsSpecialChar
+2026-06-28 03:39:38 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:39:38 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:39:38 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:39:38 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 03:39:38 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 03:39:39 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:39:40 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:39:40 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:39:41 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:39:41 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: lnIsBlank
+2026-06-28 03:39:42 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:39:42 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:39:42 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:39:43 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:39:44 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:39:44 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:39:45 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:39:45 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: lnIsNumericChar
+2026-06-28 03:39:46 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:39:46 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:39:46 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:39:46 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 03:39:46 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 03:39:47 INFO  hooks.Hooks - Browser closed
+2026-06-28 03:39:48 INFO  hooks.Hooks - Browser opened
+2026-06-28 03:39:48 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 03:39:49 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 03:39:49 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: lnIsSpecialChar
+2026-06-28 03:39:51 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 03:39:51 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 03:39:51 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 03:39:51 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 03:39:51 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 03:39:52 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:09:04 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-28 04:09:08 INFO  hooks.Hooks - Browser opened
+2026-06-28 04:09:08 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:09:08 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:09:09 INFO  hooks.Hooks - Browser opened
+2026-06-28 04:09:09 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:09:10 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:09:11 INFO  hooks.Hooks - Browser opened
+2026-06-28 04:09:11 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:09:12 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:09:13 INFO  hooks.Hooks - Browser opened
+2026-06-28 04:09:13 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:09:13 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:09:15 INFO  hooks.Hooks - Browser opened
+2026-06-28 04:09:15 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:09:15 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:09:16 INFO  hooks.Hooks - Browser opened
+2026-06-28 04:09:16 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:09:17 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:09:18 INFO  hooks.Hooks - Browser opened
+2026-06-28 04:09:18 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:09:18 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:09:18 INFO  hooks.Hooks - Extent Report generated.
+2026-06-28 04:10:32 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-28 04:10:35 INFO  hooks.Hooks - Browser opened
+2026-06-28 04:10:35 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:10:35 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:10:37 INFO  hooks.Hooks - Browser opened
+2026-06-28 04:10:37 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:10:37 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:10:39 INFO  hooks.Hooks - Browser opened
+2026-06-28 04:10:39 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:10:39 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:36:45 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-28 04:36:48 INFO  hooks.Hooks - Browser opened
+2026-06-28 04:36:48 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:36:49 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 04:36:49 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-06-28 04:36:51 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-06-28 04:36:51 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:36:52 INFO  hooks.Hooks - Browser opened
+2026-06-28 04:36:52 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:36:53 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 04:36:53 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsBlank
+2026-06-28 04:36:55 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 04:36:55 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 04:36:55 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 04:36:55 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:36:57 INFO  hooks.Hooks - Browser opened
+2026-06-28 04:36:57 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:36:57 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 04:36:57 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsNumericChar
+2026-06-28 04:36:59 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 04:36:59 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 04:36:59 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 04:36:59 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 04:36:59 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 04:37:00 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:37:01 INFO  hooks.Hooks - Browser opened
+2026-06-28 04:37:01 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:37:02 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 04:37:02 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsSpecialChar
+2026-06-28 04:37:04 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 04:37:04 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 04:37:04 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 04:37:04 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 04:37:04 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 04:37:05 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:37:06 INFO  hooks.Hooks - Browser opened
+2026-06-28 04:37:06 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:37:07 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 04:37:07 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: lnIsBlank
+2026-06-28 04:37:08 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 04:37:08 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 04:37:08 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 04:37:09 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:37:10 INFO  hooks.Hooks - Browser opened
+2026-06-28 04:37:10 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:37:11 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 04:37:11 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: lnIsNumericChar
+2026-06-28 04:37:12 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 04:37:12 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 04:37:12 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 04:37:12 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 04:37:12 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 04:37:13 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:37:15 INFO  hooks.Hooks - Browser opened
+2026-06-28 04:37:15 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:37:15 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 04:37:15 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: lnIsSpecialChar
+2026-06-28 04:37:17 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 04:37:17 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 04:37:17 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 04:37:17 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 04:37:17 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 04:37:18 INFO  hooks.Hooks - Browser closed
+2026-06-28 04:37:18 INFO  hooks.Hooks - Extent Report generated.
+2026-06-28 04:46:59 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-28 04:47:00 INFO  hooks.Hooks - ========================================
+2026-06-28 04:47:00 INFO  hooks.Hooks - Starting Scenario: SMAC Web Registration Portal is displayed
+2026-06-28 04:47:00 INFO  hooks.Hooks - ========================================
+2026-06-28 04:47:02 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-28 04:47:02 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:47:03 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 04:47:03 INFO  stepDefinition.RegistrationStep - ⚙️ Verifying portal display: SMAC Web Registration
+2026-06-28 04:47:05 INFO  stepDefinition.RegistrationStep - ✅ Portal displayed successfully: SMAC Web Registration
+2026-06-28 04:47:05 INFO  hooks.Hooks - Scenario PASSED: SMAC Web Registration Portal is displayed
+2026-06-28 04:47:05 INFO  hooks.Hooks - Browser closed.
+2026-06-28 04:47:05 INFO  hooks.Hooks - ========================================
+2026-06-28 04:47:05 INFO  hooks.Hooks - Starting Scenario: First Name field is blank
+2026-06-28 04:47:05 INFO  hooks.Hooks - ========================================
+2026-06-28 04:47:07 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-28 04:47:07 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:47:08 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 04:47:08 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsBlank
+2026-06-28 04:47:09 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 04:47:09 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 04:47:09 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 04:47:10 INFO  hooks.Hooks - Scenario PASSED: First Name field is blank
+2026-06-28 04:47:10 INFO  hooks.Hooks - Browser closed.
+2026-06-28 04:47:10 INFO  hooks.Hooks - ========================================
+2026-06-28 04:47:10 INFO  hooks.Hooks - Starting Scenario: First Name field is numeric
+2026-06-28 04:47:10 INFO  hooks.Hooks - ========================================
+2026-06-28 04:47:11 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-28 04:47:11 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:47:11 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 04:47:11 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsNumericChar
+2026-06-28 04:47:13 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 04:47:13 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 04:47:13 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 04:47:13 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 04:47:14 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 04:47:14 INFO  hooks.Hooks - Scenario PASSED: First Name field is numeric
+2026-06-28 04:47:14 INFO  hooks.Hooks - Browser closed.
+2026-06-28 04:47:14 INFO  hooks.Hooks - ========================================
+2026-06-28 04:47:14 INFO  hooks.Hooks - Starting Scenario: First Name field is special characters
+2026-06-28 04:47:14 INFO  hooks.Hooks - ========================================
+2026-06-28 04:47:16 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-28 04:47:16 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:47:17 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 04:47:17 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: fnIsSpecialChar
+2026-06-28 04:47:18 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 04:47:18 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 04:47:18 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 04:47:18 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 04:47:18 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 04:47:19 INFO  hooks.Hooks - Scenario PASSED: First Name field is special characters
+2026-06-28 04:47:19 INFO  hooks.Hooks - Browser closed.
+2026-06-28 04:47:19 INFO  hooks.Hooks - ========================================
+2026-06-28 04:47:19 INFO  hooks.Hooks - Starting Scenario: Last Name field is blank
+2026-06-28 04:47:19 INFO  hooks.Hooks - ========================================
+2026-06-28 04:47:21 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-28 04:47:21 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:47:21 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 04:47:21 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: lnIsBlank
+2026-06-28 04:47:23 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 04:47:23 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 04:47:23 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 04:47:23 INFO  hooks.Hooks - Scenario PASSED: Last Name field is blank
+2026-06-28 04:47:23 INFO  hooks.Hooks - Browser closed.
+2026-06-28 04:47:23 INFO  hooks.Hooks - ========================================
+2026-06-28 04:47:23 INFO  hooks.Hooks - Starting Scenario: First Name field is numeric
+2026-06-28 04:47:23 INFO  hooks.Hooks - ========================================
+2026-06-28 04:47:25 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-28 04:47:25 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:47:25 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 04:47:25 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: lnIsNumericChar
+2026-06-28 04:47:27 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 04:47:27 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 04:47:27 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 04:47:27 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 04:47:27 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 04:47:27 INFO  hooks.Hooks - Scenario PASSED: First Name field is numeric
+2026-06-28 04:47:27 INFO  hooks.Hooks - Browser closed.
+2026-06-28 04:47:27 INFO  hooks.Hooks - ========================================
+2026-06-28 04:47:27 INFO  hooks.Hooks - Starting Scenario: First Name field is special characters
+2026-06-28 04:47:27 INFO  hooks.Hooks - ========================================
+2026-06-28 04:47:29 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-28 04:47:29 INFO  stepDefinition.RegistrationStep - ⚙️ Navigating to SMAC Registration Portal
+2026-06-28 04:47:29 INFO  stepDefinition.RegistrationStep - ✅ Navigation completed
+2026-06-28 04:47:29 INFO  stepDefinition.RegistrationStep - ⚙️ Entering details for test case: lnIsSpecialChar
+2026-06-28 04:47:31 INFO  stepDefinition.RegistrationStep - ✅ Successfully entered values.
+2026-06-28 04:47:31 INFO  stepDefinition.RegistrationStep - ⚙️ Consent checkbox is visible
+2026-06-28 04:47:31 INFO  stepDefinition.RegistrationStep - ✅ Consent checkbox is ticked
+2026-06-28 04:47:31 INFO  stepDefinition.RegistrationStep - ⚙️ Proceed button is clickable
+2026-06-28 04:47:31 INFO  stepDefinition.RegistrationStep - ✅ Proceed button is clicked
+2026-06-28 04:47:32 INFO  hooks.Hooks - Scenario PASSED: First Name field is special characters
+2026-06-28 04:47:32 INFO  hooks.Hooks - Browser closed.
+2026-06-28 04:47:32 INFO  hooks.Hooks - ========================================
+2026-06-28 04:47:32 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-28 04:47:32 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-28_04-47-02.html
+2026-06-28 04:47:32 INFO  hooks.Hooks - ========================================
+2026-06-28 05:10:52 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-28 05:10:52 INFO  hooks.Hooks - ========================================
+2026-06-28 05:10:52 INFO  hooks.Hooks - Starting Scenario: SMAC Web Registration Portal is displayed
+2026-06-28 05:10:52 INFO  hooks.Hooks - ========================================
+2026-06-28 05:10:56 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-28 05:10:56 INFO  report.ReportLogger - Navigating to SMAC Registration Portal
+2026-06-28 05:10:57 INFO  report.ReportLogger - ✅ Successfully opened SMAC Registration Portal
+2026-06-28 05:10:57 INFO  report.ReportLogger - Verifying portal: SMAC Web Registration
+2026-06-28 05:10:58 INFO  report.ReportLogger - ✅ SMAC Web Registration displayed successfully
+2026-06-28 05:10:58 INFO  hooks.Hooks - Scenario PASSED: SMAC Web Registration Portal is displayed
+2026-06-28 05:10:58 INFO  hooks.Hooks - Browser closed.
+2026-06-28 05:10:58 INFO  hooks.Hooks - ========================================
+2026-06-28 05:10:58 INFO  hooks.Hooks - Starting Scenario: First Name field is blank
+2026-06-28 05:10:58 INFO  hooks.Hooks - ========================================
+2026-06-28 05:11:00 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-28 05:11:00 INFO  report.ReportLogger - Navigating to SMAC Registration Portal
+2026-06-28 05:11:00 INFO  report.ReportLogger - ✅ Successfully opened SMAC Registration Portal
+2026-06-28 05:11:00 INFO  report.ReportLogger - Loading test data: fnIsBlank
+2026-06-28 05:11:03 INFO  report.ReportLogger - ✅ Registration details entered successfully
+2026-06-28 05:11:03 INFO  report.ReportLogger - Ticking consent checkbox
+2026-06-28 05:11:03 INFO  report.ReportLogger - ✅ Consent checkbox selected
+2026-06-28 05:11:03 INFO  report.ReportLogger - Validating inline error message for: fnIsBlank
+2026-06-28 05:11:03 INFO  report.ReportLogger - Expected: This field is required.
+2026-06-28 05:11:03 INFO  report.ReportLogger - Actual: This field is required.
+2026-06-28 05:11:03 INFO  report.ReportLogger - ✅ Inline error message validated successfully
+2026-06-28 05:11:03 INFO  hooks.Hooks - Scenario PASSED: First Name field is blank
+2026-06-28 05:11:03 INFO  hooks.Hooks - Browser closed.
+2026-06-28 05:11:03 INFO  hooks.Hooks - ========================================
+2026-06-28 05:11:03 INFO  hooks.Hooks - Starting Scenario: First Name field is numeric
+2026-06-28 05:11:03 INFO  hooks.Hooks - ========================================
+2026-06-28 05:11:04 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-28 05:11:04 INFO  report.ReportLogger - Navigating to SMAC Registration Portal
+2026-06-28 05:11:04 INFO  report.ReportLogger - ✅ Successfully opened SMAC Registration Portal
+2026-06-28 05:11:04 INFO  report.ReportLogger - Loading test data: fnIsNumericChar
+2026-06-28 05:11:07 INFO  report.ReportLogger - ✅ Registration details entered successfully
+2026-06-28 05:11:07 INFO  report.ReportLogger - Ticking consent checkbox
+2026-06-28 05:11:07 INFO  report.ReportLogger - ✅ Consent checkbox selected
+2026-06-28 05:11:07 INFO  report.ReportLogger - Clicking Proceed button
+2026-06-28 05:11:07 INFO  report.ReportLogger - ✅ Proceed button clicked
+2026-06-28 05:11:07 INFO  report.ReportLogger - Validating inline error message for: fnIsNumericChar
+2026-06-28 05:11:08 INFO  report.ReportLogger - Expected: Enter a valid first name.
+2026-06-28 05:11:08 INFO  report.ReportLogger - Actual: Enter a valid first name.
+2026-06-28 05:11:08 INFO  report.ReportLogger - ✅ Inline error message validated successfully
+2026-06-28 05:11:08 INFO  hooks.Hooks - Scenario PASSED: First Name field is numeric
+2026-06-28 05:11:08 INFO  hooks.Hooks - Browser closed.
+2026-06-28 05:11:08 INFO  hooks.Hooks - ========================================
+2026-06-28 05:11:08 INFO  hooks.Hooks - Starting Scenario: First Name field is special characters
+2026-06-28 05:11:08 INFO  hooks.Hooks - ========================================
+2026-06-28 05:11:10 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-28 05:11:10 INFO  report.ReportLogger - Navigating to SMAC Registration Portal
+2026-06-28 05:11:10 INFO  report.ReportLogger - ✅ Successfully opened SMAC Registration Portal
+2026-06-28 05:11:10 INFO  report.ReportLogger - Loading test data: fnIsSpecialChar
+2026-06-28 05:11:12 INFO  report.ReportLogger - ✅ Registration details entered successfully
+2026-06-28 05:11:12 INFO  report.ReportLogger - Ticking consent checkbox
+2026-06-28 05:11:12 INFO  report.ReportLogger - ✅ Consent checkbox selected
+2026-06-28 05:11:12 INFO  report.ReportLogger - Clicking Proceed button
+2026-06-28 05:11:12 INFO  report.ReportLogger - ✅ Proceed button clicked
+2026-06-28 05:11:12 INFO  report.ReportLogger - Validating inline error message for: fnIsSpecialChar
+2026-06-28 05:11:13 INFO  report.ReportLogger - Expected: Enter a valid first name.
+2026-06-28 05:11:13 INFO  report.ReportLogger - Actual: Enter a valid first name.
+2026-06-28 05:11:13 INFO  report.ReportLogger - ✅ Inline error message validated successfully
+2026-06-28 05:11:13 INFO  hooks.Hooks - Scenario PASSED: First Name field is special characters
+2026-06-28 05:11:13 INFO  hooks.Hooks - Browser closed.
+2026-06-28 05:11:13 INFO  hooks.Hooks - ========================================
+2026-06-28 05:11:13 INFO  hooks.Hooks - Starting Scenario: Last Name field is blank
+2026-06-28 05:11:13 INFO  hooks.Hooks - ========================================
+2026-06-28 05:11:14 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-28 05:11:14 INFO  report.ReportLogger - Navigating to SMAC Registration Portal
+2026-06-28 05:11:15 INFO  report.ReportLogger - ✅ Successfully opened SMAC Registration Portal
+2026-06-28 05:11:15 INFO  report.ReportLogger - Loading test data: lnIsBlank
+2026-06-28 05:11:17 INFO  report.ReportLogger - ✅ Registration details entered successfully
+2026-06-28 05:11:17 INFO  report.ReportLogger - Ticking consent checkbox
+2026-06-28 05:11:17 INFO  report.ReportLogger - ✅ Consent checkbox selected
+2026-06-28 05:11:17 INFO  report.ReportLogger - Validating inline error message for: lnIsBlank
+2026-06-28 05:11:17 INFO  report.ReportLogger - Expected: This field is required.
+2026-06-28 05:11:17 INFO  report.ReportLogger - Actual: This field is required.
+2026-06-28 05:11:17 INFO  report.ReportLogger - ✅ Inline error message validated successfully
+2026-06-28 05:11:17 INFO  hooks.Hooks - Scenario PASSED: Last Name field is blank
+2026-06-28 05:11:17 INFO  hooks.Hooks - Browser closed.
+2026-06-28 05:11:17 INFO  hooks.Hooks - ========================================
+2026-06-28 05:11:17 INFO  hooks.Hooks - Starting Scenario: First Name field is numeric
+2026-06-28 05:11:17 INFO  hooks.Hooks - ========================================
+2026-06-28 05:11:18 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-28 05:11:18 INFO  report.ReportLogger - Navigating to SMAC Registration Portal
+2026-06-28 05:11:19 INFO  report.ReportLogger - ✅ Successfully opened SMAC Registration Portal
+2026-06-28 05:11:19 INFO  report.ReportLogger - Loading test data: lnIsNumericChar
+2026-06-28 05:11:20 INFO  report.ReportLogger - ✅ Registration details entered successfully
+2026-06-28 05:11:20 INFO  report.ReportLogger - Ticking consent checkbox
+2026-06-28 05:11:20 INFO  report.ReportLogger - ✅ Consent checkbox selected
+2026-06-28 05:11:20 INFO  report.ReportLogger - Clicking Proceed button
+2026-06-28 05:11:21 INFO  report.ReportLogger - ✅ Proceed button clicked
+2026-06-28 05:11:21 INFO  report.ReportLogger - Validating inline error message for: lnIsNumericChar
+2026-06-28 05:11:21 INFO  report.ReportLogger - Expected: Enter a valid last name.
+2026-06-28 05:11:21 INFO  report.ReportLogger - Actual: Enter a valid last name.
+2026-06-28 05:11:21 INFO  report.ReportLogger - ✅ Inline error message validated successfully
+2026-06-28 05:11:21 INFO  hooks.Hooks - Scenario PASSED: First Name field is numeric
+2026-06-28 05:11:21 INFO  hooks.Hooks - Browser closed.
+2026-06-28 05:11:21 INFO  hooks.Hooks - ========================================
+2026-06-28 05:11:21 INFO  hooks.Hooks - Starting Scenario: First Name field is special characters
+2026-06-28 05:11:21 INFO  hooks.Hooks - ========================================
+2026-06-28 05:11:23 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-28 05:11:23 INFO  report.ReportLogger - Navigating to SMAC Registration Portal
+2026-06-28 05:11:23 INFO  report.ReportLogger - ✅ Successfully opened SMAC Registration Portal
+2026-06-28 05:11:23 INFO  report.ReportLogger - Loading test data: lnIsSpecialChar
+2026-06-28 05:11:25 INFO  report.ReportLogger - ✅ Registration details entered successfully
+2026-06-28 05:11:25 INFO  report.ReportLogger - Ticking consent checkbox
+2026-06-28 05:11:25 INFO  report.ReportLogger - ✅ Consent checkbox selected
+2026-06-28 05:11:25 INFO  report.ReportLogger - Clicking Proceed button
+2026-06-28 05:11:25 INFO  report.ReportLogger - ✅ Proceed button clicked
+2026-06-28 05:11:25 INFO  report.ReportLogger - Validating inline error message for: lnIsSpecialChar
+2026-06-28 05:11:26 INFO  report.ReportLogger - Expected: Enter a valid last name.
+2026-06-28 05:11:26 INFO  report.ReportLogger - Actual: Enter a valid last name.
+2026-06-28 05:11:26 INFO  report.ReportLogger - ✅ Inline error message validated successfully
+2026-06-28 05:11:26 INFO  hooks.Hooks - Scenario PASSED: First Name field is special characters
+2026-06-28 05:11:26 INFO  hooks.Hooks - Browser closed.
+2026-06-28 05:11:26 INFO  hooks.Hooks - ========================================
+2026-06-28 05:11:26 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-28 05:11:26 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-28_05-10-56.html
+2026-06-28 05:11:26 INFO  hooks.Hooks - ========================================

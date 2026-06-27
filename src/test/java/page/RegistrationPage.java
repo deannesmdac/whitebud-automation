@@ -14,8 +14,7 @@ public class RegistrationPage extends BasePage {
      * @param driver active browser driver
      */
     public RegistrationPage(WebDriver driver) {
-
-        this.driver = driver;
+        super(driver);
     }
 
     // =========================
@@ -106,7 +105,6 @@ public class RegistrationPage extends BasePage {
     //Details Page
     private final By proceedButtonDP =
             By.xpath("//*[@class='btn btn-primary full-width' and text() = 'Proceed']");
-
     //Link Card Page
     private final By backButtonLCP = By.id("b3-Icon");
     private final By homeButtonLCP = By.id("b4-Icon");
@@ -203,22 +201,7 @@ public class RegistrationPage extends BasePage {
     // ACTIONS
     // =========================
 
-    /**
-     * Leaves First Name field blank
-     * by clicking field then pressing TAB.
-     * Triggers validation message.
-     */
-    public void leaveFirstNameFieldBlank() {
-
-        clickAndTab(firstNameField);
-    }
-
-    public void clearFirstNameField() {
-        clearField(firstNameField);
-    }
-
     public void enterFirstNameField(String firstName) {
-//        clickAndTab(firstNameField);
         click(firstNameField);
         type(firstNameField, firstName);
     }
@@ -249,30 +232,6 @@ public class RegistrationPage extends BasePage {
         type(confirmPasswordField, password);
     }
 
-//    public void enterValidRegistrationDetails(){
-//        click(firstNameField);
-//        type(firstNameField,"Jane");
-//
-//        click(lastNameField);
-//        type(lastNameField,"Doe");
-//
-//        click(mobileNumberField);
-//        type(mobileNumberField,"9497379639");
-//
-//        click(birthdayField);
-//        type(birthdayField,"01/01/1990");
-//
-//        click(passwordField);
-//        type(passwordField,"Alpha123!");
-//
-//        driver.findElement(passwordField)
-//                .sendKeys(Keys.TAB);
-//
-//        click(confirmPasswordField);
-//        type(confirmPasswordField,"Alpha123!");
-//
-//    }
-
     public void clickConsentCheckbox() {
 //        scrollTo(proceedButtonDP);
 //        click(consentCheckbox);
@@ -290,7 +249,6 @@ public class RegistrationPage extends BasePage {
     }
 
     public void clickProceedButtonDP() {
-
         driver.findElement(consentCheckbox).sendKeys(Keys.TAB);
         scrollTo(proceedButtonDP);
         click(proceedButtonDP);
@@ -310,11 +268,20 @@ public class RegistrationPage extends BasePage {
         return getText(fieldIsRequiredError);
     }
 
+    public String getLNameFieldRequiredErrorTxt() {
+
+        return getText(fieldIsRequiredError);
+    }
+
     public String getEnterValidFNameErrorTxt() {
 
         return getText(enterValidFNameError);
     }
 
+    public String getEnterValidLNameErrorTxt() {
+
+        return getText(enterValidLNameError);
+    }
 
 
     // =========================
@@ -332,12 +299,16 @@ public class RegistrationPage extends BasePage {
         return isDisplayed(fieldIsRequiredError);
     }
 
-    public boolean isEnterValidFNameErrorDisplayed() {
+    public boolean isLastNameRequiredErrorDisplayed() {
 
+        return isDisplayed(fieldIsRequiredError);
+    }
+
+    public boolean isEnterValidFNameErrorDisplayed(){
         return isDisplayed(enterValidFNameError);
     }
 
-//    public boolean isLastNameRequiredErrorDisplayed() {
-//
-//    }
+    public boolean isEnterValidLNameErrorDisplayed(){
+        return isDisplayed(enterValidLNameError);
+    }
 }

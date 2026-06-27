@@ -2,6 +2,7 @@ package hooks;
 
 import base.DriverManager;
 import base.PageManager;
+import com.aventstack.extentreports.ExtentTest;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
@@ -11,6 +12,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import report.ExtentManager;
+import report.ExtentTestManager;
 
 public class Hooks {
 
@@ -20,132 +23,108 @@ public class Hooks {
     // Shared WebDriver instance
     private static WebDriver driver;
 
-    // Logger for framework logs
+    // Logger
     private static final Logger logger =
             LoggerFactory.getLogger(Hooks.class);
 
     /**
      * Returns PageManager instance.
-     * Allows access to page objects in step definitions.
-     * @return PageManager instance
      */
     public static PageManager getPageManager() {
         return pageManager;
     }
 
     /**
-     * Runs before each scenario.
-     * Initializes browser and page objects.
+     * Runs before every scenario.
      */
     @Before
-    public void setUp() {
+    public void setUp(Scenario scenario) {
 
-        // Initialize browser driver
+        logger.info("========================================");
+        logger.info("Starting Scenario: {}", scenario.getName());
+        logger.info("========================================");
+
         DriverManager.initializeDriver();
 
-        // Retrieve active driver instance
         driver = DriverManager.getDriver();
 
-        // Verify driver was initialized successfully
         if (driver == null) {
-
-            throw new RuntimeException(
-                    "Driver was not initialized properly"
-            );
+            throw new RuntimeException("Driver was not initialized.");
         }
 
-        // Initialize page manager
         pageManager = new PageManager(driver);
 
-        logger.info("Browser opened");
+        ExtentTest test = ExtentManager.getInstance()
+                .createTest(scenario.getName());
+
+        ExtentTestManager.setTest(test);
+
+        logger.info("Browser opened successfully.");
     }
 
     /**
-     * Runs after each scenario.
-     * Captures screenshot and closes browser.
-     *
-     * @param scenario current executed scenario
+     * Runs after every scenario.
      */
     @After
     public void tearDown(Scenario scenario) {
 
-        // =========================
-        // SCREENSHOT CAPTURE
-        // =========================
         try {
 
-            // Verify driver exists before screenshot
             if (driver != null) {
 
-                // Capture screenshot as byte array
-                byte[] screenshot = ((TakesScreenshot) driver)
-                        .getScreenshotAs(OutputType.BYTES);
+                String base64 = ((TakesScreenshot) driver)
+                        .getScreenshotAs(OutputType.BASE64);
 
-                // Attach screenshot to Cucumber report
-                scenario.attach(
-                        screenshot,
-                        "image/png",
-                        scenario.isFailed()
-                                ? "Failure Screenshot"
-                                : "End State Screenshot"
-                );
+                if (scenario.isFailed()) {
+
+                    ExtentTestManager.getTest()
+                            .fail("Scenario Failed")
+                            .addScreenCaptureFromBase64String(
+                                    base64,
+                                    "Failure Screenshot");
+
+                    logger.error("Scenario FAILED: {}", scenario.getName());
+
+                } else {
+
+                    ExtentTestManager.getTest()
+                            .pass("Scenario Passed")
+                            .addScreenCaptureFromBase64String(
+                                    base64,
+                                    "End State Screenshot");
+
+                    logger.info("Scenario PASSED: {}", scenario.getName());
+                }
             }
 
         } catch (Exception e) {
 
-            logger.error(
-                    "Failed to capture screenshot",
-                    e
-            );
-        }
+            logger.error("Failed to capture screenshot.", e);
 
-        // =========================
-        // CLOSE BROWSER
-        // =========================
-        try {
+        } finally {
 
-            // Quit browser session
             DriverManager.quitDriver();
 
-            logger.info("Browser closed");
+            logger.info("Browser closed.");
 
-        } catch (Exception e) {
+            driver = null;
+            pageManager = null;
 
-            logger.error(
-                    "Failed to close browser",
-                    e
-            );
+            ExtentTestManager.unload();
         }
-
-        // =========================
-        // CLEANUP
-        // =========================
-
-        // Reset objects for next test execution
-        driver = null;
-        pageManager = null;
     }
 
+    /**
+     * Runs once after all scenarios.
+     */
+    @AfterAll
+    public static void generateReport() {
+
+        ExtentManager.flush();
+
+        logger.info("========================================");
+        logger.info("Extent Report generated successfully.");
+        logger.info("Location: {}", ExtentManager.getReportPath());
+        logger.info("========================================");
+    }
 }
-        //FAILED SCREENSHOTS ONLY
-//        try {
-//            if (scenario.isFailed() && driver != null) {
-//                byte[] screenshot = ((TakesScreenshot) driver)
-//                        .getScreenshotAs(OutputType.BYTES);
-//
-//                scenario.attach(screenshot, "image/png", "Failure Screenshot");
-//            }
-//        } catch (Exception e) {
-//            logger.error("Failed to capture screenshot", e);
-//        }
-//
-//        try {
-//            DriverManager.quitDriver();
-//            logger.info("Browser closed");
-//        } catch (Exception e) {
-//            logger.error("Error while quitting driver", e);
-//        }
-//
-//        driver = null;
-//        pageManager = null;
-//    }
