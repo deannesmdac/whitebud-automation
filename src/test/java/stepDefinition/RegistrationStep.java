@@ -20,13 +20,14 @@ public class RegistrationStep {
     @Given("Member navigates to the SMAC Web Registration Portal")
     public void memberNavigatesToTheSMACWebRegistrationPortal() {
 
-        ReportLogger.info("Navigating to SMAC Registration Portal");
+        ReportLogger.info("⚙\uFE0FNavigating to SMAC Registration Portal");
 
         registrationPage.openUrl(
-                "https://awsstgexternal-outsys.smadvantage.com/smaconlineacquisition/"
+                "https://awsuat-outsys.smadvantage.com/smaconlineacquisition/"
+//                "https://awsstgexternal-outsys.smadvantage.com/smaconlineacquisition/"
         );
 
-        ReportLogger.pass("Successfully opened SMAC Registration Portal");
+        ReportLogger.pass("✅Successfully opened SMAC Registration Portal");
     }
 
     @Then("the {string} portal is displayed")
@@ -39,13 +40,13 @@ public class RegistrationStep {
                 "Registration portal is not displayed."
         );
 
-        ReportLogger.pass(portalName + " displayed successfully");
+        ReportLogger.pass("✅" + portalName + " displayed successfully");
     }
 
     @When("the member enters registration details for {string}")
     public void theMemberEntersRegistrationDetailsFor(String testCaseName) {
 
-        ReportLogger.info("Loading test data: " + testCaseName);
+        ReportLogger.info("⚙\uFE0FLoading test data: " + testCaseName);
 
         Map<String, String> data =
                 CsvReader.getTestData(testCaseName);
@@ -57,87 +58,70 @@ public class RegistrationStep {
         registrationPage.enterPasswordField(data.get("Password"));
         registrationPage.enterConfirmPasswordField(data.get("ConfirmPassword"));
 
-        ReportLogger.pass("Registration details entered successfully");
+        ReportLogger.pass("✅Registration details entered successfully");
     }
 
     @And("the member ticks the SMAC Terms and Conditions and Data Privacy Policy")
     public void theMemberTicksTheSMACTermsAndConditionsAndDataPrivacyPolicy() {
 
-        ReportLogger.info("Ticking consent checkbox");
+        ReportLogger.info("⚙\uFE0FTicking consent checkbox");
 
         registrationPage.clickConsentCheckbox();
 
-        ReportLogger.pass("Consent checkbox selected");
+        ReportLogger.pass("✅Consent checkbox selected");
     }
 
     @And("the member clicks the Proceed button")
     public void memberClicksTheProceedButton() {
 
-        ReportLogger.info("Clicking Proceed button");
+        ReportLogger.info("⚙\uFE0FClicking Proceed button");
 
         registrationPage.clickProceedButtonDP();
 
-        ReportLogger.pass("Proceed button clicked");
+        ReportLogger.pass("✅Proceed button clicked");
     }
 
     @Then("the Link Card Page should be displayed")
     public void theLinkCardTabShouldBeDisplayed() {
 
-        ReportLogger.info("Verifying Link Card page");
+        ReportLogger.info("⚙\uFE0FVerifying Link Card page");
 
         Assert.assertTrue(
                 registrationPage.linkCarPageDisplayed(),
                 "Link Card Page is not displayed."
         );
 
-        ReportLogger.pass("Link Card Page displayed successfully");
+        ReportLogger.pass("✅Link Card Page displayed successfully");
     }
 
     @Then("the inline error message {string} is displayed")
     public void theInlineErrorMessageIsDisplayed(String testCaseName) {
 
-        ReportLogger.info("Validating inline error message for: " + testCaseName);
+        ReportLogger.info("⚙\uFE0FValidating inline error message for: " + testCaseName);
 
         String actualMessage;
 
         switch (testCaseName) {
 
             case "fnIsBlank":
-                Assert.assertTrue(
-                        registrationPage.isFirstNameRequiredErrorDisplayed(),
-                        "First Name required error is not displayed."
-                );
-                actualMessage =
-                        registrationPage.getFNameFieldRequiredErrorTxt();
-                break;
-
             case "fnIsNumericChar":
             case "fnIsSpecialChar":
-                Assert.assertTrue(
-                        registrationPage.isEnterValidFNameErrorDisplayed(),
-                        "Invalid First Name error is not displayed."
-                );
-                actualMessage =
-                        registrationPage.getEnterValidFNameErrorTxt();
+                actualMessage = registrationPage.getInlineErrorByField("FirstName");
                 break;
 
             case "lnIsBlank":
-                Assert.assertTrue(
-                        registrationPage.isLastNameRequiredErrorDisplayed(),
-                        "Last Name required error is not displayed."
-                );
-                actualMessage =
-                        registrationPage.getLNameFieldRequiredErrorTxt();
-                break;
-
             case "lnIsNumericChar":
             case "lnIsSpecialChar":
-                Assert.assertTrue(
-                        registrationPage.isEnterValidLNameErrorDisplayed(),
-                        "Invalid Last Name error is not displayed."
-                );
-                actualMessage =
-                        registrationPage.getEnterValidLNameErrorTxt();
+                actualMessage = registrationPage.getInlineErrorByField("LastName");
+                break;
+
+            case "mobIsBlank":
+            case "mobIsAlphaChar":
+            case "mobIsSpecialChar":
+            case "mobIsIncomplete":
+            case "mobIsInvalidFormat":
+            case "mobIsAlreadyExist":
+                actualMessage = registrationPage.getInlineErrorByField("MobNum");
                 break;
 
             default:
@@ -158,10 +142,10 @@ public class RegistrationStep {
         Assert.assertEquals(
                 actualMessage,
                 expectedMessage,
-                "Inline error message mismatch."
+                "❌Inline error message mismatch."
         );
 
-        ReportLogger.pass("Inline error message validated successfully");
+        ReportLogger.pass("✅Inline error message validated successfully");
     }
 
 //    @Then("the inline error message {string} is displayed")

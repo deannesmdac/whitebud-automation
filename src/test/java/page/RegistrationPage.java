@@ -127,8 +127,7 @@ public class RegistrationPage extends BasePage {
     private final By enterValidFNameError = By.xpath("//*[text()='Enter a valid first name.']");
     private final By enterValidLNameError = By.xpath("//*[text()='Enter a valid last name.']");
     private final By birthdayRequiredError = By.xpath("//*[@id=\"b6-b1-b5-Input\"]/span/span");
-    private final By mobileNumberRequiredError = By.xpath("//span[text()=\"Please enter a complete mobile number.\"]");
-    private final By passwordRequiredError = By.xpath("//span[text()=\"Password not strong enough.\"]");
+    private final By enterCompleteMobError = By.xpath("//span[text()=\"Please enter a complete mobile number.\"]");
 
     // =========================
     // PAGE VALIDATION
@@ -268,14 +267,14 @@ public class RegistrationPage extends BasePage {
         return getText(fieldIsRequiredError);
     }
 
-    public String getLNameFieldRequiredErrorTxt() {
-
-        return getText(fieldIsRequiredError);
-    }
-
     public String getEnterValidFNameErrorTxt() {
 
         return getText(enterValidFNameError);
+    }
+
+    public String getLNameFieldRequiredErrorTxt() {
+
+        return getText(fieldIsRequiredError);
     }
 
     public String getEnterValidLNameErrorTxt() {
@@ -299,16 +298,26 @@ public class RegistrationPage extends BasePage {
         return isDisplayed(fieldIsRequiredError);
     }
 
+    public boolean isEnterValidFNameErrorDisplayed(){
+        return isDisplayed(enterValidFNameError);
+    }
+
     public boolean isLastNameRequiredErrorDisplayed() {
 
         return isDisplayed(fieldIsRequiredError);
     }
 
-    public boolean isEnterValidFNameErrorDisplayed(){
-        return isDisplayed(enterValidFNameError);
-    }
-
     public boolean isEnterValidLNameErrorDisplayed(){
         return isDisplayed(enterValidLNameError);
     }
+
+    public boolean isMobileRequiredErrorDisplayed() {
+        return isDisplayed(fieldIsRequiredError);
+    }
+
+    public boolean isEnterCompleteMobErrorDisplayed() {
+        return isDisplayed(enterCompleteMobError);
+    }
+
+
 }

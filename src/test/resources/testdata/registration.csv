@@ -5,4 +5,10 @@ fnIsSpecialChar,!@#$%,Doe,9497379639,01011990,Alpha123!,Alpha123!,Enter a valid 
 lnIsBlank,Jane,,9497379639,01011990,Alpha123!,Alpha123!,This field is required.
 lnIsNumericChar,Jane,123,9497379639,01011990,Alpha123!,Alpha123!,Enter a valid last name.
 lnIsSpecialChar,Jane,!@#$%,9497379639,01011990,Alpha123!,Alpha123!,Enter a valid last name.
+mobIsBlank,Jane,Doe,,01011990,Alpha123!,Alpha123!,This field is required.
+mobIsAlphaChar,Jane,Doe,abc,01011990,Alpha123!,Alpha123!,This field is required.
+mobIsSpecialChar,Jane,Doe,!@#$%^&*,01011990,Alpha123!,Alpha123!,This field is required.
+mobIsIncomplete,Jane,Doe,949737,01011990,Alpha123!,Alpha123!,Please enter a complete mobile number.
+mobIsInvalidFormat,Jane,Doe,1231231231,01011990,Alpha123!,Alpha123!,Please enter a complete mobile number.
+mobIsAlreadyExist,Jane,Doe,9276931581,01011990,Alpha123!,Alpha123!,Mobile number already used to register a SMAC account. Please download the SMAC&SHOP and login instead.
 validFields,Jane,Doe,9497379639,01011990,Alpha123!,Alpha123!,

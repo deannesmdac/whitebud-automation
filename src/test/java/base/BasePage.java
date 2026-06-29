@@ -137,4 +137,14 @@ public class BasePage {
         element.clear();
     }
 
+    public String getInlineErrorByField(String fieldName) {
+        By locator = By.xpath(
+                "//input[contains(@id,'Input_" + fieldName + "')]" +
+                        "/following-sibling::span[@class='validation-message']"
+        );
+
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator))
+                .getText();
+    }
+
 }
