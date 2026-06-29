@@ -66,8 +66,9 @@ public class RegistrationStep {
 
         registrationPage.enterFirstNameField(data.get("FirstName"));
         registrationPage.enterLastNameField(data.get("LastName"));
-        registrationPage.enterMobileNumberField(data.get("MobileNumber"));
         registrationPage.enterBirthdayField(data.get("Birthday"));
+        registrationPage.enterMobileNumberField(data.get("MobileNumber"));
+        registrationPage.enterEmailField(data.get("EmailAddress"));
         registrationPage.enterPasswordField(data.get("Password"));
         registrationPage.enterConfirmPasswordField(data.get("ConfirmPassword"));
 
@@ -135,6 +136,10 @@ public class RegistrationStep {
             case "mobIsInvalidFormat":
             case "mobIsAlreadyExist":
                 actualMessage = registrationPage.getInlineErrorByField("MobNum");
+                break;
+
+            case "emailIsInvalidFormat":
+                actualMessage = registrationPage.getInlineErrorByField("EmailAddress");
                 break;
 
             default:

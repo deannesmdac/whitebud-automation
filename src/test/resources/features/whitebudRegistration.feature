@@ -76,14 +76,15 @@ Feature: Whitebud Registration
         And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
         Then the inline error message "mobIsIncomplete" is displayed
 
-#      Scenario: Mobile Number is in invalid format
-#        When the member enters registration details for ""
-#        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
-#        Then the inline error message "" is displayed
+      Scenario: Mobile Number is in invalid format
+        When the member enters registration details for "mobIsInvalidFormat"
+        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
+        Then the inline error message "mobIsInvalidFormat" is displayed
 
       Scenario: Mobile Number already exist
         When the member enters registration details for "mobIsAlreadyExist"
         And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
+        And the member clicks the Proceed button
         Then the inline error message "mobIsAlreadyExist" is displayed
 
 #      Scenario: Email Address field is blank
@@ -95,6 +96,14 @@ Feature: Whitebud Registration
 #        When the member enters registration details for ""
 #        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
 #        Then the inline error message "" is displayed
+
+      Scenario: Email Address has invalid format
+        When the member enters registration details for "emailIsInvalidFormat"
+        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
+        And the member clicks the Proceed button
+        Then the inline error message "emailIsInvalidFormat" is displayed
+
+
 
 
 

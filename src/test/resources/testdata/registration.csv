@@ -1,14 +1,15 @@
-﻿testCaseName,FirstName,LastName,MobileNumber,Birthday,Password,ConfirmPassword,ErrorMessage
-fnIsBlank,,Doe,9497379639,01011990,Alpha123!,Alpha123!,This field is required.
-fnIsNumericChar,123,Doe,9497379639,01011990,Alpha123!,Alpha123!,Enter a valid first name.
-fnIsSpecialChar,!@#$%,Doe,9497379639,01011990,Alpha123!,Alpha123!,Enter a valid first name.
-lnIsBlank,Jane,,9497379639,01011990,Alpha123!,Alpha123!,This field is required.
-lnIsNumericChar,Jane,123,9497379639,01011990,Alpha123!,Alpha123!,Enter a valid last name.
-lnIsSpecialChar,Jane,!@#$%,9497379639,01011990,Alpha123!,Alpha123!,Enter a valid last name.
-mobIsBlank,Jane,Doe,,01011990,Alpha123!,Alpha123!,This field is required.
-mobIsAlphaChar,Jane,Doe,abc,01011990,Alpha123!,Alpha123!,This field is required.
-mobIsSpecialChar,Jane,Doe,!@#$%^&*,01011990,Alpha123!,Alpha123!,This field is required.
-mobIsIncomplete,Jane,Doe,949737,01011990,Alpha123!,Alpha123!,Please enter a complete mobile number!!!
-mobIsInvalidFormat,Jane,Doe,1231231231,01011990,Alpha123!,Alpha123!,Please enter a complete mobile number.
-mobIsAlreadyExist,Jane,Doe,9276931581,01011990,Alpha123!,Alpha123!,Mobile number already used to register a SMAC account. Please download the SMAC&SHOP and login instead.
-validFields,Jane,Doe,9497379639,01011990,Alpha123!,Alpha123!,
+﻿testCaseName,FirstName,LastName,MobileNumber,EmailAddress,Birthday,Password,ConfirmPassword,ErrorMessage
+fnIsBlank,,Doe,9497379639,,01011990,Alpha123!,Alpha123!,This field is required.
+fnIsNumericChar,123,Doe,9497379639,,01011990,Alpha123!,Alpha123!,Enter a valid first name.
+fnIsSpecialChar,!@#$%,Doe,9497379639,,01011990,Alpha123!,Alpha123!,Enter a valid first name.
+lnIsBlank,Jane,,9497379639,,01011990,Alpha123!,Alpha123!,This field is required.
+lnIsNumericChar,Jane,123,9497379639,,01011990,Alpha123!,Alpha123!,Enter a valid last name.
+lnIsSpecialChar,Jane,!@#$%,9497379639,,01011990,Alpha123!,Alpha123!,Enter a valid last name.
+mobIsBlank,Jane,Doe,,,01011990,Alpha123!,Alpha123!,This field is required.
+mobIsAlphaChar,Jane,Doe,abc,,01011990,Alpha123!,Alpha123!,This field is required.
+mobIsSpecialChar,Jane,Doe,!@#$%^&*,,01011990,Alpha123!,Alpha123!,This field is required.
+mobIsIncomplete,Jane,Doe,949737,,01011990,Alpha123!,Alpha123!,Please enter a complete mobile number.
+mobIsInvalidFormat,Jane,Doe,0123456789,,01011990,Alpha123!,Alpha123!,Please enter a complete mobile number.
+mobIsAlreadyExist,Jane,Doe,9276931581,dee123@yopmail.com,01011990,Alpha123!,Alpha123!,Mobile number already used to register a SMAC account. Please download the SMAC&SHOP and login instead.
+emailIsInvalidFormat,Jane,Doe,9497379639,test@123,01011990,Alpha123!,Alpha123!,Please enter a complete email address.
+validFields,Jane,Doe,9497379639,,01011990,Alpha123!,Alpha123!,

@@ -211,6 +211,11 @@ public class RegistrationPage extends BasePage {
         type(birthdayField, birthday);
     }
 
+    public void enterEmailField(String email){
+        click(emailField);
+        type(emailField, email);
+    }
+
     public void enterPasswordField(String password) {
         click(passwordField);
         type(passwordField, password);

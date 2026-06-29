@@ -5138,3 +5138,753 @@ Session ID: f12dc9cc5a2c60b4e6cc62ed507ba55a
 2026-06-29 23:06:49 INFO  hooks.Hooks - Extent Report generated successfully.
 2026-06-29 23:06:49 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-06-46.html
 2026-06-29 23:06:49 INFO  hooks.Hooks - ========================================
+2026-06-29 23:11:52 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-29 23:11:53 INFO  hooks.Hooks - ========================================
+2026-06-29 23:11:53 INFO  hooks.Hooks - Starting Scenario: SMAC Web Registration Portal is displayed
+2026-06-29 23:11:53 INFO  hooks.Hooks - ========================================
+2026-06-29 23:11:55 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:11:55 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:11:56 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:11:56 INFO  report.ReportLogger - ⚙️Verifying portal: SMAC Web Registration
+2026-06-29 23:11:57 INFO  report.ReportLogger - ✅SMAC Web Registration displayed successfully
+2026-06-29 23:11:57 INFO  hooks.Hooks - Scenario PASSED: SMAC Web Registration Portal is displayed
+2026-06-29 23:11:58 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:11:58 INFO  hooks.Hooks - ========================================
+2026-06-29 23:11:58 INFO  hooks.Hooks - Starting Scenario: First Name field is blank
+2026-06-29 23:11:58 INFO  hooks.Hooks - ========================================
+2026-06-29 23:11:59 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:11:59 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:12:00 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:12:00 INFO  report.ReportLogger - ⚙️Loading test data: fnIsBlank
+2026-06-29 23:12:02 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:12:02 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:12:02 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:12:02 INFO  report.ReportLogger - ⚙️Validating inline error message for: fnIsBlank
+2026-06-29 23:12:02 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-06-29 23:12:02 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-06-29 23:12:02 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:12:02 INFO  hooks.Hooks - Scenario PASSED: First Name field is blank
+2026-06-29 23:12:03 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:12:03 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:03 INFO  hooks.Hooks - Starting Scenario: First Name field is numeric
+2026-06-29 23:12:03 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:04 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:12:04 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:12:04 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:12:04 INFO  report.ReportLogger - ⚙️Loading test data: fnIsNumericChar
+2026-06-29 23:12:06 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:12:06 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:12:06 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:12:06 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:12:06 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-06-29 23:12:06 INFO  report.ReportLogger - ⚙️Validating inline error message for: fnIsNumericChar
+2026-06-29 23:12:07 INFO  report.ReportLogger - ⚙️Expected: Enter a valid first name.
+2026-06-29 23:12:07 INFO  report.ReportLogger - ⚙️Actual: Enter a valid first name.
+2026-06-29 23:12:07 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:12:07 INFO  hooks.Hooks - Scenario PASSED: First Name field is numeric
+2026-06-29 23:12:07 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:12:07 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:07 INFO  hooks.Hooks - Starting Scenario: First Name field is special characters
+2026-06-29 23:12:07 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:08 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:12:08 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:12:09 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:12:09 INFO  report.ReportLogger - ⚙️Loading test data: fnIsSpecialChar
+2026-06-29 23:12:11 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:12:11 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:12:11 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:12:11 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:12:11 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-06-29 23:12:11 INFO  report.ReportLogger - ⚙️Validating inline error message for: fnIsSpecialChar
+2026-06-29 23:12:11 INFO  report.ReportLogger - ⚙️Expected: Enter a valid first name.
+2026-06-29 23:12:11 INFO  report.ReportLogger - ⚙️Actual: Enter a valid first name.
+2026-06-29 23:12:11 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:12:11 INFO  hooks.Hooks - Scenario PASSED: First Name field is special characters
+2026-06-29 23:12:11 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:12:11 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:11 INFO  hooks.Hooks - Starting Scenario: Last Name field is blank
+2026-06-29 23:12:11 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:13 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:12:13 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:12:13 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:12:13 INFO  report.ReportLogger - ⚙️Loading test data: lnIsBlank
+2026-06-29 23:12:14 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:12:14 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:12:15 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:12:15 INFO  report.ReportLogger - ⚙️Validating inline error message for: lnIsBlank
+2026-06-29 23:12:15 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-06-29 23:12:15 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-06-29 23:12:15 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:12:15 INFO  hooks.Hooks - Scenario PASSED: Last Name field is blank
+2026-06-29 23:12:15 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:12:15 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:15 INFO  hooks.Hooks - Starting Scenario: Last Name field is numeric
+2026-06-29 23:12:15 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:16 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:12:16 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:12:17 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:12:17 INFO  report.ReportLogger - ⚙️Loading test data: lnIsNumericChar
+2026-06-29 23:12:18 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:12:18 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:12:18 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:12:18 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:12:18 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-06-29 23:12:18 INFO  report.ReportLogger - ⚙️Validating inline error message for: lnIsNumericChar
+2026-06-29 23:12:18 INFO  report.ReportLogger - ⚙️Expected: Enter a valid last name.
+2026-06-29 23:12:18 INFO  report.ReportLogger - ⚙️Actual: Enter a valid last name.
+2026-06-29 23:12:18 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:12:19 INFO  hooks.Hooks - Scenario PASSED: Last Name field is numeric
+2026-06-29 23:12:19 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:12:19 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:19 INFO  hooks.Hooks - Starting Scenario: Last Name field is special characters
+2026-06-29 23:12:19 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:20 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:12:20 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:12:21 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:12:21 INFO  report.ReportLogger - ⚙️Loading test data: lnIsSpecialChar
+2026-06-29 23:12:22 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:12:22 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:12:22 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:12:22 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:12:22 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-06-29 23:12:22 INFO  report.ReportLogger - ⚙️Validating inline error message for: lnIsSpecialChar
+2026-06-29 23:12:23 INFO  report.ReportLogger - ⚙️Expected: Enter a valid last name.
+2026-06-29 23:12:23 INFO  report.ReportLogger - ⚙️Actual: Enter a valid last name.
+2026-06-29 23:12:23 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:12:23 INFO  hooks.Hooks - Scenario PASSED: Last Name field is special characters
+2026-06-29 23:12:23 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:12:23 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:23 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is blank
+2026-06-29 23:12:23 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:24 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:12:24 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:12:25 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:12:25 INFO  report.ReportLogger - ⚙️Loading test data: mobIsBlank
+2026-06-29 23:12:27 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:12:27 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:12:27 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:12:27 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsBlank
+2026-06-29 23:12:27 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-06-29 23:12:27 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-06-29 23:12:27 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:12:27 INFO  hooks.Hooks - Scenario PASSED: Mobile Number field is blank
+2026-06-29 23:12:27 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:12:27 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:27 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is alpha characters
+2026-06-29 23:12:27 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:28 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:12:28 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:12:29 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:12:29 INFO  report.ReportLogger - ⚙️Loading test data: mobIsAlphaChar
+2026-06-29 23:12:31 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:12:31 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:12:31 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:12:31 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsAlphaChar
+2026-06-29 23:12:31 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-06-29 23:12:31 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-06-29 23:12:31 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:12:31 INFO  hooks.Hooks - Scenario PASSED: Mobile Number field is alpha characters
+2026-06-29 23:12:31 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:12:31 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:31 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is special characters
+2026-06-29 23:12:31 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:32 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:12:32 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:12:33 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:12:33 INFO  report.ReportLogger - ⚙️Loading test data: mobIsSpecialChar
+2026-06-29 23:12:35 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:12:35 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:12:35 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:12:35 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsSpecialChar
+2026-06-29 23:12:35 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-06-29 23:12:35 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-06-29 23:12:35 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:12:35 INFO  hooks.Hooks - Scenario PASSED: Mobile Number field is special characters
+2026-06-29 23:12:35 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:12:35 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:35 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is less than 10 numeric characters
+2026-06-29 23:12:35 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:36 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:12:36 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:12:37 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:12:37 INFO  report.ReportLogger - ⚙️Loading test data: mobIsIncomplete
+2026-06-29 23:12:38 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:12:38 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:12:38 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:12:38 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsIncomplete
+2026-06-29 23:12:38 INFO  report.ReportLogger - ⚙️Expected: Please enter a complete mobile number!!!
+2026-06-29 23:12:38 INFO  report.ReportLogger - ⚙️Actual: Please enter a complete mobile number.
+2026-06-29 23:12:38 WARN  report.ReportLogger - ⚠️Inline error message mismatch. Expected:'Please enter a complete mobile number!!!', Actual:'Please enter a complete mobile number.'
+2026-06-29 23:12:39 ERROR hooks.Hooks - Scenario FAILED: Mobile Number field is less than 10 numeric characters
+2026-06-29 23:12:39 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:12:39 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:39 INFO  hooks.Hooks - Starting Scenario: Mobile Number already exist
+2026-06-29 23:12:39 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:40 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:12:40 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:12:41 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:12:41 INFO  report.ReportLogger - ⚙️Loading test data: mobIsAlreadyExist
+2026-06-29 23:12:42 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:12:42 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:12:42 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:12:42 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsAlreadyExist
+2026-06-29 23:12:53 ERROR hooks.Hooks - Scenario FAILED: Mobile Number already exist
+2026-06-29 23:12:53 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:12:53 INFO  hooks.Hooks - ========================================
+2026-06-29 23:12:53 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:12:53 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-11-55.html
+2026-06-29 23:12:53 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:00 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-29 23:13:00 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:00 INFO  hooks.Hooks - Starting Scenario: SMAC Web Registration Portal is displayed
+2026-06-29 23:13:00 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:02 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:13:02 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:13:03 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:13:03 INFO  report.ReportLogger - ⚙️Verifying portal: SMAC Web Registration
+2026-06-29 23:13:04 INFO  report.ReportLogger - ✅SMAC Web Registration displayed successfully
+2026-06-29 23:13:04 INFO  hooks.Hooks - Scenario PASSED: SMAC Web Registration Portal is displayed
+2026-06-29 23:13:04 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:13:04 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:04 INFO  hooks.Hooks - Starting Scenario: First Name field is blank
+2026-06-29 23:13:04 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:05 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:13:05 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:13:06 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:13:06 INFO  report.ReportLogger - ⚙️Loading test data: fnIsBlank
+2026-06-29 23:13:08 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:13:08 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:13:08 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:13:08 INFO  report.ReportLogger - ⚙️Validating inline error message for: fnIsBlank
+2026-06-29 23:13:08 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-06-29 23:13:08 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-06-29 23:13:08 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:13:08 INFO  hooks.Hooks - Scenario PASSED: First Name field is blank
+2026-06-29 23:13:08 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:13:08 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:08 INFO  hooks.Hooks - Starting Scenario: First Name field is numeric
+2026-06-29 23:13:08 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:09 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:13:09 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:13:10 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:13:10 INFO  report.ReportLogger - ⚙️Loading test data: fnIsNumericChar
+2026-06-29 23:13:12 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:13:12 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:13:12 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:13:12 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:13:12 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-06-29 23:13:12 INFO  report.ReportLogger - ⚙️Validating inline error message for: fnIsNumericChar
+2026-06-29 23:13:12 INFO  report.ReportLogger - ⚙️Expected: Enter a valid first name.
+2026-06-29 23:13:12 INFO  report.ReportLogger - ⚙️Actual: Enter a valid first name.
+2026-06-29 23:13:12 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:13:12 INFO  hooks.Hooks - Scenario PASSED: First Name field is numeric
+2026-06-29 23:13:13 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:13:13 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:13 INFO  hooks.Hooks - Starting Scenario: First Name field is special characters
+2026-06-29 23:13:13 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:14 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:13:14 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:13:14 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:13:14 INFO  report.ReportLogger - ⚙️Loading test data: fnIsSpecialChar
+2026-06-29 23:13:16 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:13:16 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:13:16 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:13:16 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:13:16 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-06-29 23:13:16 INFO  report.ReportLogger - ⚙️Validating inline error message for: fnIsSpecialChar
+2026-06-29 23:13:17 INFO  report.ReportLogger - ⚙️Expected: Enter a valid first name.
+2026-06-29 23:13:17 INFO  report.ReportLogger - ⚙️Actual: Enter a valid first name.
+2026-06-29 23:13:17 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:13:17 INFO  hooks.Hooks - Scenario PASSED: First Name field is special characters
+2026-06-29 23:13:17 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:13:17 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:17 INFO  hooks.Hooks - Starting Scenario: Last Name field is blank
+2026-06-29 23:13:17 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:18 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:13:18 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:13:19 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:13:19 INFO  report.ReportLogger - ⚙️Loading test data: lnIsBlank
+2026-06-29 23:13:21 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:13:21 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:13:21 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:13:21 INFO  report.ReportLogger - ⚙️Validating inline error message for: lnIsBlank
+2026-06-29 23:13:21 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-06-29 23:13:21 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-06-29 23:13:21 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:13:21 INFO  hooks.Hooks - Scenario PASSED: Last Name field is blank
+2026-06-29 23:13:21 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:13:21 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:21 INFO  hooks.Hooks - Starting Scenario: Last Name field is numeric
+2026-06-29 23:13:21 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:23 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:13:23 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:13:23 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:13:23 INFO  report.ReportLogger - ⚙️Loading test data: lnIsNumericChar
+2026-06-29 23:13:25 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:13:25 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:13:25 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:13:25 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:13:25 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-06-29 23:13:25 INFO  report.ReportLogger - ⚙️Validating inline error message for: lnIsNumericChar
+2026-06-29 23:13:26 INFO  report.ReportLogger - ⚙️Expected: Enter a valid last name.
+2026-06-29 23:13:26 INFO  report.ReportLogger - ⚙️Actual: Enter a valid last name.
+2026-06-29 23:13:26 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:13:26 INFO  hooks.Hooks - Scenario PASSED: Last Name field is numeric
+2026-06-29 23:13:26 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:13:26 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:26 INFO  hooks.Hooks - Starting Scenario: Last Name field is special characters
+2026-06-29 23:13:26 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:27 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:13:27 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:13:28 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:13:28 INFO  report.ReportLogger - ⚙️Loading test data: lnIsSpecialChar
+2026-06-29 23:13:29 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:13:29 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:13:29 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:13:29 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:13:29 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-06-29 23:13:29 INFO  report.ReportLogger - ⚙️Validating inline error message for: lnIsSpecialChar
+2026-06-29 23:13:30 INFO  report.ReportLogger - ⚙️Expected: Enter a valid last name.
+2026-06-29 23:13:30 INFO  report.ReportLogger - ⚙️Actual: Enter a valid last name.
+2026-06-29 23:13:30 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:13:30 INFO  hooks.Hooks - Scenario PASSED: Last Name field is special characters
+2026-06-29 23:13:30 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:13:30 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:30 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is blank
+2026-06-29 23:13:30 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:31 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:13:31 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:13:32 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:13:32 INFO  report.ReportLogger - ⚙️Loading test data: mobIsBlank
+2026-06-29 23:13:34 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:13:34 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:13:34 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:13:34 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsBlank
+2026-06-29 23:13:34 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-06-29 23:13:34 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-06-29 23:13:34 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:13:34 INFO  hooks.Hooks - Scenario PASSED: Mobile Number field is blank
+2026-06-29 23:13:34 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:13:34 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:34 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is alpha characters
+2026-06-29 23:13:34 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:35 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:13:35 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:13:36 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:13:36 INFO  report.ReportLogger - ⚙️Loading test data: mobIsAlphaChar
+2026-06-29 23:13:38 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:13:38 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:13:38 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:13:38 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsAlphaChar
+2026-06-29 23:13:38 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-06-29 23:13:38 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-06-29 23:13:38 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:13:38 INFO  hooks.Hooks - Scenario PASSED: Mobile Number field is alpha characters
+2026-06-29 23:13:38 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:13:38 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:38 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is special characters
+2026-06-29 23:13:38 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:39 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:13:39 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:13:40 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:13:40 INFO  report.ReportLogger - ⚙️Loading test data: mobIsSpecialChar
+2026-06-29 23:13:42 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:13:42 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:13:42 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:13:42 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsSpecialChar
+2026-06-29 23:13:42 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-06-29 23:13:42 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-06-29 23:13:42 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:13:42 INFO  hooks.Hooks - Scenario PASSED: Mobile Number field is special characters
+2026-06-29 23:13:42 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:13:42 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:42 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is less than 10 numeric characters
+2026-06-29 23:13:42 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:44 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:13:44 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:13:44 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:13:44 INFO  report.ReportLogger - ⚙️Loading test data: mobIsIncomplete
+2026-06-29 23:13:46 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:13:46 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:13:46 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:13:46 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsIncomplete
+2026-06-29 23:13:46 INFO  report.ReportLogger - ⚙️Expected: Please enter a complete mobile number!!!
+2026-06-29 23:13:46 INFO  report.ReportLogger - ⚙️Actual: Please enter a complete mobile number.
+2026-06-29 23:13:46 WARN  report.ReportLogger - ⚠️Inline error message mismatch. Expected:'Please enter a complete mobile number!!!', Actual:'Please enter a complete mobile number.'
+2026-06-29 23:13:46 ERROR hooks.Hooks - Scenario FAILED: Mobile Number field is less than 10 numeric characters
+2026-06-29 23:13:46 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:13:46 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:46 INFO  hooks.Hooks - Starting Scenario: Mobile Number already exist
+2026-06-29 23:13:46 INFO  hooks.Hooks - ========================================
+2026-06-29 23:13:47 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:13:47 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:13:48 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:13:48 INFO  report.ReportLogger - ⚙️Loading test data: mobIsAlreadyExist
+2026-06-29 23:13:49 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:13:49 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:13:49 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:13:49 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsAlreadyExist
+2026-06-29 23:14:00 ERROR hooks.Hooks - Scenario FAILED: Mobile Number already exist
+2026-06-29 23:14:00 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:14:00 INFO  hooks.Hooks - ========================================
+2026-06-29 23:14:00 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:14:00 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-13-02.html
+2026-06-29 23:14:00 INFO  hooks.Hooks - ========================================
+2026-06-29 23:15:18 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/deannelouise/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-06-29 23:15:18 INFO  hooks.Hooks - ========================================
+2026-06-29 23:15:18 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is less than 10 numeric characters
+2026-06-29 23:15:18 INFO  hooks.Hooks - ========================================
+2026-06-29 23:15:20 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:15:20 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:15:21 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:15:21 INFO  report.ReportLogger - ⚙️Loading test data: mobIsIncomplete
+2026-06-29 23:15:23 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:15:23 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:15:23 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:15:23 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsIncomplete
+2026-06-29 23:15:23 INFO  report.ReportLogger - ⚙️Expected: Please enter a complete mobile number.
+2026-06-29 23:15:23 INFO  report.ReportLogger - ⚙️Actual: Please enter a complete mobile number.
+2026-06-29 23:15:23 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:15:23 INFO  hooks.Hooks - Scenario PASSED: Mobile Number field is less than 10 numeric characters
+2026-06-29 23:15:23 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:15:23 INFO  hooks.Hooks - ========================================
+2026-06-29 23:15:23 INFO  hooks.Hooks - Starting Scenario: Mobile Number already exist
+2026-06-29 23:15:23 INFO  hooks.Hooks - ========================================
+2026-06-29 23:15:25 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:15:25 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:15:25 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:15:25 INFO  report.ReportLogger - ⚙️Loading test data: mobIsAlreadyExist
+2026-06-29 23:15:27 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:15:27 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:15:27 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:15:27 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsAlreadyExist
+2026-06-29 23:15:37 ERROR hooks.Hooks - Scenario FAILED: Mobile Number already exist
+2026-06-29 23:15:37 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:15:37 INFO  hooks.Hooks - ========================================
+2026-06-29 23:15:37 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:15:37 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-15-20.html
+2026-06-29 23:15:37 INFO  hooks.Hooks - ========================================
+2026-06-29 23:22:05 INFO  hooks.Hooks - ========================================
+2026-06-29 23:22:05 INFO  hooks.Hooks - Starting Scenario: Mobile Number already exist
+2026-06-29 23:22:05 INFO  hooks.Hooks - ========================================
+2026-06-29 23:22:07 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:22:07 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:22:08 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:22:08 INFO  report.ReportLogger - ⚙️Loading test data: mobIsAlreadyExist
+2026-06-29 23:22:10 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:22:10 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:22:10 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:22:10 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsAlreadyExist
+2026-06-29 23:22:20 ERROR hooks.Hooks - Scenario FAILED: Mobile Number already exist
+2026-06-29 23:22:20 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:22:20 INFO  hooks.Hooks - ========================================
+2026-06-29 23:22:20 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:22:20 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-22-07.html
+2026-06-29 23:22:20 INFO  hooks.Hooks - ========================================
+2026-06-29 23:22:59 INFO  hooks.Hooks - ========================================
+2026-06-29 23:22:59 INFO  hooks.Hooks - Starting Scenario: Mobile Number already exist
+2026-06-29 23:22:59 INFO  hooks.Hooks - ========================================
+2026-06-29 23:23:01 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:23:01 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:23:02 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:23:02 INFO  report.ReportLogger - ⚙️Loading test data: mobIsAlreadyExist
+2026-06-29 23:23:04 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:23:04 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:23:04 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:23:04 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:23:04 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-06-29 23:23:04 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsAlreadyExist
+2026-06-29 23:23:07 INFO  report.ReportLogger - ⚙️Expected: "Mobile number already used to register a SMAC account. Please download the SMAC&SHOP and login instead."
+2026-06-29 23:23:07 INFO  report.ReportLogger - ⚙️Actual: Mobile number already used to register a SMAC account. Please download the SMAC&SHOP and login instead.
+2026-06-29 23:23:07 WARN  report.ReportLogger - ⚠️Inline error message mismatch. Expected:'"Mobile number already used to register a SMAC account. Please download the SMAC&SHOP and login instead."', Actual:'Mobile number already used to register a SMAC account. Please download the SMAC&SHOP and login instead.'
+2026-06-29 23:23:07 ERROR hooks.Hooks - Scenario FAILED: Mobile Number already exist
+2026-06-29 23:23:07 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:23:07 INFO  hooks.Hooks - ========================================
+2026-06-29 23:23:07 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:23:07 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-23-01.html
+2026-06-29 23:23:07 INFO  hooks.Hooks - ========================================
+2026-06-29 23:23:41 INFO  hooks.Hooks - ========================================
+2026-06-29 23:23:41 INFO  hooks.Hooks - Starting Scenario: Mobile Number already exist
+2026-06-29 23:23:41 INFO  hooks.Hooks - ========================================
+2026-06-29 23:23:44 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:23:44 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:23:45 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:23:45 INFO  report.ReportLogger - ⚙️Loading test data: mobIsAlreadyExist
+2026-06-29 23:23:46 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:23:46 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:23:46 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:23:46 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:23:46 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-06-29 23:23:46 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsAlreadyExist
+2026-06-29 23:23:47 INFO  report.ReportLogger - ⚙️Expected: Mobile number already used to register a SMAC account. Please download the SMAC&SHOP and login instead.
+2026-06-29 23:23:47 INFO  report.ReportLogger - ⚙️Actual: Mobile number already used to register a SMAC account. Please download the SMAC&SHOP and login instead.
+2026-06-29 23:23:47 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:23:47 INFO  hooks.Hooks - Scenario PASSED: Mobile Number already exist
+2026-06-29 23:23:47 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:23:48 INFO  hooks.Hooks - ========================================
+2026-06-29 23:23:48 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:23:48 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-23-44.html
+2026-06-29 23:23:48 INFO  hooks.Hooks - ========================================
+2026-06-29 23:24:10 INFO  hooks.Hooks - ========================================
+2026-06-29 23:24:10 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is less than 10 numeric characters
+2026-06-29 23:24:10 INFO  hooks.Hooks - ========================================
+2026-06-29 23:24:13 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:24:13 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:24:13 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:24:13 INFO  report.ReportLogger - ⚙️Loading test data: mobIsIncomplete
+2026-06-29 23:24:15 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:24:15 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:24:15 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:24:15 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsIncomplete
+2026-06-29 23:24:15 INFO  report.ReportLogger - ⚙️Expected: Please enter a complete mobile number.
+2026-06-29 23:24:15 INFO  report.ReportLogger - ⚙️Actual: Please enter a complete mobile number.
+2026-06-29 23:24:15 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:24:15 INFO  hooks.Hooks - Scenario PASSED: Mobile Number field is less than 10 numeric characters
+2026-06-29 23:24:16 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:24:16 INFO  hooks.Hooks - ========================================
+2026-06-29 23:24:16 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:24:16 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-24-12.html
+2026-06-29 23:24:16 INFO  hooks.Hooks - ========================================
+2026-06-29 23:24:28 INFO  hooks.Hooks - ========================================
+2026-06-29 23:24:28 INFO  hooks.Hooks - Starting Scenario: First Name field is special characters
+2026-06-29 23:24:28 INFO  hooks.Hooks - ========================================
+2026-06-29 23:24:30 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:24:30 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:24:31 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:24:31 INFO  report.ReportLogger - ⚙️Loading test data: fnIsSpecialChar
+2026-06-29 23:24:32 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:24:32 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:24:32 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:24:32 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:24:33 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-06-29 23:24:33 INFO  report.ReportLogger - ⚙️Validating inline error message for: fnIsSpecialChar
+2026-06-29 23:24:33 INFO  report.ReportLogger - ⚙️Expected: Enter a valid first name.
+2026-06-29 23:24:33 INFO  report.ReportLogger - ⚙️Actual: Enter a valid first name.
+2026-06-29 23:24:33 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:24:33 INFO  hooks.Hooks - Scenario PASSED: First Name field is special characters
+2026-06-29 23:24:33 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:24:33 INFO  hooks.Hooks - ========================================
+2026-06-29 23:24:33 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:24:33 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-24-30.html
+2026-06-29 23:24:33 INFO  hooks.Hooks - ========================================
+2026-06-29 23:32:45 INFO  hooks.Hooks - ========================================
+2026-06-29 23:32:45 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is alpha characters
+2026-06-29 23:32:45 INFO  hooks.Hooks - ========================================
+2026-06-29 23:32:48 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:32:48 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:32:49 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:32:49 INFO  report.ReportLogger - ⚙️Loading test data: mobIsAlphaChar
+2026-06-29 23:32:50 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:32:50 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:32:50 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:32:50 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsAlphaChar
+2026-06-29 23:32:50 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-06-29 23:32:50 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-06-29 23:32:50 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:32:51 INFO  hooks.Hooks - Scenario PASSED: Mobile Number field is alpha characters
+2026-06-29 23:32:51 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:32:51 INFO  hooks.Hooks - ========================================
+2026-06-29 23:32:51 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:32:51 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-32-48.html
+2026-06-29 23:32:51 INFO  hooks.Hooks - ========================================
+2026-06-29 23:36:57 INFO  hooks.Hooks - ========================================
+2026-06-29 23:36:57 INFO  hooks.Hooks - Starting Scenario: Email Address has invalid format
+2026-06-29 23:36:57 INFO  hooks.Hooks - ========================================
+2026-06-29 23:36:59 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:36:59 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:37:00 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:37:00 INFO  report.ReportLogger - ⚙️Loading test data: emailIsInvalidFormat
+2026-06-29 23:37:02 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:37:02 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:37:02 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:37:02 INFO  report.ReportLogger - ⚙️Validating inline error message for: emailIsInvalidFormat
+2026-06-29 23:37:02 ERROR report.ReportLogger - ❌Unknown test case: emailIsInvalidFormat
+2026-06-29 23:37:02 ERROR hooks.Hooks - Scenario FAILED: Email Address has invalid format
+2026-06-29 23:37:02 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:37:02 INFO  hooks.Hooks - ========================================
+2026-06-29 23:37:02 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:37:02 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-36-59.html
+2026-06-29 23:37:02 INFO  hooks.Hooks - ========================================
+2026-06-29 23:38:55 INFO  hooks.Hooks - ========================================
+2026-06-29 23:38:55 INFO  hooks.Hooks - Starting Scenario: Email Address has invalid format
+2026-06-29 23:38:55 INFO  hooks.Hooks - ========================================
+2026-06-29 23:38:57 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:38:57 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:38:58 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:38:58 INFO  report.ReportLogger - ⚙️Loading test data: emailIsInvalidFormat
+2026-06-29 23:38:59 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:38:59 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:38:59 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:38:59 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:39:00 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-06-29 23:39:00 INFO  report.ReportLogger - ⚙️Validating inline error message for: emailIsInvalidFormat
+2026-06-29 23:39:10 ERROR hooks.Hooks - Scenario FAILED: Email Address has invalid format
+2026-06-29 23:39:10 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:39:10 INFO  hooks.Hooks - ========================================
+2026-06-29 23:39:10 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:39:10 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-38-57.html
+2026-06-29 23:39:10 INFO  hooks.Hooks - ========================================
+2026-06-29 23:39:48 INFO  hooks.Hooks - ========================================
+2026-06-29 23:39:48 INFO  hooks.Hooks - Starting Scenario: Email Address has invalid format
+2026-06-29 23:39:48 INFO  hooks.Hooks - ========================================
+2026-06-29 23:39:51 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:39:51 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:39:51 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:39:51 INFO  report.ReportLogger - ⚙️Loading test data: emailIsInvalidFormat
+2026-06-29 23:39:53 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:39:53 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:39:53 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:39:53 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:39:53 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-06-29 23:39:53 INFO  report.ReportLogger - ⚙️Validating inline error message for: emailIsInvalidFormat
+2026-06-29 23:40:04 ERROR hooks.Hooks - Scenario FAILED: Email Address has invalid format
+2026-06-29 23:40:04 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:40:04 INFO  hooks.Hooks - ========================================
+2026-06-29 23:40:04 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:40:04 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-39-51.html
+2026-06-29 23:40:04 INFO  hooks.Hooks - ========================================
+2026-06-29 23:41:20 INFO  hooks.Hooks - ========================================
+2026-06-29 23:41:20 INFO  hooks.Hooks - Starting Scenario: Email Address has invalid format
+2026-06-29 23:41:20 INFO  hooks.Hooks - ========================================
+2026-06-29 23:41:22 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:41:22 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:41:23 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:41:23 INFO  report.ReportLogger - ⚙️Loading test data: emailIsInvalidFormat
+2026-06-29 23:41:25 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:41:25 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:41:25 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:41:25 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:41:25 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-06-29 23:41:25 INFO  report.ReportLogger - ⚙️Validating inline error message for: emailIsInvalidFormat
+2026-06-29 23:41:35 ERROR hooks.Hooks - Scenario FAILED: Email Address has invalid format
+2026-06-29 23:41:36 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:41:36 INFO  hooks.Hooks - ========================================
+2026-06-29 23:41:36 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:41:36 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-41-22.html
+2026-06-29 23:41:36 INFO  hooks.Hooks - ========================================
+2026-06-29 23:42:40 INFO  hooks.Hooks - ========================================
+2026-06-29 23:42:40 INFO  hooks.Hooks - Starting Scenario: Email Address has invalid format
+2026-06-29 23:42:40 INFO  hooks.Hooks - ========================================
+2026-06-29 23:42:43 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:42:43 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:42:43 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:42:44 INFO  report.ReportLogger - ⚙️Loading test data: emailIsInvalidFormat
+2026-06-29 23:42:45 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:42:45 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:42:45 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:42:45 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:42:55 ERROR hooks.Hooks - Scenario FAILED: Email Address has invalid format
+2026-06-29 23:42:56 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:42:56 INFO  hooks.Hooks - ========================================
+2026-06-29 23:42:56 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:42:56 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-42-43.html
+2026-06-29 23:42:56 INFO  hooks.Hooks - ========================================
+2026-06-29 23:43:39 INFO  hooks.Hooks - ========================================
+2026-06-29 23:43:39 INFO  hooks.Hooks - Starting Scenario: First Name field is blank
+2026-06-29 23:43:39 INFO  hooks.Hooks - ========================================
+2026-06-29 23:43:42 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:43:42 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:43:42 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:43:42 INFO  report.ReportLogger - ⚙️Loading test data: fnIsBlank
+2026-06-29 23:43:44 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:43:44 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:43:44 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:43:44 INFO  report.ReportLogger - ⚙️Validating inline error message for: fnIsBlank
+2026-06-29 23:43:44 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-06-29 23:43:44 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-06-29 23:43:44 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:43:44 INFO  hooks.Hooks - Scenario PASSED: First Name field is blank
+2026-06-29 23:43:44 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:43:45 INFO  hooks.Hooks - ========================================
+2026-06-29 23:43:45 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:43:45 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-43-41.html
+2026-06-29 23:43:45 INFO  hooks.Hooks - ========================================
+2026-06-29 23:44:04 INFO  hooks.Hooks - ========================================
+2026-06-29 23:44:04 INFO  hooks.Hooks - Starting Scenario: Email Address has invalid format
+2026-06-29 23:44:04 INFO  hooks.Hooks - ========================================
+2026-06-29 23:44:06 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:44:06 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:44:07 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:44:07 INFO  report.ReportLogger - ⚙️Loading test data: emailIsInvalidFormat
+2026-06-29 23:44:08 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:44:08 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:44:08 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:44:08 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:44:19 ERROR hooks.Hooks - Scenario FAILED: Email Address has invalid format
+2026-06-29 23:44:19 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:44:19 INFO  hooks.Hooks - ========================================
+2026-06-29 23:44:19 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:44:19 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-44-06.html
+2026-06-29 23:44:19 INFO  hooks.Hooks - ========================================
+2026-06-29 23:46:54 INFO  hooks.Hooks - ========================================
+2026-06-29 23:46:54 INFO  hooks.Hooks - Starting Scenario: Mobile Number already exist
+2026-06-29 23:46:54 INFO  hooks.Hooks - ========================================
+2026-06-29 23:46:57 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:46:57 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:46:58 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:46:58 INFO  report.ReportLogger - ⚙️Loading test data: mobIsAlreadyExist
+2026-06-29 23:46:59 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:46:59 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:47:00 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:47:00 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:50:10 INFO  hooks.Hooks - ========================================
+2026-06-29 23:50:10 INFO  hooks.Hooks - Starting Scenario: Email Address has invalid format
+2026-06-29 23:50:10 INFO  hooks.Hooks - ========================================
+2026-06-29 23:50:12 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:50:12 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:50:13 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:50:13 INFO  report.ReportLogger - ⚙️Loading test data: emailIsInvalidFormat
+2026-06-29 23:50:15 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:50:15 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:50:15 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:50:15 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:50:56 INFO  hooks.Hooks - ========================================
+2026-06-29 23:50:56 INFO  hooks.Hooks - Starting Scenario: Email Address has invalid format
+2026-06-29 23:50:56 INFO  hooks.Hooks - ========================================
+2026-06-29 23:50:58 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:50:58 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:50:59 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:50:59 INFO  report.ReportLogger - ⚙️Loading test data: emailIsInvalidFormat
+2026-06-29 23:51:01 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:51:01 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:51:01 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:51:01 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:51:01 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-06-29 23:51:01 INFO  report.ReportLogger - ⚙️Validating inline error message for: emailIsInvalidFormat
+2026-06-29 23:51:01 INFO  report.ReportLogger - ⚙️Expected: Please enter a complete email number.
+2026-06-29 23:51:01 INFO  report.ReportLogger - ⚙️Actual: Please enter a complete email address.
+2026-06-29 23:51:01 WARN  report.ReportLogger - ⚠️Inline error message mismatch. Expected:'Please enter a complete email number.', Actual:'Please enter a complete email address.'
+2026-06-29 23:51:01 ERROR hooks.Hooks - Scenario FAILED: Email Address has invalid format
+2026-06-29 23:51:01 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:51:02 INFO  hooks.Hooks - ========================================
+2026-06-29 23:51:02 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:51:02 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-50-58.html
+2026-06-29 23:51:02 INFO  hooks.Hooks - ========================================
+2026-06-29 23:51:44 INFO  hooks.Hooks - ========================================
+2026-06-29 23:51:44 INFO  hooks.Hooks - Starting Scenario: Email Address has invalid format
+2026-06-29 23:51:44 INFO  hooks.Hooks - ========================================
+2026-06-29 23:51:46 INFO  hooks.Hooks - Browser opened successfully.
+2026-06-29 23:51:46 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-06-29 23:51:47 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-06-29 23:51:47 INFO  report.ReportLogger - ⚙️Loading test data: emailIsInvalidFormat
+2026-06-29 23:51:49 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-06-29 23:51:49 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-06-29 23:51:49 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-06-29 23:51:49 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-06-29 23:51:49 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-06-29 23:51:49 INFO  report.ReportLogger - ⚙️Validating inline error message for: emailIsInvalidFormat
+2026-06-29 23:51:50 INFO  report.ReportLogger - ⚙️Expected: Please enter a complete email address.
+2026-06-29 23:51:50 INFO  report.ReportLogger - ⚙️Actual: Please enter a complete email address.
+2026-06-29 23:51:50 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-06-29 23:51:50 INFO  hooks.Hooks - Scenario PASSED: Email Address has invalid format
+2026-06-29 23:51:50 INFO  hooks.Hooks - Browser closed.
+2026-06-29 23:51:50 INFO  hooks.Hooks - ========================================
+2026-06-29 23:51:50 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-06-29 23:51:50 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-06-29_23-51-46.html
+2026-06-29 23:51:50 INFO  hooks.Hooks - ========================================
