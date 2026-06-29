@@ -119,16 +119,7 @@ public class RegistrationPage extends BasePage {
     private final By privacyPolicyLink =
             By.xpath("//span[text()='Privacy Policy']");
 
-    // =========================
-    // ERROR LOCATORS
-    // =========================
-
-    private final By fieldIsRequiredError = By.xpath("//*[text()='This field is required.']");
-    private final By enterValidFNameError = By.xpath("//*[text()='Enter a valid first name.']");
-    private final By enterValidLNameError = By.xpath("//*[text()='Enter a valid last name.']");
-    private final By birthdayRequiredError = By.xpath("//*[@id=\"b6-b1-b5-Input\"]/span/span");
-    private final By enterCompleteMobError = By.xpath("//span[text()=\"Please enter a complete mobile number.\"]");
-
+   
     // =========================
     // PAGE VALIDATION
     // =========================
@@ -252,72 +243,5 @@ public class RegistrationPage extends BasePage {
         scrollTo(proceedButtonDP);
         click(proceedButtonDP);
     }
-
-    // =========================
-    // GETTER METHODS
-    // =========================
-
-    /**
-     * Retrieves First Name required error text.
-     *
-     * @return validation message text
-     */
-    public String getFNameFieldRequiredErrorTxt() {
-
-        return getText(fieldIsRequiredError);
-    }
-
-    public String getEnterValidFNameErrorTxt() {
-
-        return getText(enterValidFNameError);
-    }
-
-    public String getLNameFieldRequiredErrorTxt() {
-
-        return getText(fieldIsRequiredError);
-    }
-
-    public String getEnterValidLNameErrorTxt() {
-
-        return getText(enterValidLNameError);
-    }
-
-
-    // =========================
-    // VALIDATIONS
-    // =========================
-
-    /**
-     * Verifies whether First Name required
-     * error message is displayed.
-     *
-     * @return true if error message is visible
-     */
-    public boolean isFirstNameRequiredErrorDisplayed() {
-
-        return isDisplayed(fieldIsRequiredError);
-    }
-
-    public boolean isEnterValidFNameErrorDisplayed(){
-        return isDisplayed(enterValidFNameError);
-    }
-
-    public boolean isLastNameRequiredErrorDisplayed() {
-
-        return isDisplayed(fieldIsRequiredError);
-    }
-
-    public boolean isEnterValidLNameErrorDisplayed(){
-        return isDisplayed(enterValidLNameError);
-    }
-
-    public boolean isMobileRequiredErrorDisplayed() {
-        return isDisplayed(fieldIsRequiredError);
-    }
-
-    public boolean isEnterCompleteMobErrorDisplayed() {
-        return isDisplayed(enterCompleteMobError);
-    }
-
 
 }
