@@ -6,6 +6,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.Assert;
 
 public class ReportLogger {
 
@@ -17,7 +18,7 @@ public class ReportLogger {
      */
     public static void info(String message) {
 
-        logger.info(message);
+        logger.info("⚙️{}", message);
 
         if (ExtentTestManager.getTest() != null) {
             ExtentTestManager.getTest().info(message);
@@ -29,7 +30,7 @@ public class ReportLogger {
      */
     public static void pass(String message) {
 
-        logger.info("✅ {}", message);
+        logger.info("✅{}", message);
 
         if (ExtentTestManager.getTest() != null) {
             ExtentTestManager.getTest().pass(message);
@@ -39,11 +40,14 @@ public class ReportLogger {
     /**
      * Logs warnings.
      */
-    public static void warning(String message) {
-
-        logger.warn("⚠️ {}", message);
+    public static void warning(String format, Object... args) {
+        logger.warn("⚠️" + format, args);
 
         if (ExtentTestManager.getTest() != null) {
+            String message = format;
+            for (Object arg : args) {
+                message = message.replaceFirst("\\{}", String.valueOf(arg));
+            }
             ExtentTestManager.getTest().warning(message);
         }
     }
@@ -53,11 +57,13 @@ public class ReportLogger {
      */
     public static void fail(String message) {
 
-        logger.error("❌ {}", message);
+        logger.error("❌{}", message);
 
         if (ExtentTestManager.getTest() != null) {
             ExtentTestManager.getTest().fail(message);
         }
+
+        Assert.fail(message);
     }
 
     /**

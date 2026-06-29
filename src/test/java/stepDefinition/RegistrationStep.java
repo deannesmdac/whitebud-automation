@@ -11,6 +11,7 @@ import report.ReportLogger;
 import utils.CsvReader;
 
 import java.util.Map;
+import java.util.Objects;
 
 public class RegistrationStep {
 
@@ -20,14 +21,20 @@ public class RegistrationStep {
     @Given("Member navigates to the SMAC Web Registration Portal")
     public void memberNavigatesToTheSMACWebRegistrationPortal() {
 
-        ReportLogger.info("⚙\uFE0FNavigating to SMAC Registration Portal");
+        ReportLogger.info("Navigating to SMAC Registration Portal");
 
-        registrationPage.openUrl(
-                "https://awsuat-outsys.smadvantage.com/smaconlineacquisition/"
-//                "https://awsstgexternal-outsys.smadvantage.com/smaconlineacquisition/"
-        );
+        try {
+            registrationPage.openUrl(
+                    "https://awsuat-outsys.smadvantage.com/smaconlineacquisition/"
+            );
 
-        ReportLogger.pass("✅Successfully opened SMAC Registration Portal");
+            ReportLogger.pass("Successfully opened SMAC Registration Portal");
+
+        } catch (Exception e) {
+            ReportLogger.fail(
+                    "Failed to open SMAC Registration Portal. Error: " + e.getMessage()
+            );
+        }
     }
 
     @Then("the {string} portal is displayed")
@@ -35,18 +42,24 @@ public class RegistrationStep {
 
         ReportLogger.info("Verifying portal: " + portalName);
 
-        Assert.assertTrue(
-                registrationPage.isRegistrationPageDisplayed(),
-                "Registration portal is not displayed."
-        );
+        try {
+            if (!registrationPage.isRegistrationPageDisplayed()) {
+                ReportLogger.fail(portalName + " portal is not displayed.");
+            }
 
-        ReportLogger.pass("✅" + portalName + " displayed successfully");
+            ReportLogger.pass(portalName + " displayed successfully");
+
+        } catch (Exception e) {
+            ReportLogger.fail(
+                    "Error while verifying " + portalName + " portal: " + e.getMessage()
+            );
+        }
     }
 
     @When("the member enters registration details for {string}")
     public void theMemberEntersRegistrationDetailsFor(String testCaseName) {
 
-        ReportLogger.info("⚙\uFE0FLoading test data: " + testCaseName);
+        ReportLogger.info("Loading test data: " + testCaseName);
 
         Map<String, String> data =
                 CsvReader.getTestData(testCaseName);
@@ -58,46 +71,46 @@ public class RegistrationStep {
         registrationPage.enterPasswordField(data.get("Password"));
         registrationPage.enterConfirmPasswordField(data.get("ConfirmPassword"));
 
-        ReportLogger.pass("✅Registration details entered successfully");
+        ReportLogger.pass("Registration details entered successfully");
     }
 
     @And("the member ticks the SMAC Terms and Conditions and Data Privacy Policy")
     public void theMemberTicksTheSMACTermsAndConditionsAndDataPrivacyPolicy() {
 
-        ReportLogger.info("⚙\uFE0FTicking consent checkbox");
+        ReportLogger.info("Ticking consent checkbox");
 
         registrationPage.clickConsentCheckbox();
 
-        ReportLogger.pass("✅Consent checkbox selected");
+        ReportLogger.pass("Consent checkbox selected");
     }
 
     @And("the member clicks the Proceed button")
     public void memberClicksTheProceedButton() {
 
-        ReportLogger.info("⚙\uFE0FClicking Proceed button");
+        ReportLogger.info("Clicking Proceed button");
 
         registrationPage.clickProceedButtonDP();
 
-        ReportLogger.pass("✅Proceed button clicked");
+        ReportLogger.pass("Proceed button clicked");
     }
 
     @Then("the Link Card Page should be displayed")
     public void theLinkCardTabShouldBeDisplayed() {
 
-        ReportLogger.info("⚙\uFE0FVerifying Link Card page");
+        ReportLogger.info("Verifying Link Card page");
 
         Assert.assertTrue(
                 registrationPage.linkCarPageDisplayed(),
                 "Link Card Page is not displayed."
         );
 
-        ReportLogger.pass("✅Link Card Page displayed successfully");
+        ReportLogger.pass("Link Card Page displayed successfully");
     }
 
     @Then("the inline error message {string} is displayed")
     public void theInlineErrorMessageIsDisplayed(String testCaseName) {
 
-        ReportLogger.info("⚙\uFE0FValidating inline error message for: " + testCaseName);
+        ReportLogger.info("Validating inline error message for: " + testCaseName);
 
         String actualMessage;
 
@@ -139,13 +152,21 @@ public class RegistrationStep {
         ReportLogger.info("Expected: " + expectedMessage);
         ReportLogger.info("Actual: " + actualMessage);
 
+        if (!Objects.equals(actualMessage, expectedMessage)) {
+            ReportLogger.warning(
+                    "Inline error message mismatch. Expected:'{}', Actual:'{}'",
+                    expectedMessage,
+                    actualMessage
+            );
+        }
+
         Assert.assertEquals(
                 actualMessage,
                 expectedMessage,
-                "❌Inline error message mismatch."
+                "Inline error message mismatch."
         );
 
-        ReportLogger.pass("✅Inline error message validated successfully");
+        ReportLogger.pass("Inline error message validated successfully");
     }
 
 //    @Then("the inline error message {string} is displayed")

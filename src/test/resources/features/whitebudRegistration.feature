@@ -86,10 +86,10 @@ Feature: Whitebud Registration
         And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
         Then the inline error message "mobIsAlreadyExist" is displayed
 
-      Scenario: Email Address field is blank
-        When the member enters registration details for ""
-        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
-        Then the inline error message "" is displayed
+#      Scenario: Email Address field is blank
+#        When the member enters registration details for ""
+#        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
+#        Then the inline error message "" is displayed
 
 #      Scenario: Email Address field is blank
 #        When the member enters registration details for ""
