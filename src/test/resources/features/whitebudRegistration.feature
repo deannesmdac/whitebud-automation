@@ -164,7 +164,7 @@ Feature: Whitebud Registration
         Then the inline error message "pwIsBlank" is displayed
 
       Scenario: Confirm Password field is blank
-        When the member enters registration details for ""
+        When the member enters registration details for "cpwIsBlank"
         Then Proceed button is not clickable
 
       Scenario: Password field is special characters

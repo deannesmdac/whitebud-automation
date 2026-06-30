@@ -18,5 +18,5 @@ dobIsSpecialChar,Jane,Doe,9497379639,dee123@yopmail.com,!@#$,Alpha123!,Alpha123!
 dobIsInvalidFormat,Jane,Doe,9497379639,dee123@yopmail.com,19990103,Alpha123!,Alpha123!,Please enter a valid date.
 dobIsBelowReq,Jane,Doe,9497379639,dee123@yopmail.com,01012026,Alpha123!,Alpha123!,SMAC members should be at least 18 years old.
 pwIsBlank,Jane,Doe,9497379639,dee123@yopmail.com,01011990,,Alpha123!,Password not strong enough.
-cpwIsBlank,Jane,Doe,9497379639,dee123@yopmail.com,01011990,Alpha123!,,Password not strong enough.
+cpwIsBlank,Jane,Doe,9497379639,dee123@yopmail.com,01011990,Alpha123!,,
 validFields,Jane,Doe,9497379639,dee123@yopmail.com,01011990,Alpha123!,Alpha123!,
