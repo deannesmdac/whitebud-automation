@@ -142,6 +142,18 @@ public class RegistrationStep {
                 actualMessage = registrationPage.getInlineErrorByField("EmailAddress");
                 break;
 
+            case "dobIsBlank":
+            case "dobIsAlphaChar":
+            case "dobIsSpecialChar":
+            case "dobIsInvalidFormat":
+            case "dobIsBelowReq":
+                actualMessage = registrationPage.getInlineErrorByField("Birthday");
+                break;
+
+            case "pwIsBlank":
+                actualMessage = registrationPage.getInlineErrorByField("Password");
+                break;
+
             default:
                 ReportLogger.fail("Unknown test case: " + testCaseName);
                 throw new IllegalArgumentException(

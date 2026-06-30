@@ -7,7 +7,6 @@ Feature: Whitebud Registration
 
       Scenario: First Name field is blank
        When the member enters registration details for "fnIsBlank"
-       And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
        Then the inline error message "fnIsBlank" is displayed
 
       Scenario: First Name field is numeric
@@ -30,7 +29,6 @@ Feature: Whitebud Registration
 
       Scenario: Last Name field is blank
         When the member enters registration details for "lnIsBlank"
-        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
         Then the inline error message "lnIsBlank" is displayed
 
       Scenario: Last Name field is numeric
@@ -53,7 +51,6 @@ Feature: Whitebud Registration
 
       Scenario: Mobile Number field is blank
         When the member enters registration details for "mobIsBlank"
-        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
         Then the inline error message "mobIsBlank" is displayed
 
       Scenario: Mobile Number field is alpha characters
@@ -78,7 +75,6 @@ Feature: Whitebud Registration
 
       Scenario: Mobile Number is in invalid format
         When the member enters registration details for "mobIsInvalidFormat"
-        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
         Then the inline error message "mobIsInvalidFormat" is displayed
 
       Scenario: Mobile Number already exist
@@ -87,12 +83,28 @@ Feature: Whitebud Registration
         And the member clicks the Proceed button
         Then the inline error message "mobIsAlreadyExist" is displayed
 
+#      Scenario: Mobile Number is in valid format
+#        When the member enters registration details for ""
+#        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
+#        And the member clicks the Proceed button
+#        Then the inline error message "" is displayed
+
 #      Scenario: Email Address field is blank
 #        When the member enters registration details for ""
 #        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
 #        Then the inline error message "" is displayed
 
-#      Scenario: Email Address field is blank
+#      Scenario: Email Address field is alpha characters
+#        When the member enters registration details for ""
+#        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
+#        Then the inline error message "" is displayed
+
+#      Scenario: Email Address field is numeric characters
+#        When the member enters registration details for ""
+#        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
+#        Then the inline error message "" is displayed
+
+#      Scenario: Email Address field is invalid special characters
 #        When the member enters registration details for ""
 #        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
 #        Then the inline error message "" is displayed
@@ -102,6 +114,62 @@ Feature: Whitebud Registration
         And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
         And the member clicks the Proceed button
         Then the inline error message "emailIsInvalidFormat" is displayed
+
+#      Scenario: Email Address already exist
+#        When the member enters registration details for ""
+#        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
+#        And the member clicks the Proceed button
+#        Then the inline error message "" is displayed
+
+#      Scenario: Email Address is valid
+#        When the member enters registration details for ""
+#        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
+#        And the member clicks the Proceed button
+#        Then the inline error message "" is displayed
+
+      Scenario: Birthday field is blank
+        When the member enters registration details for "dobIsBlank"
+        Then the inline error message "dobIsBlank" is displayed
+
+      Scenario: Birthday field is alpha characters
+        When the member enters registration details for "dobIsAlphaChar"
+        Then the inline error message "dobIsAlphaChar" is displayed
+
+      Scenario: Birthday field is special characters
+        When the member enters registration details for "dobIsSpecialChar"
+        Then the inline error message "dobIsSpecialChar" is displayed
+
+#      Scenario: Birthday field is numeric characters
+#        When the member enters registration details for ""
+#        Then the inline error message "" is displayed
+
+      Scenario: Birthday field is invalid format
+        When the member enters registration details for "dobIsInvalidFormat"
+        Then the inline error message "dobIsInvalidFormat" is displayed
+
+      Scenario: Birthday field is below 18 years old
+        When the member enters registration details for "dobIsBelowReq"
+        Then the inline error message "dobIsBelowReq" is displayed
+
+#      Scenario: Birthday field is valid
+#        When the member enters registration details for ""
+#        Then the inline error message "" is displayed
+
+#      Scenario: Birthday field calendar picker is working
+#        When the member enters registration details for ""
+#        Then the inline error message "" is displayed
+
+      Scenario: Password field is blank
+        When the member enters registration details for "pwIsBlank"
+        Then the inline error message "pwIsBlank" is displayed
+
+      Scenario: Confirm Password field is blank
+        When the member enters registration details for ""
+        Then Proceed button is not clickable
+
+      Scenario: Password field is special characters
+        When the member enters registration details for ""
+        Then the inline error message "" is displayed
 
 
 
