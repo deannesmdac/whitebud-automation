@@ -7851,3 +7851,22 @@ Session ID: 26069a7fddc5d61f1ba70b7f690a37cf
 2026-07-02 18:03:26 INFO  hooks.Hooks - Extent Report generated successfully.
 2026-07-02 18:03:26 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_18-03-15.html
 2026-07-02 18:03:26 INFO  hooks.Hooks - ========================================
+2026-07-02 18:12:26 INFO  hooks.Hooks - ========================================
+2026-07-02 18:12:26 INFO  hooks.Hooks - Starting Scenario: Password field is minimum characters
+2026-07-02 18:12:26 INFO  hooks.Hooks - ========================================
+2026-07-02 18:12:30 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 18:12:30 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 18:12:32 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 18:12:32 INFO  report.ReportLogger - ⚙️Loading test data: pwIsMinChar
+2026-07-02 18:12:34 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 18:12:34 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsMinChar
+2026-07-02 18:12:34 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 18:12:34 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-02 18:12:34 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-02 18:12:34 INFO  report.ReportLogger - ⚙️Verifying if the password criteria is enabled
+2026-07-02 18:12:34 ERROR hooks.Hooks - Scenario FAILED: Password field is minimum characters
+2026-07-02 18:12:36 INFO  hooks.Hooks - Browser closed.
+2026-07-02 18:12:37 INFO  hooks.Hooks - ========================================
+2026-07-02 18:12:37 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 18:12:37 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_18-12-30.html
+2026-07-02 18:12:37 INFO  hooks.Hooks - ========================================

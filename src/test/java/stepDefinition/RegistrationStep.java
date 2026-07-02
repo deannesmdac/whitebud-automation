@@ -202,12 +202,12 @@ public class RegistrationStep {
 
 
     @Then("the {string} password criteria is disabled")
-    public void thePasswordCriteriaIsDisabled(String acceptanceCriteria) {
-        ReportLogger.info("Verifying if the acceptance criteria is enabled");
+    public void thePasswordCriteriaIsDisabled(String passwordCriteria) {
+        ReportLogger.info("Verifying if the password criteria is enabled");
 
-        Assert.assertTrue(registrationPage.isPasswordRuleActive(acceptanceCriteria));
+        Assert.assertTrue(registrationPage.isPasswordRuleActive(passwordCriteria));
 
-        ReportLogger.info("Successfully verified that the acceptance criteria is enabled");
+        ReportLogger.info("Successfully verified that the password criteria is enabled");
     }
 
 }
