@@ -147,4 +147,19 @@ public class BasePage {
                 .getText();
     }
 
+    public boolean isElementEnabled(By locator){
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        return element.isEnabled();
+    }
+
+    public boolean isPasswordRuleActive(String ruleText){
+        By locator = By.xpath(
+                "//div[contains(@class,'password-rule')][.//div[@class='label' and normalize-space()='" + ruleText + "']]"
+        );
+
+        String classes = wait.until(ExpectedConditions.visibilityOfElementLocated(locator))
+                .getAttribute("class");
+
+        return classes.contains("active");
+    }
 }

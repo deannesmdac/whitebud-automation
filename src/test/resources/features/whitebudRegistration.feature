@@ -165,11 +165,9 @@ Feature: Whitebud Registration
 
       Scenario: Confirm Password field is blank
         When the member enters registration details for "cpwIsBlank"
-        Then Proceed button is not clickable
+        Then the proceed button is not clickable
 
-      Scenario: Password field is special characters
-        When the member enters registration details for ""
-        Then the inline error message "" is displayed
+      Scenario: Password field is minimum length
 
 
 

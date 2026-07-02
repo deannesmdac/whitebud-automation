@@ -10,7 +10,6 @@ import org.testng.Assert;
 import page.RegistrationPage;
 import report.ReportLogger;
 import utils.CsvReader;
-
 import java.util.Map;
 import java.util.Objects;
 
@@ -187,51 +186,14 @@ public class RegistrationStep {
         ReportLogger.pass("Inline error message validated successfully");
     }
 
-    @Then("Proceed button is not clickable")
-    public void proceedButtonIsNotClickable() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    @Then("the proceed button is not clickable")
+    public void theProceedButtonIsNotClickable() {
+        ReportLogger.info("Verifying Proceed button if not clickable");
+
+        Assert.assertFalse(registrationPage.isProceedButtonEnabled(),
+                "Proceed button should not be clickable.");
+
+        ReportLogger.pass("Proceed button is not clickable");
+
     }
-
-//    @Then("the inline error message {string} is displayed")
-//    public void theInlineErrorMessageIsDisplayed(String errorMessage) {
-//        logger.info("⚙️ Validating error message");
-//
-//        Assert.assertTrue(
-//                registrationPage.isEnterValidFNameErrorDisplayed(),
-//                "Expected error message is not displayed"
-//        );
-//
-//        String actualMessage =
-//                registrationPage.getEnterValidFNameErrorTxt();
-//
-//        logger.info("🔎 Expected Message: {}", errorMessage);
-//        logger.info("🔎 Actual Message: {}", actualMessage);
-//
-//        Assert.assertEquals(
-//                actualMessage,
-//                errorMessage,
-//                "Inline error message mismatch"
-//        );
-//
-//        logger.info("✅ Error message validation passed");
-//    }
-
-//    @When("the member enters registration details for {string}")
-//    public void theMemberEntersRegistrationDetailsFor(String testCaseName) {
-//
-//        logger.info("⚙️ Entering details for test case: {}", testCaseName);
-//
-//        Map<String, String> data = CsvReader.getTestData(testCaseName);
-//
-//        registrationPage.enterFirstNameField(data.get("FirstName"));
-//        registrationPage.enterLastNameField(data.get("LastName"));
-//        registrationPage.enterMobileNumberField(data.get("MobileNumber"));
-//        registrationPage.enterBirthdayField(data.get("Birthday"));
-//        registrationPage.enterPasswordField(data.get("Password"));
-//        registrationPage.enterConfirmPasswordField(data.get("ConfirmPassword"));
-//
-//        logger.info("✅ Successfully entered values.");
-//
-//    }
 }

@@ -104,7 +104,7 @@ public class RegistrationPage extends BasePage {
 
     //Details Page
     private final By proceedButtonDP =
-            By.xpath("//*[@class='btn btn-primary full-width' and text() = 'Proceed']");
+            By.xpath("//button[text()='Proceed']");
     //Link Card Page
     private final By backButtonLCP = By.id("b3-Icon");
     private final By homeButtonLCP = By.id("b4-Icon");
@@ -187,6 +187,11 @@ public class RegistrationPage extends BasePage {
         return true;
     }
 
+    public boolean isProceedButtonEnabled(){
+        return isElementEnabled(proceedButtonDP);
+    }
+
+
     // =========================
     // ACTIONS
     // =========================
@@ -248,5 +253,7 @@ public class RegistrationPage extends BasePage {
         scrollTo(proceedButtonDP);
         click(proceedButtonDP);
     }
+
+
 
 }
