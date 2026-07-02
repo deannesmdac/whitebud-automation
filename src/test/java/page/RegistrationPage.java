@@ -119,7 +119,16 @@ public class RegistrationPage extends BasePage {
     private final By privacyPolicyLink =
             By.xpath("//span[text()='Privacy Policy']");
 
-   
+    // =========================
+    // PASSWORD CRITERIA LOCATORS
+    // =========================
+
+    private final By minimumChar = By.id("b6-b1-$b17");
+    private final By capitalAndSmallChar = By.id("b6-b1-$b20");
+    private final By mixChar = By.id("b6-b1-$b18");
+    private final By withSpecialChar = By.id("b6-b1-$b21");
+
+
     // =========================
     // PAGE VALIDATION
     // =========================
@@ -190,7 +199,6 @@ public class RegistrationPage extends BasePage {
     public boolean isProceedButtonEnabled(){
         return isElementEnabled(proceedButtonDP);
     }
-
 
     // =========================
     // ACTIONS

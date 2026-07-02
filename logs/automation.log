@@ -7358,3 +7358,496 @@ Session ID: f12dc9cc5a2c60b4e6cc62ed507ba55a
 2026-07-02 10:39:55 INFO  hooks.Hooks - Extent Report generated successfully.
 2026-07-02 10:39:55 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_10-39-48.html
 2026-07-02 10:39:55 INFO  hooks.Hooks - ========================================
+2026-07-02 13:30:40 INFO  hooks.Hooks - ========================================
+2026-07-02 13:30:40 INFO  hooks.Hooks - Starting Scenario: Password field is minimum length
+2026-07-02 13:30:40 INFO  hooks.Hooks - ========================================
+2026-07-02 13:30:47 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 13:30:47 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 13:30:48 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 13:30:48 INFO  report.ReportLogger - ⚙️Loading test data: pwIsLessThan
+2026-07-02 13:30:51 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 13:30:51 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsLessThan
+2026-07-02 13:30:51 ERROR report.ReportLogger - ❌Unknown test case: pwIsLessThan
+2026-07-02 13:30:51 ERROR hooks.Hooks - Scenario FAILED: Password field is minimum length
+2026-07-02 13:30:53 INFO  hooks.Hooks - Browser closed.
+2026-07-02 13:30:54 INFO  hooks.Hooks - ========================================
+2026-07-02 13:30:54 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 13:30:54 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_13-30-47.html
+2026-07-02 13:30:54 INFO  hooks.Hooks - ========================================
+2026-07-02 13:32:24 INFO  hooks.Hooks - ========================================
+2026-07-02 13:32:24 INFO  hooks.Hooks - Starting Scenario: Password field is minimum length
+2026-07-02 13:32:24 INFO  hooks.Hooks - ========================================
+2026-07-02 13:32:28 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 13:32:28 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 13:32:29 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 13:32:29 INFO  report.ReportLogger - ⚙️Loading test data: pwIsLessThan
+2026-07-02 13:32:32 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 13:32:32 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsLessThan
+2026-07-02 13:32:32 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 13:32:32 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-02 13:32:32 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-02 13:32:32 ERROR hooks.Hooks - Scenario FAILED: Password field is minimum length
+2026-07-02 13:32:35 INFO  hooks.Hooks - Browser closed.
+2026-07-02 13:32:35 INFO  hooks.Hooks - ========================================
+2026-07-02 13:32:35 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 13:32:35 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_13-32-28.html
+2026-07-02 13:32:35 INFO  hooks.Hooks - ========================================
+2026-07-02 13:37:43 INFO  hooks.Hooks - ========================================
+2026-07-02 13:37:43 INFO  hooks.Hooks - Starting Scenario: Password field is minimum length
+2026-07-02 13:37:43 INFO  hooks.Hooks - ========================================
+2026-07-02 13:37:47 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 13:37:48 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 13:37:49 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 13:37:49 INFO  report.ReportLogger - ⚙️Loading test data: pwIsLessThan
+2026-07-02 13:37:51 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 13:37:51 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsLessThan
+2026-07-02 13:37:51 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 13:37:51 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-02 13:37:51 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-02 13:37:51 INFO  report.ReportLogger - ⚙️Verifying that the Minimum 8 Characters password criteria is disabled
+2026-07-02 13:37:51 ERROR hooks.Hooks - Scenario FAILED: Password field is minimum length
+2026-07-02 13:37:54 INFO  hooks.Hooks - Browser closed.
+2026-07-02 13:37:54 INFO  hooks.Hooks - ========================================
+2026-07-02 13:37:54 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 13:37:54 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_13-37-47.html
+2026-07-02 13:37:54 INFO  hooks.Hooks - ========================================
+2026-07-02 13:39:19 INFO  hooks.Hooks - ========================================
+2026-07-02 13:39:19 INFO  hooks.Hooks - Starting Scenario: Password field is minimum length
+2026-07-02 13:39:19 INFO  hooks.Hooks - ========================================
+2026-07-02 13:39:24 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 13:39:24 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 13:39:25 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 13:39:25 INFO  report.ReportLogger - ⚙️Loading test data: pwIsLessThan
+2026-07-02 13:39:28 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 13:39:28 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsLessThan
+2026-07-02 13:39:28 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 13:39:28 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-02 13:39:28 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-02 13:39:28 INFO  report.ReportLogger - ⚙️Verifying that the Minimum 8 Characters password criteria is disabled
+2026-07-02 13:39:28 ERROR hooks.Hooks - Scenario FAILED: Password field is minimum length
+2026-07-02 13:39:31 INFO  hooks.Hooks - Browser closed.
+2026-07-02 13:39:32 INFO  hooks.Hooks - ========================================
+2026-07-02 13:39:32 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 13:39:32 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_13-39-23.html
+2026-07-02 13:39:32 INFO  hooks.Hooks - ========================================
+2026-07-02 13:40:44 INFO  hooks.Hooks - ========================================
+2026-07-02 13:40:44 INFO  hooks.Hooks - Starting Scenario: Password field is minimum length
+2026-07-02 13:40:44 INFO  hooks.Hooks - ========================================
+2026-07-02 13:40:49 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 13:40:49 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 13:40:50 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 13:40:50 INFO  report.ReportLogger - ⚙️Loading test data: pwIsLessThan
+2026-07-02 13:40:54 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 13:40:54 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsLessThan
+2026-07-02 13:40:54 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 13:40:54 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-02 13:40:54 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-02 13:40:54 INFO  report.ReportLogger - ⚙️Verifying that the Minimum 8 Characters password criteria is disabled
+2026-07-02 13:40:54 ERROR hooks.Hooks - Scenario FAILED: Password field is minimum length
+2026-07-02 13:40:57 INFO  hooks.Hooks - Browser closed.
+2026-07-02 13:40:57 INFO  hooks.Hooks - ========================================
+2026-07-02 13:40:57 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 13:40:57 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_13-40-48.html
+2026-07-02 13:40:57 INFO  hooks.Hooks - ========================================
+2026-07-02 13:45:23 INFO  hooks.Hooks - ========================================
+2026-07-02 13:45:23 INFO  hooks.Hooks - Starting Scenario: Password field is minimum length
+2026-07-02 13:45:23 INFO  hooks.Hooks - ========================================
+2026-07-02 13:45:27 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 13:45:27 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 13:45:29 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 13:45:29 INFO  report.ReportLogger - ⚙️Loading test data: pwIsLessThan
+2026-07-02 13:45:32 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 13:45:32 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsLessThan
+2026-07-02 13:45:32 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 13:45:32 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-02 13:45:32 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-02 13:45:32 INFO  report.ReportLogger - ⚙️Verifying that the Minimum 8 Characters password criteria is disabled
+2026-07-02 13:45:32 ERROR hooks.Hooks - Scenario FAILED: Password field is minimum length
+2026-07-02 13:45:34 INFO  hooks.Hooks - Browser closed.
+2026-07-02 13:45:35 INFO  hooks.Hooks - ========================================
+2026-07-02 13:45:35 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 13:45:35 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_13-45-27.html
+2026-07-02 13:45:35 INFO  hooks.Hooks - ========================================
+2026-07-02 17:15:09 INFO  hooks.Hooks - ========================================
+2026-07-02 17:15:09 INFO  hooks.Hooks - Starting Scenario: Password field is minimum length
+2026-07-02 17:15:09 INFO  hooks.Hooks - ========================================
+2026-07-02 17:15:19 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 17:15:19 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 17:15:20 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 17:15:20 INFO  report.ReportLogger - ⚙️Loading test data: pwIsLessThan
+2026-07-02 17:15:55 INFO  hooks.Hooks - ========================================
+2026-07-02 17:15:55 INFO  hooks.Hooks - Starting Scenario: Password field is minimum length
+2026-07-02 17:15:55 INFO  hooks.Hooks - ========================================
+2026-07-02 17:16:01 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 17:16:01 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 17:16:02 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 17:16:02 INFO  report.ReportLogger - ⚙️Loading test data: pwIsLessThan
+2026-07-02 17:16:07 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 17:16:07 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsLessThan
+2026-07-02 17:16:07 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 17:16:07 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-02 17:16:07 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-02 17:16:07 ERROR hooks.Hooks - Scenario FAILED: Password field is minimum length
+2026-07-02 17:16:12 INFO  hooks.Hooks - Browser closed.
+2026-07-02 17:16:12 INFO  hooks.Hooks - ========================================
+2026-07-02 17:16:12 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 17:16:12 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_17-16-00.html
+2026-07-02 17:16:12 INFO  hooks.Hooks - ========================================
+2026-07-02 17:17:15 INFO  hooks.Hooks - ========================================
+2026-07-02 17:17:15 INFO  hooks.Hooks - Starting Scenario: Password field is minimum length
+2026-07-02 17:17:15 INFO  hooks.Hooks - ========================================
+2026-07-02 17:17:21 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 17:17:21 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 17:17:22 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 17:17:22 INFO  report.ReportLogger - ⚙️Loading test data: pwIsLessThan
+2026-07-02 17:17:26 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 17:17:26 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsLessThan
+2026-07-02 17:17:26 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 17:17:26 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-02 17:17:26 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-02 17:17:26 INFO  hooks.Hooks - Scenario PASSED: Password field is minimum length
+2026-07-02 17:17:30 INFO  hooks.Hooks - Browser closed.
+2026-07-02 17:17:30 INFO  hooks.Hooks - ========================================
+2026-07-02 17:17:30 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 17:17:30 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_17-17-20.html
+2026-07-02 17:17:30 INFO  hooks.Hooks - ========================================
+2026-07-02 17:25:09 INFO  hooks.Hooks - ========================================
+2026-07-02 17:25:09 INFO  hooks.Hooks - Starting Scenario: Password field is within the minimum length
+2026-07-02 17:25:09 INFO  hooks.Hooks - ========================================
+2026-07-02 17:25:15 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 17:25:15 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 17:25:16 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 17:25:16 INFO  report.ReportLogger - ⚙️Loading test data: pwIsLessThan
+2026-07-02 17:25:19 ERROR hooks.Hooks - Failed to capture screenshot.
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.102)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26069a7fddc5d61f1ba70b7f690a37cf, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.102, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\DAESPI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51499}, goog:processID: 8908, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51499/devtoo..., se:cdpVersion: 149.0.7827.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26069a7fddc5d61f1ba70b7f690a37cf
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:333)
+	at hooks.Hooks.tearDown(Hooks.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:68)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:92)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77)
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$6(Runtime.java:107)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$7(Runtime.java:107)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:235)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+	at io.cucumber.core.runtime.Runtime.lambda$runFeatures$3(Runtime.java:89)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:200)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1602)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at io.cucumber.core.runtime.Runtime.runFeatures(Runtime.java:90)
+	at io.cucumber.core.runtime.Runtime.lambda$run$0(Runtime.java:78)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:78)
+	at io.cucumber.core.cli.Main.run(Main.java:87)
+	at io.cucumber.core.cli.Main.main(Main.java:30)
+2026-07-02 17:25:25 INFO  hooks.Hooks - Browser closed.
+2026-07-02 17:25:25 INFO  hooks.Hooks - ========================================
+2026-07-02 17:25:25 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 17:25:25 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_17-25-15.html
+2026-07-02 17:25:25 INFO  hooks.Hooks - ========================================
+2026-07-02 17:26:32 INFO  hooks.Hooks - ========================================
+2026-07-02 17:26:32 INFO  hooks.Hooks - Starting Scenario: Password field is within the minimum length
+2026-07-02 17:26:32 INFO  hooks.Hooks - ========================================
+2026-07-02 17:26:38 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 17:26:38 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 17:26:39 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 17:26:39 INFO  report.ReportLogger - ⚙️Loading test data: pwIsWithinMin
+2026-07-02 17:26:43 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 17:26:43 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsWithinMin
+2026-07-02 17:26:43 ERROR report.ReportLogger - ❌Unknown test case: pwIsWithinMin
+2026-07-02 17:26:43 ERROR hooks.Hooks - Scenario FAILED: Password field is within the minimum length
+2026-07-02 17:26:48 INFO  hooks.Hooks - Browser closed.
+2026-07-02 17:26:48 INFO  hooks.Hooks - ========================================
+2026-07-02 17:26:48 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 17:26:48 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_17-26-37.html
+2026-07-02 17:26:48 INFO  hooks.Hooks - ========================================
+2026-07-02 17:27:30 INFO  hooks.Hooks - ========================================
+2026-07-02 17:27:30 INFO  hooks.Hooks - Starting Scenario: Password field is within the minimum length
+2026-07-02 17:27:30 INFO  hooks.Hooks - ========================================
+2026-07-02 17:27:36 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 17:27:36 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 17:27:37 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 17:27:37 INFO  report.ReportLogger - ⚙️Loading test data: pwIsWithinMin
+2026-07-02 17:27:41 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 17:27:41 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsWithinMin
+2026-07-02 17:27:42 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 17:27:42 INFO  report.ReportLogger - ⚙️Actual: Passwords do not match.
+2026-07-02 17:27:42 WARN  report.ReportLogger - ⚠️Inline error message mismatch. Expected:'Password not strong enough.', Actual:'Passwords do not match.'
+2026-07-02 17:27:42 ERROR hooks.Hooks - Scenario FAILED: Password field is within the minimum length
+2026-07-02 17:27:46 INFO  hooks.Hooks - Browser closed.
+2026-07-02 17:27:46 INFO  hooks.Hooks - ========================================
+2026-07-02 17:27:46 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 17:27:46 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_17-27-36.html
+2026-07-02 17:27:46 INFO  hooks.Hooks - ========================================
+2026-07-02 17:31:37 INFO  hooks.Hooks - ========================================
+2026-07-02 17:31:37 INFO  hooks.Hooks - Starting Scenario: Password field is within the minimum length
+2026-07-02 17:31:37 INFO  hooks.Hooks - ========================================
+2026-07-02 17:31:42 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 17:31:42 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 17:31:43 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 17:31:43 INFO  report.ReportLogger - ⚙️Loading test data: pwIsWithinMin
+2026-07-02 17:31:47 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 17:31:47 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsWithinMin
+2026-07-02 17:31:48 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 17:31:48 INFO  report.ReportLogger - ⚙️Actual: Passwords do not match.
+2026-07-02 17:31:48 WARN  report.ReportLogger - ⚠️Inline error message mismatch. Expected:'Password not strong enough.', Actual:'Passwords do not match.'
+2026-07-02 17:31:48 ERROR hooks.Hooks - Scenario FAILED: Password field is within the minimum length
+2026-07-02 17:31:52 INFO  hooks.Hooks - Browser closed.
+2026-07-02 17:31:52 INFO  hooks.Hooks - ========================================
+2026-07-02 17:31:52 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 17:31:52 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_17-31-42.html
+2026-07-02 17:31:52 INFO  hooks.Hooks - ========================================
+2026-07-02 17:34:53 INFO  hooks.Hooks - ========================================
+2026-07-02 17:34:53 INFO  hooks.Hooks - Starting Scenario: Password field is less that the minimum length
+2026-07-02 17:34:53 INFO  hooks.Hooks - ========================================
+2026-07-02 17:34:59 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 17:34:59 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 17:35:00 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 17:35:00 INFO  report.ReportLogger - ⚙️Loading test data: pwIsLessThan
+2026-07-02 17:35:05 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 17:35:05 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsLessThan
+2026-07-02 17:35:05 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 17:35:05 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-02 17:35:05 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-02 17:35:05 INFO  report.ReportLogger - ⚙️Verifying if the Minimum 8 Characters acceptance criteria is disabled
+2026-07-02 17:35:05 INFO  report.ReportLogger - ⚙️Successfully verified the Minimum 8 Characters acceptance criteria is disabled
+2026-07-02 17:35:05 INFO  hooks.Hooks - Scenario PASSED: Password field is less that the minimum length
+2026-07-02 17:35:11 INFO  hooks.Hooks - Browser closed.
+2026-07-02 17:35:11 INFO  hooks.Hooks - ========================================
+2026-07-02 17:35:11 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 17:35:11 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_17-34-58.html
+2026-07-02 17:35:11 INFO  hooks.Hooks - ========================================
+2026-07-02 17:36:08 INFO  hooks.Hooks - ========================================
+2026-07-02 17:36:08 INFO  hooks.Hooks - Starting Scenario: Password field is within the minimum length
+2026-07-02 17:36:08 INFO  hooks.Hooks - ========================================
+2026-07-02 17:36:13 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 17:36:14 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 17:36:15 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 17:36:15 INFO  report.ReportLogger - ⚙️Loading test data: pwIsWithinMin
+2026-07-02 17:36:20 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 17:36:20 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsWithinMin
+2026-07-02 17:36:20 INFO  report.ReportLogger - ⚙️Expected: 
+2026-07-02 17:36:20 INFO  report.ReportLogger - ⚙️Actual: Passwords do not match.
+2026-07-02 17:36:20 WARN  report.ReportLogger - ⚠️Inline error message mismatch. Expected:'', Actual:'Passwords do not match.'
+2026-07-02 17:36:20 ERROR hooks.Hooks - Scenario FAILED: Password field is within the minimum length
+2026-07-02 17:36:25 INFO  hooks.Hooks - Browser closed.
+2026-07-02 17:36:25 INFO  hooks.Hooks - ========================================
+2026-07-02 17:36:25 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 17:36:25 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_17-36-13.html
+2026-07-02 17:36:25 INFO  hooks.Hooks - ========================================
+2026-07-02 17:51:58 INFO  hooks.Hooks - ========================================
+2026-07-02 17:51:58 INFO  hooks.Hooks - Starting Scenario: Password field is minimum characters
+2026-07-02 17:51:58 INFO  hooks.Hooks - ========================================
+2026-07-02 17:52:05 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 17:52:05 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 17:52:06 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 17:52:06 INFO  report.ReportLogger - ⚙️Loading test data: pwIsMinChar
+2026-07-02 17:52:11 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 17:52:11 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsMinChar
+2026-07-02 17:52:11 ERROR report.ReportLogger - ❌Unknown test case: pwIsMinChar
+2026-07-02 17:52:11 ERROR hooks.Hooks - Scenario FAILED: Password field is minimum characters
+2026-07-02 17:52:16 INFO  hooks.Hooks - Browser closed.
+2026-07-02 17:52:16 INFO  hooks.Hooks - ========================================
+2026-07-02 17:52:16 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 17:52:16 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_17-52-04.html
+2026-07-02 17:52:16 INFO  hooks.Hooks - ========================================
+2026-07-02 17:52:51 INFO  hooks.Hooks - ========================================
+2026-07-02 17:52:51 INFO  hooks.Hooks - Starting Scenario: Password field is minimum characters
+2026-07-02 17:52:51 INFO  hooks.Hooks - ========================================
+2026-07-02 17:52:57 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 17:52:57 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 17:52:58 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 17:52:58 INFO  report.ReportLogger - ⚙️Loading test data: pwIsMinChar
+2026-07-02 17:53:03 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 17:53:03 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsMinChar
+2026-07-02 17:53:03 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 17:53:03 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-02 17:53:03 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-02 17:53:03 INFO  report.ReportLogger - ⚙️Verifying if the Minimum 8 Characters acceptance criteria is disabled
+2026-07-02 17:53:03 INFO  report.ReportLogger - ⚙️Successfully verified the Minimum 8 Characters acceptance criteria is disabled
+2026-07-02 17:53:03 INFO  hooks.Hooks - Scenario PASSED: Password field is minimum characters
+2026-07-02 17:53:08 INFO  hooks.Hooks - Browser closed.
+2026-07-02 17:53:08 INFO  hooks.Hooks - ========================================
+2026-07-02 17:53:08 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 17:53:08 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_17-52-56.html
+2026-07-02 17:53:08 INFO  hooks.Hooks - ========================================
+2026-07-02 17:54:10 INFO  hooks.Hooks - ========================================
+2026-07-02 17:54:10 INFO  hooks.Hooks - Starting Scenario: Password field has upper and lower case
+2026-07-02 17:54:10 INFO  hooks.Hooks - ========================================
+2026-07-02 17:54:15 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 17:54:15 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 17:54:17 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 17:54:17 INFO  report.ReportLogger - ⚙️Loading test data: psIsUpperAndLower
+2026-07-02 17:54:21 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 17:54:21 INFO  report.ReportLogger - ⚙️Validating inline error message for: psIsUpperAndLower
+2026-07-02 17:54:21 ERROR report.ReportLogger - ❌Unknown test case: psIsUpperAndLower
+2026-07-02 17:54:21 ERROR hooks.Hooks - Scenario FAILED: Password field has upper and lower case
+2026-07-02 17:54:26 INFO  hooks.Hooks - Browser closed.
+2026-07-02 17:54:26 INFO  hooks.Hooks - ========================================
+2026-07-02 17:54:26 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 17:54:26 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_17-54-15.html
+2026-07-02 17:54:26 INFO  hooks.Hooks - ========================================
+2026-07-02 17:55:37 INFO  hooks.Hooks - ========================================
+2026-07-02 17:55:37 INFO  hooks.Hooks - Starting Scenario: Password field has upper and lower case
+2026-07-02 17:55:37 INFO  hooks.Hooks - ========================================
+2026-07-02 17:55:43 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 17:55:43 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 17:55:44 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 17:55:44 INFO  report.ReportLogger - ⚙️Loading test data: psIsUpperAndLower
+2026-07-02 17:55:49 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 17:55:49 INFO  report.ReportLogger - ⚙️Validating inline error message for: psIsUpperAndLower
+2026-07-02 17:55:49 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 17:55:49 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-02 17:55:49 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-02 17:55:49 INFO  report.ReportLogger - ⚙️Verifying if the Minimum 8 Characters acceptance criteria is disabled
+2026-07-02 17:55:49 INFO  report.ReportLogger - ⚙️Successfully verified the Minimum 8 Characters acceptance criteria is disabled
+2026-07-02 17:55:50 INFO  hooks.Hooks - Scenario PASSED: Password field has upper and lower case
+2026-07-02 17:55:55 INFO  hooks.Hooks - Browser closed.
+2026-07-02 17:55:55 INFO  hooks.Hooks - ========================================
+2026-07-02 17:55:55 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 17:55:55 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_17-55-43.html
+2026-07-02 17:55:55 INFO  hooks.Hooks - ========================================
+2026-07-02 17:57:29 INFO  hooks.Hooks - ========================================
+2026-07-02 17:57:29 INFO  hooks.Hooks - Starting Scenario: Password field has upper and lower case
+2026-07-02 17:57:29 INFO  hooks.Hooks - ========================================
+2026-07-02 17:57:34 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 17:57:34 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 17:57:36 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 17:57:36 INFO  report.ReportLogger - ⚙️Loading test data: psIsUpperAndLower
+2026-07-02 17:57:40 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 17:57:40 INFO  report.ReportLogger - ⚙️Validating inline error message for: psIsUpperAndLower
+2026-07-02 17:57:40 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 17:57:40 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-02 17:57:40 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-02 17:57:40 INFO  report.ReportLogger - ⚙️Verifying if the Minimum 8 Characters acceptance criteria is disabled
+2026-07-02 17:57:41 ERROR hooks.Hooks - Scenario FAILED: Password field has upper and lower case
+2026-07-02 17:57:46 INFO  hooks.Hooks - Browser closed.
+2026-07-02 17:57:46 INFO  hooks.Hooks - ========================================
+2026-07-02 17:57:46 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 17:57:46 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_17-57-34.html
+2026-07-02 17:57:46 INFO  hooks.Hooks - ========================================
+2026-07-02 18:00:07 INFO  hooks.Hooks - ========================================
+2026-07-02 18:00:07 INFO  hooks.Hooks - Starting Scenario: Password field has upper and lower case
+2026-07-02 18:00:07 INFO  hooks.Hooks - ========================================
+2026-07-02 18:00:13 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 18:00:13 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 18:00:15 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 18:00:15 INFO  report.ReportLogger - ⚙️Loading test data: psIsUpperAndLower
+2026-07-02 18:00:20 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 18:00:20 INFO  report.ReportLogger - ⚙️Validating inline error message for: psIsUpperAndLower
+2026-07-02 18:00:20 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 18:00:20 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-02 18:00:20 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-02 18:00:20 INFO  report.ReportLogger - ⚙️Verifying if the acceptance criteria is enabled
+2026-07-02 18:00:20 ERROR hooks.Hooks - Scenario FAILED: Password field has upper and lower case
+2026-07-02 18:00:25 INFO  hooks.Hooks - Browser closed.
+2026-07-02 18:00:25 INFO  hooks.Hooks - ========================================
+2026-07-02 18:00:25 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 18:00:25 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_18-00-13.html
+2026-07-02 18:00:25 INFO  hooks.Hooks - ========================================
+2026-07-02 18:01:19 INFO  hooks.Hooks - ========================================
+2026-07-02 18:01:19 INFO  hooks.Hooks - Starting Scenario: Password field has upper and lower case
+2026-07-02 18:01:19 INFO  hooks.Hooks - ========================================
+2026-07-02 18:01:28 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 18:01:28 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 18:01:29 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 18:01:29 INFO  report.ReportLogger - ⚙️Loading test data: psIsUpperAndLower
+2026-07-02 18:01:34 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 18:01:34 INFO  report.ReportLogger - ⚙️Validating inline error message for: psIsUpperAndLower
+2026-07-02 18:01:34 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 18:01:34 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-02 18:01:34 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-02 18:01:34 INFO  report.ReportLogger - ⚙️Verifying if the acceptance criteria is enabled
+2026-07-02 18:01:34 ERROR hooks.Hooks - Scenario FAILED: Password field has upper and lower case
+2026-07-02 18:01:41 INFO  hooks.Hooks - Browser closed.
+2026-07-02 18:01:42 INFO  hooks.Hooks - ========================================
+2026-07-02 18:01:42 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 18:01:42 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_18-01-28.html
+2026-07-02 18:01:42 INFO  hooks.Hooks - ========================================
+2026-07-02 18:02:18 INFO  hooks.Hooks - ========================================
+2026-07-02 18:02:18 INFO  hooks.Hooks - Starting Scenario: Password field is minimum characters
+2026-07-02 18:02:18 INFO  hooks.Hooks - ========================================
+2026-07-02 18:02:25 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 18:02:25 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 18:02:26 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 18:02:26 INFO  report.ReportLogger - ⚙️Loading test data: pwIsMinChar
+2026-07-02 18:02:30 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 18:02:30 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsMinChar
+2026-07-02 18:02:30 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 18:02:30 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-02 18:02:30 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-02 18:02:30 INFO  report.ReportLogger - ⚙️Verifying if the acceptance criteria is enabled
+2026-07-02 18:02:30 INFO  report.ReportLogger - ⚙️Successfully verified that the acceptance criteria is enabled
+2026-07-02 18:02:30 INFO  hooks.Hooks - Scenario PASSED: Password field is minimum characters
+2026-07-02 18:02:34 INFO  hooks.Hooks - Browser closed.
+2026-07-02 18:02:34 INFO  hooks.Hooks - ========================================
+2026-07-02 18:02:34 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 18:02:34 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_18-02-24.html
+2026-07-02 18:02:34 INFO  hooks.Hooks - ========================================
+2026-07-02 18:03:10 INFO  hooks.Hooks - ========================================
+2026-07-02 18:03:10 INFO  hooks.Hooks - Starting Scenario: Password field has upper and lower case
+2026-07-02 18:03:10 INFO  hooks.Hooks - ========================================
+2026-07-02 18:03:16 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-02 18:03:16 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-02 18:03:17 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-02 18:03:17 INFO  report.ReportLogger - ⚙️Loading test data: psIsUpperAndLower
+2026-07-02 18:03:21 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-02 18:03:21 INFO  report.ReportLogger - ⚙️Validating inline error message for: psIsUpperAndLower
+2026-07-02 18:03:21 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-02 18:03:21 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-02 18:03:21 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-02 18:03:21 INFO  report.ReportLogger - ⚙️Verifying if the acceptance criteria is enabled
+2026-07-02 18:03:21 INFO  report.ReportLogger - ⚙️Successfully verified that the acceptance criteria is enabled
+2026-07-02 18:03:22 INFO  hooks.Hooks - Scenario PASSED: Password field has upper and lower case
+2026-07-02 18:03:26 INFO  hooks.Hooks - Browser closed.
+2026-07-02 18:03:26 INFO  hooks.Hooks - ========================================
+2026-07-02 18:03:26 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-02 18:03:26 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_18-03-15.html
+2026-07-02 18:03:26 INFO  hooks.Hooks - ========================================

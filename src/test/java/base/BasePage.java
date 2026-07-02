@@ -152,14 +152,19 @@ public class BasePage {
         return element.isEnabled();
     }
 
-    public boolean isPasswordRuleActive(String ruleText){
+    public boolean isPasswordRuleActive(String ruleText) {
         By locator = By.xpath(
-                "//div[contains(@class,'password-rule')][.//div[@class='label' and normalize-space()='" + ruleText + "']]"
+                "//div[contains(@class,'password-rule')]" +
+                        "[.//div[@class='label' and normalize-space()='" + ruleText + "']]"
         );
 
-        String classes = wait.until(ExpectedConditions.visibilityOfElementLocated(locator))
-                .getAttribute("class");
+        WebElement rule = wait.until(
+                ExpectedConditions.visibilityOfElementLocated(locator)
+        );
 
-        return classes.contains("active");
+        String classes = rule.getAttribute("class");
+
+        return classes.contains("rule-active");
     }
+
 }

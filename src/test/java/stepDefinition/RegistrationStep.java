@@ -6,6 +6,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import page.RegistrationPage;
 import report.ReportLogger;
@@ -151,6 +152,8 @@ public class RegistrationStep {
                 break;
 
             case "pwIsBlank":
+            case "pwIsMinChar":
+            case "psIsUpperAndLower":
                 actualMessage = registrationPage.getInlineErrorByField("Password");
                 break;
 
@@ -196,4 +199,15 @@ public class RegistrationStep {
         ReportLogger.pass("Proceed button is not clickable");
 
     }
+
+
+    @Then("the {string} password criteria is disabled")
+    public void thePasswordCriteriaIsDisabled(String acceptanceCriteria) {
+        ReportLogger.info("Verifying if the acceptance criteria is enabled");
+
+        Assert.assertTrue(registrationPage.isPasswordRuleActive(acceptanceCriteria));
+
+        ReportLogger.info("Successfully verified that the acceptance criteria is enabled");
+    }
+
 }

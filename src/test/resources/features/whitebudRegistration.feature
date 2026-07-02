@@ -167,7 +167,15 @@ Feature: Whitebud Registration
         When the member enters registration details for "cpwIsBlank"
         Then the proceed button is not clickable
 
-      Scenario: Password field is minimum length
+      Scenario: Password field is minimum characters
+        When the member enters registration details for "pwIsMinChar"
+        And the inline error message "pwIsMinChar" is displayed
+        Then the "Minimum 8 Characters" password criteria is disabled
+
+      Scenario: Password field has upper and lower case
+        When the member enters registration details for "psIsUpperAndLower"
+        And the inline error message "psIsUpperAndLower" is displayed
+        Then the "1 Capital and Small Letter" password criteria is disabled
 
 
 
