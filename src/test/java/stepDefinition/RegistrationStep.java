@@ -114,60 +114,11 @@ public class RegistrationStep {
 
         ReportLogger.info("Validating inline error message for: " + testCaseName);
 
-        String actualMessage;
-
-        switch (testCaseName) {
-
-            case "fnIsBlank":
-            case "fnIsNumericChar":
-            case "fnIsSpecialChar":
-                actualMessage = registrationPage.getInlineErrorByField("FirstName");
-                break;
-
-            case "lnIsBlank":
-            case "lnIsNumericChar":
-            case "lnIsSpecialChar":
-                actualMessage = registrationPage.getInlineErrorByField("LastName");
-                break;
-
-            case "mobIsBlank":
-            case "mobIsAlphaChar":
-            case "mobIsSpecialChar":
-            case "mobIsIncomplete":
-            case "mobIsInvalidFormat":
-            case "mobIsAlreadyExist":
-                actualMessage = registrationPage.getInlineErrorByField("MobNum");
-                break;
-
-            case "emailIsInvalidFormat":
-                actualMessage = registrationPage.getInlineErrorByField("EmailAddress");
-                break;
-
-            case "dobIsBlank":
-            case "dobIsAlphaChar":
-            case "dobIsSpecialChar":
-            case "dobIsInvalidFormat":
-            case "dobIsBelowReq":
-                actualMessage = registrationPage.getInlineErrorByField("Birthday");
-                break;
-
-            case "pwIsBlank":
-            case "pwIsMinChar":
-            case "psIsUpperAndLower":
-                actualMessage = registrationPage.getInlineErrorByField("Password");
-                break;
-
-            default:
-                ReportLogger.fail("Unknown test case: " + testCaseName);
-                throw new IllegalArgumentException(
-                        "Unknown test case: " + testCaseName);
-        }
-
         Map<String, String> data =
                 CsvReader.getTestData(testCaseName);
 
-        String expectedMessage =
-                data.get("ErrorMessage");
+        String actualMessage = registrationPage.getFieldNameByTestCase(testCaseName);
+        String expectedMessage = data.get("ErrorMessage");
 
         ReportLogger.info("Expected: " + expectedMessage);
         ReportLogger.info("Actual: " + actualMessage);
@@ -201,7 +152,7 @@ public class RegistrationStep {
     }
 
 
-    @Then("the {string} password criteria is disabled")
+    @Then("the {string} password criteria is enabled")
     public void thePasswordCriteriaIsDisabled(String passwordCriteria) {
         ReportLogger.info("Verifying if the password criteria is enabled");
 
@@ -210,4 +161,33 @@ public class RegistrationStep {
         ReportLogger.info("Successfully verified that the password criteria is enabled");
     }
 
+    @Then("no inline error message is displayed")
+    public void noInlineErrorMessageIsDisplayed(String testCaseName) {
+        ReportLogger.info("Validating inline error message for: " + testCaseName);
+
+        Map<String, String> data =
+                CsvReader.getTestData(testCaseName);
+
+        String actualMessage = registrationPage.getFieldNameByTestCase(testCaseName);
+        String expectedMessage = data.get("ErrorMessage");
+
+        ReportLogger.info("Expected: " + expectedMessage);
+        ReportLogger.info("Actual: " + actualMessage);
+
+        if (!Objects.equals(actualMessage, expectedMessage)) {
+            ReportLogger.warning(
+                    "Inline error message mismatch. Expected:'{}', Actual:'{}'",
+                    expectedMessage,
+                    actualMessage
+            );
+        }
+
+        Assert.assertEquals(
+                actualMessage,
+                expectedMessage,
+                "Inline error message mismatch."
+        );
+
+        ReportLogger.pass("Inline error message validated successfully");
+    }
 }

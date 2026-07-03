@@ -137,12 +137,7 @@ public class BasePage {
         element.clear();
     }
 
-    public String getInlineErrorByField(String fieldName) {
-        By locator = By.xpath(
-                "//input[contains(@id,'Input_" + fieldName + "')]" +
-                        "/following-sibling::span[@class='validation-message']"
-        );
-
+    public String getElementText(By locator){
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator))
                 .getText();
     }
@@ -150,21 +145,6 @@ public class BasePage {
     public boolean isElementEnabled(By locator){
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         return element.isEnabled();
-    }
-
-    public boolean isPasswordRuleActive(String ruleText) {
-        By locator = By.xpath(
-                "//div[contains(@class,'password-rule')]" +
-                        "[.//div[@class='label' and normalize-space()='" + ruleText + "']]"
-        );
-
-        WebElement rule = wait.until(
-                ExpectedConditions.visibilityOfElementLocated(locator)
-        );
-
-        String classes = rule.getAttribute("class");
-
-        return classes.contains("rule-active");
     }
 
 }

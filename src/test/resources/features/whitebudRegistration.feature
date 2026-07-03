@@ -170,12 +170,33 @@ Feature: Whitebud Registration
       Scenario: Password field is minimum characters
         When the member enters registration details for "pwIsMinChar"
         And the inline error message "pwIsMinChar" is displayed
-        Then the "Minimum 8 Characters" password criteria is disabled
+        Then the "Minimum 8 Characters" password criteria is enabled
 
       Scenario: Password field has upper and lower case
-        When the member enters registration details for "psIsUpperAndLower"
-        And the inline error message "psIsUpperAndLower" is displayed
-        Then the "1 Capital and Small Letter" password criteria is disabled
+        When the member enters registration details for "pwIsUpperAndLower"
+        And the inline error message "pwIsUpperAndLower" is displayed
+        Then the "1 Capital and Small Letter" password criteria is enabled
+
+      Scenario: Password field has mixed letter and numbers
+        When the member enters registration details for "pwIsMixChar"
+        And the inline error message "pwIsMixChar" is displayed
+        Then the "Mix of letters & numbers" password criteria is enabled
+
+      Scenario: Password field has at least 1 accepted special character
+        When the member enters registration details for "pwIsWithSpecialChar"
+        And the inline error message "pwIsWithSpecialChar" is displayed
+        Then the "At least 1 accepted special character" password criteria is enabled
+
+      Scenario: Password and Confirm Password field do not match
+        When the member enters registration details for "cpwIsNotMatched"
+        Then the inline error message "cpwIsNotMatched" is displayed
+
+      Scenario: Password and Confirm Password field matches
+        When the member enters registration details for "cpwIsMatched"
+        Then the inline error message "cpwIsMatched" is displayed
+
+
+
 
 
 

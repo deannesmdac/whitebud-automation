@@ -7870,3 +7870,1282 @@ Session ID: 26069a7fddc5d61f1ba70b7f690a37cf
 2026-07-02 18:12:37 INFO  hooks.Hooks - Extent Report generated successfully.
 2026-07-02 18:12:37 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-02_18-12-30.html
 2026-07-02 18:12:37 INFO  hooks.Hooks - ========================================
+2026-07-03 09:59:48 INFO  hooks.Hooks - ========================================
+2026-07-03 09:59:48 INFO  hooks.Hooks - Starting Scenario: Password field has upper and lower case
+2026-07-03 09:59:48 INFO  hooks.Hooks - ========================================
+2026-07-03 09:59:54 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 09:59:54 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 09:59:55 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 09:59:55 INFO  report.ReportLogger - ⚙️Loading test data: psIsUpperAndLower
+2026-07-03 09:59:57 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 09:59:57 INFO  report.ReportLogger - ⚙️Validating inline error message for: psIsUpperAndLower
+2026-07-03 09:59:57 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-03 09:59:57 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-03 09:59:57 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 09:59:57 INFO  report.ReportLogger - ⚙️Verifying if the password criteria is enabled
+2026-07-03 09:59:57 INFO  report.ReportLogger - ⚙️Successfully verified that the password criteria is enabled
+2026-07-03 09:59:57 INFO  hooks.Hooks - Scenario PASSED: Password field has upper and lower case
+2026-07-03 10:00:00 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:00:00 INFO  hooks.Hooks - ========================================
+2026-07-03 10:00:00 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 10:00:00 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_09-59-53.html
+2026-07-03 10:00:00 INFO  hooks.Hooks - ========================================
+2026-07-03 10:02:43 INFO  hooks.Hooks - ========================================
+2026-07-03 10:02:43 INFO  hooks.Hooks - Starting Scenario: Password field has mixed letter and numbers
+2026-07-03 10:02:43 INFO  hooks.Hooks - ========================================
+2026-07-03 10:02:49 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:02:49 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:02:50 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:02:50 INFO  report.ReportLogger - ⚙️Loading test data: 
+2026-07-03 10:02:50 ERROR hooks.Hooks - Scenario FAILED: Password field has mixed letter and numbers
+2026-07-03 10:02:53 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:02:53 INFO  hooks.Hooks - ========================================
+2026-07-03 10:02:53 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 10:02:53 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_10-02-49.html
+2026-07-03 10:02:53 INFO  hooks.Hooks - ========================================
+2026-07-03 10:03:04 INFO  hooks.Hooks - ========================================
+2026-07-03 10:03:04 INFO  hooks.Hooks - Starting Scenario: Password field has upper and lower case
+2026-07-03 10:03:04 INFO  hooks.Hooks - ========================================
+2026-07-03 10:03:10 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:03:10 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:03:11 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:03:11 INFO  report.ReportLogger - ⚙️Loading test data: psIsUpperAndLower
+2026-07-03 10:03:11 ERROR hooks.Hooks - Scenario FAILED: Password field has upper and lower case
+2026-07-03 10:03:13 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:03:14 INFO  hooks.Hooks - ========================================
+2026-07-03 10:03:14 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 10:03:14 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_10-03-10.html
+2026-07-03 10:03:14 INFO  hooks.Hooks - ========================================
+2026-07-03 10:03:35 INFO  hooks.Hooks - ========================================
+2026-07-03 10:03:35 INFO  hooks.Hooks - Starting Scenario: Password field has upper and lower case
+2026-07-03 10:03:35 INFO  hooks.Hooks - ========================================
+2026-07-03 10:03:39 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:03:39 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:03:40 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:03:40 INFO  report.ReportLogger - ⚙️Loading test data: pwIsUpperAndLower
+2026-07-03 10:03:43 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:03:43 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsUpperAndLower
+2026-07-03 10:03:43 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-03 10:03:43 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-03 10:03:43 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:03:43 INFO  report.ReportLogger - ⚙️Verifying if the password criteria is enabled
+2026-07-03 10:03:43 INFO  report.ReportLogger - ⚙️Successfully verified that the password criteria is enabled
+2026-07-03 10:03:43 INFO  hooks.Hooks - Scenario PASSED: Password field has upper and lower case
+2026-07-03 10:03:46 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:03:46 INFO  hooks.Hooks - ========================================
+2026-07-03 10:03:46 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 10:03:46 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_10-03-39.html
+2026-07-03 10:03:46 INFO  hooks.Hooks - ========================================
+2026-07-03 10:05:31 INFO  hooks.Hooks - ========================================
+2026-07-03 10:05:31 INFO  hooks.Hooks - Starting Scenario: Password field has mixed letter and numbers
+2026-07-03 10:05:31 INFO  hooks.Hooks - ========================================
+2026-07-03 10:05:36 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:05:36 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:05:37 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:05:37 INFO  report.ReportLogger - ⚙️Loading test data: pwIsMixChar
+2026-07-03 10:05:40 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:05:40 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsMixChar
+2026-07-03 10:05:40 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-03 10:05:40 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-03 10:05:40 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:05:40 INFO  report.ReportLogger - ⚙️Verifying if the password criteria is enabled
+2026-07-03 10:05:40 INFO  report.ReportLogger - ⚙️Successfully verified that the password criteria is enabled
+2026-07-03 10:05:40 INFO  hooks.Hooks - Scenario PASSED: Password field has mixed letter and numbers
+2026-07-03 10:05:42 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:05:43 INFO  hooks.Hooks - ========================================
+2026-07-03 10:05:43 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 10:05:43 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_10-05-36.html
+2026-07-03 10:05:43 INFO  hooks.Hooks - ========================================
+2026-07-03 10:11:22 INFO  hooks.Hooks - ========================================
+2026-07-03 10:11:22 INFO  hooks.Hooks - Starting Scenario: Password field has at least 1 accepted special character
+2026-07-03 10:11:22 INFO  hooks.Hooks - ========================================
+2026-07-03 10:11:27 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:11:27 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:11:28 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:11:28 INFO  report.ReportLogger - ⚙️Loading test data: pwIsWithSpecialChar
+2026-07-03 10:11:28 ERROR hooks.Hooks - Scenario FAILED: Password field has at least 1 accepted special character
+2026-07-03 10:11:29 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:11:30 INFO  hooks.Hooks - ========================================
+2026-07-03 10:11:30 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 10:11:30 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_10-11-26.html
+2026-07-03 10:11:30 INFO  hooks.Hooks - ========================================
+2026-07-03 10:12:21 INFO  hooks.Hooks - ========================================
+2026-07-03 10:12:21 INFO  hooks.Hooks - Starting Scenario: Password field has at least 1 accepted special character
+2026-07-03 10:12:21 INFO  hooks.Hooks - ========================================
+2026-07-03 10:12:25 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:12:25 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:12:26 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:12:26 INFO  report.ReportLogger - ⚙️Loading test data: pwIsWithSpecialChar
+2026-07-03 10:12:27 ERROR hooks.Hooks - Scenario FAILED: Password field has at least 1 accepted special character
+2026-07-03 10:12:28 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:12:28 INFO  hooks.Hooks - ========================================
+2026-07-03 10:12:28 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 10:12:28 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_10-12-25.html
+2026-07-03 10:12:28 INFO  hooks.Hooks - ========================================
+2026-07-03 10:15:54 INFO  hooks.Hooks - ========================================
+2026-07-03 10:15:54 INFO  hooks.Hooks - Starting Scenario: Password field has at least 1 accepted special character
+2026-07-03 10:15:54 INFO  hooks.Hooks - ========================================
+2026-07-03 10:15:58 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:15:58 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:15:59 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:15:59 INFO  report.ReportLogger - ⚙️Loading test data: pwIsWithSpecialChar
+2026-07-03 10:15:59 ERROR hooks.Hooks - Scenario FAILED: Password field has at least 1 accepted special character
+2026-07-03 10:16:01 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:16:01 INFO  hooks.Hooks - ========================================
+2026-07-03 10:16:01 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 10:16:01 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_10-15-58.html
+2026-07-03 10:16:01 INFO  hooks.Hooks - ========================================
+2026-07-03 10:42:38 INFO  hooks.Hooks - ========================================
+2026-07-03 10:42:38 INFO  hooks.Hooks - Starting Scenario: Password field has at least 1 accepted special character
+2026-07-03 10:42:38 INFO  hooks.Hooks - ========================================
+2026-07-03 10:42:43 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:42:43 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:42:44 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:42:44 INFO  report.ReportLogger - ⚙️Loading test data: pwIsWithSpecialChar
+2026-07-03 10:42:44 ERROR hooks.Hooks - Scenario FAILED: Password field has at least 1 accepted special character
+2026-07-03 10:42:46 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:42:46 INFO  hooks.Hooks - ========================================
+2026-07-03 10:42:46 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 10:42:46 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_10-42-43.html
+2026-07-03 10:42:46 INFO  hooks.Hooks - ========================================
+2026-07-03 10:44:59 INFO  hooks.Hooks - ========================================
+2026-07-03 10:44:59 INFO  hooks.Hooks - Starting Scenario: Password field has at least 1 accepted special character
+2026-07-03 10:44:59 INFO  hooks.Hooks - ========================================
+2026-07-03 10:45:04 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:45:04 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:45:05 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:45:05 INFO  report.ReportLogger - ⚙️Loading test data: pwIsWithSpecialChar
+2026-07-03 10:45:05 ERROR hooks.Hooks - Scenario FAILED: Password field has at least 1 accepted special character
+2026-07-03 10:45:06 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:45:07 INFO  hooks.Hooks - ========================================
+2026-07-03 10:45:07 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 10:45:07 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_10-45-03.html
+2026-07-03 10:45:07 INFO  hooks.Hooks - ========================================
+2026-07-03 10:48:53 INFO  hooks.Hooks - ========================================
+2026-07-03 10:48:53 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 10:48:53 INFO  hooks.Hooks - Location: null
+2026-07-03 10:48:53 INFO  hooks.Hooks - ========================================
+2026-07-03 10:49:13 INFO  hooks.Hooks - ========================================
+2026-07-03 10:49:13 INFO  hooks.Hooks - Starting Scenario: SMAC Web Registration Portal is displayed
+2026-07-03 10:49:13 INFO  hooks.Hooks - ========================================
+2026-07-03 10:49:17 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:49:17 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:49:18 ERROR report.ReportLogger - ❌Failed to open SMAC Registration Portal. Error: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=149.0.7827.102)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [118463e5bce4418754aa655c66b779d4, get {url=https://awsuat-outsys.smadvantage.com/smaconlineacquisition/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.102, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\DAESPI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65496}, goog:processID: 31424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65496/devtoo..., se:cdpVersion: 149.0.7827.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 118463e5bce4418754aa655c66b779d4
+2026-07-03 10:49:18 ERROR hooks.Hooks - Scenario FAILED: SMAC Web Registration Portal is displayed
+2026-07-03 10:49:20 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:49:20 INFO  hooks.Hooks - ========================================
+2026-07-03 10:49:20 INFO  hooks.Hooks - Starting Scenario: First Name field is blank
+2026-07-03 10:49:20 INFO  hooks.Hooks - ========================================
+2026-07-03 10:49:23 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:49:23 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:49:23 ERROR report.ReportLogger - ❌Failed to open SMAC Registration Portal. Error: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=149.0.7827.102)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb03d01046080a0b139263ef3a6e5c13, get {url=https://awsuat-outsys.smadvantage.com/smaconlineacquisition/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.102, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\DAESPI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49881}, goog:processID: 19224, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49881/devtoo..., se:cdpVersion: 149.0.7827.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb03d01046080a0b139263ef3a6e5c13
+2026-07-03 10:49:24 ERROR hooks.Hooks - Scenario FAILED: First Name field is blank
+2026-07-03 10:49:25 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:49:25 INFO  hooks.Hooks - ========================================
+2026-07-03 10:49:25 INFO  hooks.Hooks - Starting Scenario: First Name field is numeric
+2026-07-03 10:49:25 INFO  hooks.Hooks - ========================================
+2026-07-03 10:49:28 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:49:28 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:49:29 ERROR report.ReportLogger - ❌Failed to open SMAC Registration Portal. Error: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=149.0.7827.102)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [73e27ca29aeed2cac59db6a7f011facb, get {url=https://awsuat-outsys.smadvantage.com/smaconlineacquisition/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.102, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\DAESPI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54761}, goog:processID: 34236, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54761/devtoo..., se:cdpVersion: 149.0.7827.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73e27ca29aeed2cac59db6a7f011facb
+2026-07-03 10:49:29 ERROR hooks.Hooks - Scenario FAILED: First Name field is numeric
+2026-07-03 10:50:58 INFO  hooks.Hooks - ========================================
+2026-07-03 10:50:58 INFO  hooks.Hooks - Starting Scenario: SMAC Web Registration Portal is displayed
+2026-07-03 10:50:58 INFO  hooks.Hooks - ========================================
+2026-07-03 10:51:02 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:51:02 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:51:03 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:51:03 INFO  report.ReportLogger - ⚙️Verifying portal: SMAC Web Registration
+2026-07-03 10:51:05 INFO  report.ReportLogger - ✅SMAC Web Registration displayed successfully
+2026-07-03 10:51:05 INFO  hooks.Hooks - Scenario PASSED: SMAC Web Registration Portal is displayed
+2026-07-03 10:51:07 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:51:07 INFO  hooks.Hooks - ========================================
+2026-07-03 10:51:07 INFO  hooks.Hooks - Starting Scenario: First Name field is blank
+2026-07-03 10:51:07 INFO  hooks.Hooks - ========================================
+2026-07-03 10:51:11 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:51:11 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:51:12 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:51:12 INFO  report.ReportLogger - ⚙️Loading test data: fnIsBlank
+2026-07-03 10:51:15 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:51:15 INFO  report.ReportLogger - ⚙️Validating inline error message for: fnIsBlank
+2026-07-03 10:51:15 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-07-03 10:51:15 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-07-03 10:51:15 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:51:15 INFO  hooks.Hooks - Scenario PASSED: First Name field is blank
+2026-07-03 10:51:17 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:51:17 INFO  hooks.Hooks - ========================================
+2026-07-03 10:51:17 INFO  hooks.Hooks - Starting Scenario: First Name field is numeric
+2026-07-03 10:51:17 INFO  hooks.Hooks - ========================================
+2026-07-03 10:51:20 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:51:20 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:51:21 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:51:21 INFO  report.ReportLogger - ⚙️Loading test data: fnIsNumericChar
+2026-07-03 10:51:23 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:51:23 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 10:51:23 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 10:51:23 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-07-03 10:51:24 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-07-03 10:51:24 INFO  report.ReportLogger - ⚙️Validating inline error message for: fnIsNumericChar
+2026-07-03 10:51:24 INFO  report.ReportLogger - ⚙️Expected: Enter a valid first name.
+2026-07-03 10:51:24 INFO  report.ReportLogger - ⚙️Actual: Enter a valid first name.
+2026-07-03 10:51:24 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:51:24 INFO  hooks.Hooks - Scenario PASSED: First Name field is numeric
+2026-07-03 10:51:27 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:51:27 INFO  hooks.Hooks - ========================================
+2026-07-03 10:51:27 INFO  hooks.Hooks - Starting Scenario: First Name field is special characters
+2026-07-03 10:51:27 INFO  hooks.Hooks - ========================================
+2026-07-03 10:51:30 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:51:30 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:51:30 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:51:30 INFO  report.ReportLogger - ⚙️Loading test data: fnIsSpecialChar
+2026-07-03 10:51:33 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:51:33 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 10:51:33 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 10:51:33 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-07-03 10:51:33 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-07-03 10:51:33 INFO  report.ReportLogger - ⚙️Validating inline error message for: fnIsSpecialChar
+2026-07-03 10:51:33 INFO  report.ReportLogger - ⚙️Expected: Enter a valid first name.
+2026-07-03 10:51:33 INFO  report.ReportLogger - ⚙️Actual: Enter a valid first name.
+2026-07-03 10:51:33 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:51:33 INFO  hooks.Hooks - Scenario PASSED: First Name field is special characters
+2026-07-03 10:51:35 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:51:35 INFO  hooks.Hooks - ========================================
+2026-07-03 10:51:35 INFO  hooks.Hooks - Starting Scenario: Last Name field is blank
+2026-07-03 10:51:35 INFO  hooks.Hooks - ========================================
+2026-07-03 10:51:39 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:51:39 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:51:39 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:51:39 INFO  report.ReportLogger - ⚙️Loading test data: lnIsBlank
+2026-07-03 10:51:42 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:51:42 INFO  report.ReportLogger - ⚙️Validating inline error message for: lnIsBlank
+2026-07-03 10:51:42 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-07-03 10:51:42 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-07-03 10:51:42 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:51:42 INFO  hooks.Hooks - Scenario PASSED: Last Name field is blank
+2026-07-03 10:51:44 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:51:44 INFO  hooks.Hooks - ========================================
+2026-07-03 10:51:44 INFO  hooks.Hooks - Starting Scenario: Last Name field is numeric
+2026-07-03 10:51:44 INFO  hooks.Hooks - ========================================
+2026-07-03 10:51:47 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:51:47 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:51:48 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:51:48 INFO  report.ReportLogger - ⚙️Loading test data: lnIsNumericChar
+2026-07-03 10:51:50 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:51:50 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 10:51:50 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 10:51:50 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-07-03 10:51:50 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-07-03 10:51:50 INFO  report.ReportLogger - ⚙️Validating inline error message for: lnIsNumericChar
+2026-07-03 10:51:51 INFO  report.ReportLogger - ⚙️Expected: Enter a valid last name.
+2026-07-03 10:51:51 INFO  report.ReportLogger - ⚙️Actual: Enter a valid last name.
+2026-07-03 10:51:51 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:51:51 INFO  hooks.Hooks - Scenario PASSED: Last Name field is numeric
+2026-07-03 10:51:53 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:51:53 INFO  hooks.Hooks - ========================================
+2026-07-03 10:51:53 INFO  hooks.Hooks - Starting Scenario: Last Name field is special characters
+2026-07-03 10:51:53 INFO  hooks.Hooks - ========================================
+2026-07-03 10:51:56 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:51:56 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:51:57 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:51:57 INFO  report.ReportLogger - ⚙️Loading test data: lnIsSpecialChar
+2026-07-03 10:51:59 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:51:59 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 10:51:59 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 10:51:59 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-07-03 10:51:59 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-07-03 10:51:59 INFO  report.ReportLogger - ⚙️Validating inline error message for: lnIsSpecialChar
+2026-07-03 10:52:00 INFO  report.ReportLogger - ⚙️Expected: Enter a valid last name.
+2026-07-03 10:52:00 INFO  report.ReportLogger - ⚙️Actual: Enter a valid last name.
+2026-07-03 10:52:00 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:52:00 INFO  hooks.Hooks - Scenario PASSED: Last Name field is special characters
+2026-07-03 10:52:02 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:52:02 INFO  hooks.Hooks - ========================================
+2026-07-03 10:52:02 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is blank
+2026-07-03 10:52:02 INFO  hooks.Hooks - ========================================
+2026-07-03 10:52:05 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:52:05 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:52:06 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:52:06 INFO  report.ReportLogger - ⚙️Loading test data: mobIsBlank
+2026-07-03 10:52:08 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:52:08 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsBlank
+2026-07-03 10:52:08 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-07-03 10:52:08 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-07-03 10:52:08 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:52:08 INFO  hooks.Hooks - Scenario PASSED: Mobile Number field is blank
+2026-07-03 10:52:10 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:52:10 INFO  hooks.Hooks - ========================================
+2026-07-03 10:52:10 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is alpha characters
+2026-07-03 10:52:10 INFO  hooks.Hooks - ========================================
+2026-07-03 10:52:13 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:52:13 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:52:14 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:52:14 INFO  report.ReportLogger - ⚙️Loading test data: mobIsAlphaChar
+2026-07-03 10:52:17 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:52:17 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 10:52:17 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 10:52:17 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsAlphaChar
+2026-07-03 10:52:17 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-07-03 10:52:17 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-07-03 10:52:17 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:52:17 INFO  hooks.Hooks - Scenario PASSED: Mobile Number field is alpha characters
+2026-07-03 10:52:19 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:52:19 INFO  hooks.Hooks - ========================================
+2026-07-03 10:52:19 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is special characters
+2026-07-03 10:52:19 INFO  hooks.Hooks - ========================================
+2026-07-03 10:52:22 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:52:22 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:52:23 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:52:23 INFO  report.ReportLogger - ⚙️Loading test data: mobIsSpecialChar
+2026-07-03 10:52:25 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:52:25 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 10:52:25 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 10:52:25 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsSpecialChar
+2026-07-03 10:52:25 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-07-03 10:52:25 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-07-03 10:52:25 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:52:26 INFO  hooks.Hooks - Scenario PASSED: Mobile Number field is special characters
+2026-07-03 10:52:28 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:52:28 INFO  hooks.Hooks - ========================================
+2026-07-03 10:52:28 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is less than 10 numeric characters
+2026-07-03 10:52:28 INFO  hooks.Hooks - ========================================
+2026-07-03 10:52:31 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:52:31 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:52:31 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:52:31 INFO  report.ReportLogger - ⚙️Loading test data: mobIsIncomplete
+2026-07-03 10:52:34 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:52:34 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 10:52:34 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 10:52:34 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsIncomplete
+2026-07-03 10:52:34 INFO  report.ReportLogger - ⚙️Expected: Please enter a complete mobile number.
+2026-07-03 10:52:34 INFO  report.ReportLogger - ⚙️Actual: Please enter a complete mobile number.
+2026-07-03 10:52:34 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:52:34 INFO  hooks.Hooks - Scenario PASSED: Mobile Number field is less than 10 numeric characters
+2026-07-03 10:52:36 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:52:36 INFO  hooks.Hooks - ========================================
+2026-07-03 10:52:36 INFO  hooks.Hooks - Starting Scenario: Mobile Number is in invalid format
+2026-07-03 10:52:36 INFO  hooks.Hooks - ========================================
+2026-07-03 10:52:39 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:52:39 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:52:40 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:52:40 INFO  report.ReportLogger - ⚙️Loading test data: mobIsInvalidFormat
+2026-07-03 10:52:42 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:52:42 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsInvalidFormat
+2026-07-03 10:52:42 INFO  report.ReportLogger - ⚙️Expected: Please enter a complete mobile number.
+2026-07-03 10:52:42 INFO  report.ReportLogger - ⚙️Actual: Please enter a complete mobile number.
+2026-07-03 10:52:42 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:52:42 INFO  hooks.Hooks - Scenario PASSED: Mobile Number is in invalid format
+2026-07-03 10:52:44 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:52:44 INFO  hooks.Hooks - ========================================
+2026-07-03 10:52:44 INFO  hooks.Hooks - Starting Scenario: Mobile Number already exist
+2026-07-03 10:52:44 INFO  hooks.Hooks - ========================================
+2026-07-03 10:52:47 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:52:47 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:52:48 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:52:48 INFO  report.ReportLogger - ⚙️Loading test data: mobIsAlreadyExist
+2026-07-03 10:52:52 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:52:52 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 10:52:52 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 10:52:52 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-07-03 10:52:52 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-07-03 10:52:52 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsAlreadyExist
+2026-07-03 10:52:55 INFO  report.ReportLogger - ⚙️Expected: Mobile number already used to register a SMAC account. Please download the SMAC&SHOP and login instead.
+2026-07-03 10:52:55 INFO  report.ReportLogger - ⚙️Actual: Mobile number already used to register a SMAC account. Please download the SMAC&SHOP and login instead.
+2026-07-03 10:52:55 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:52:55 INFO  hooks.Hooks - Scenario PASSED: Mobile Number already exist
+2026-07-03 10:52:58 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:52:58 INFO  hooks.Hooks - ========================================
+2026-07-03 10:52:58 INFO  hooks.Hooks - Starting Scenario: Email Address has invalid format
+2026-07-03 10:52:58 INFO  hooks.Hooks - ========================================
+2026-07-03 10:53:01 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:53:01 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:53:02 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:53:02 INFO  report.ReportLogger - ⚙️Loading test data: emailIsInvalidFormat
+2026-07-03 10:53:04 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:53:04 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 10:53:04 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 10:53:04 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-07-03 10:53:04 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-07-03 10:53:04 INFO  report.ReportLogger - ⚙️Validating inline error message for: emailIsInvalidFormat
+2026-07-03 10:53:05 INFO  report.ReportLogger - ⚙️Expected: Please enter a complete email address.
+2026-07-03 10:53:05 INFO  report.ReportLogger - ⚙️Actual: Please enter a complete email address.
+2026-07-03 10:53:05 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:53:05 INFO  hooks.Hooks - Scenario PASSED: Email Address has invalid format
+2026-07-03 10:53:07 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:53:07 INFO  hooks.Hooks - ========================================
+2026-07-03 10:53:07 INFO  hooks.Hooks - Starting Scenario: Birthday field is blank
+2026-07-03 10:53:07 INFO  hooks.Hooks - ========================================
+2026-07-03 10:53:10 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:53:10 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:53:11 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:53:11 INFO  report.ReportLogger - ⚙️Loading test data: dobIsBlank
+2026-07-03 10:53:13 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:53:13 INFO  report.ReportLogger - ⚙️Validating inline error message for: dobIsBlank
+2026-07-03 10:53:13 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-07-03 10:53:13 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-07-03 10:53:13 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:53:13 INFO  hooks.Hooks - Scenario PASSED: Birthday field is blank
+2026-07-03 10:53:15 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:53:15 INFO  hooks.Hooks - ========================================
+2026-07-03 10:53:15 INFO  hooks.Hooks - Starting Scenario: Birthday field is alpha characters
+2026-07-03 10:53:15 INFO  hooks.Hooks - ========================================
+2026-07-03 10:53:18 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:53:18 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:53:19 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:53:19 INFO  report.ReportLogger - ⚙️Loading test data: dobIsAlphaChar
+2026-07-03 10:53:21 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:53:21 INFO  report.ReportLogger - ⚙️Validating inline error message for: dobIsAlphaChar
+2026-07-03 10:53:21 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-07-03 10:53:21 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-07-03 10:53:21 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:53:21 INFO  hooks.Hooks - Scenario PASSED: Birthday field is alpha characters
+2026-07-03 10:53:24 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:53:24 INFO  hooks.Hooks - ========================================
+2026-07-03 10:53:24 INFO  hooks.Hooks - Starting Scenario: Birthday field is special characters
+2026-07-03 10:53:24 INFO  hooks.Hooks - ========================================
+2026-07-03 10:53:27 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:53:27 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:53:28 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:53:28 INFO  report.ReportLogger - ⚙️Loading test data: dobIsSpecialChar
+2026-07-03 10:53:30 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:53:30 INFO  report.ReportLogger - ⚙️Validating inline error message for: dobIsSpecialChar
+2026-07-03 10:53:30 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-07-03 10:53:30 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-07-03 10:53:30 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:53:30 INFO  hooks.Hooks - Scenario PASSED: Birthday field is special characters
+2026-07-03 10:53:32 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:53:32 INFO  hooks.Hooks - ========================================
+2026-07-03 10:53:32 INFO  hooks.Hooks - Starting Scenario: Birthday field is invalid format
+2026-07-03 10:53:32 INFO  hooks.Hooks - ========================================
+2026-07-03 10:53:35 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:53:35 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:53:36 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:53:36 INFO  report.ReportLogger - ⚙️Loading test data: dobIsInvalidFormat
+2026-07-03 10:53:38 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:53:38 INFO  report.ReportLogger - ⚙️Validating inline error message for: dobIsInvalidFormat
+2026-07-03 10:53:38 INFO  report.ReportLogger - ⚙️Expected: Please enter a valid date.
+2026-07-03 10:53:38 INFO  report.ReportLogger - ⚙️Actual: Please enter a valid date.
+2026-07-03 10:53:38 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:53:38 INFO  hooks.Hooks - Scenario PASSED: Birthday field is invalid format
+2026-07-03 10:53:40 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:53:40 INFO  hooks.Hooks - ========================================
+2026-07-03 10:53:40 INFO  hooks.Hooks - Starting Scenario: Birthday field is below 18 years old
+2026-07-03 10:53:40 INFO  hooks.Hooks - ========================================
+2026-07-03 10:53:43 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:53:43 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:53:44 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:53:44 INFO  report.ReportLogger - ⚙️Loading test data: dobIsBelowReq
+2026-07-03 10:53:46 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:53:46 INFO  report.ReportLogger - ⚙️Validating inline error message for: dobIsBelowReq
+2026-07-03 10:53:46 INFO  report.ReportLogger - ⚙️Expected: SMAC members should be at least 18 years old.
+2026-07-03 10:53:46 INFO  report.ReportLogger - ⚙️Actual: SMAC members should be at least 18 years old.
+2026-07-03 10:53:46 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:53:47 INFO  hooks.Hooks - Scenario PASSED: Birthday field is below 18 years old
+2026-07-03 10:53:49 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:53:49 INFO  hooks.Hooks - ========================================
+2026-07-03 10:53:49 INFO  hooks.Hooks - Starting Scenario: Password field is blank
+2026-07-03 10:53:49 INFO  hooks.Hooks - ========================================
+2026-07-03 10:53:52 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:53:52 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:53:52 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:53:52 INFO  report.ReportLogger - ⚙️Loading test data: pwIsBlank
+2026-07-03 10:53:55 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:53:55 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsBlank
+2026-07-03 10:53:55 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-03 10:53:55 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-03 10:53:55 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:53:55 INFO  hooks.Hooks - Scenario PASSED: Password field is blank
+2026-07-03 10:53:57 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:53:57 INFO  hooks.Hooks - ========================================
+2026-07-03 10:53:57 INFO  hooks.Hooks - Starting Scenario: Confirm Password field is blank
+2026-07-03 10:53:57 INFO  hooks.Hooks - ========================================
+2026-07-03 10:54:00 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:54:00 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:54:01 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:54:01 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsBlank
+2026-07-03 10:54:03 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:54:03 INFO  report.ReportLogger - ⚙️Verifying Proceed button if not clickable
+2026-07-03 10:54:03 INFO  report.ReportLogger - ✅Proceed button is not clickable
+2026-07-03 10:54:03 INFO  hooks.Hooks - Scenario PASSED: Confirm Password field is blank
+2026-07-03 10:54:06 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:54:06 INFO  hooks.Hooks - ========================================
+2026-07-03 10:54:06 INFO  hooks.Hooks - Starting Scenario: Password field is minimum characters
+2026-07-03 10:54:06 INFO  hooks.Hooks - ========================================
+2026-07-03 10:54:09 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:54:09 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:54:10 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:54:10 INFO  report.ReportLogger - ⚙️Loading test data: pwIsMinChar
+2026-07-03 10:54:12 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:54:12 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsMinChar
+2026-07-03 10:54:12 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-03 10:54:12 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-03 10:54:12 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:54:12 INFO  report.ReportLogger - ⚙️Verifying if the password criteria is enabled
+2026-07-03 10:54:12 ERROR hooks.Hooks - Scenario FAILED: Password field is minimum characters
+2026-07-03 10:54:14 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:54:14 INFO  hooks.Hooks - ========================================
+2026-07-03 10:54:14 INFO  hooks.Hooks - Starting Scenario: Password field has upper and lower case
+2026-07-03 10:54:14 INFO  hooks.Hooks - ========================================
+2026-07-03 10:54:17 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:54:17 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:54:18 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:54:18 INFO  report.ReportLogger - ⚙️Loading test data: pwIsUpperAndLower
+2026-07-03 10:54:20 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:54:20 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsUpperAndLower
+2026-07-03 10:54:20 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-03 10:54:20 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-03 10:54:20 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:54:20 INFO  report.ReportLogger - ⚙️Verifying if the password criteria is enabled
+2026-07-03 10:54:20 INFO  report.ReportLogger - ⚙️Successfully verified that the password criteria is enabled
+2026-07-03 10:54:20 INFO  hooks.Hooks - Scenario PASSED: Password field has upper and lower case
+2026-07-03 10:54:22 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:54:22 INFO  hooks.Hooks - ========================================
+2026-07-03 10:54:22 INFO  hooks.Hooks - Starting Scenario: Password field has mixed letter and numbers
+2026-07-03 10:54:22 INFO  hooks.Hooks - ========================================
+2026-07-03 10:54:25 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:54:25 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:54:26 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:54:26 INFO  report.ReportLogger - ⚙️Loading test data: pwIsMixChar
+2026-07-03 10:54:28 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:54:28 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsMixChar
+2026-07-03 10:54:28 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-03 10:54:28 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-03 10:54:28 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:54:28 INFO  report.ReportLogger - ⚙️Verifying if the password criteria is enabled
+2026-07-03 10:54:28 INFO  report.ReportLogger - ⚙️Successfully verified that the password criteria is enabled
+2026-07-03 10:54:28 INFO  hooks.Hooks - Scenario PASSED: Password field has mixed letter and numbers
+2026-07-03 10:54:30 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:54:30 INFO  hooks.Hooks - ========================================
+2026-07-03 10:54:30 INFO  hooks.Hooks - Starting Scenario: Password field has at least 1 accepted special character
+2026-07-03 10:54:30 INFO  hooks.Hooks - ========================================
+2026-07-03 10:54:33 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:54:33 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:54:34 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:54:34 INFO  report.ReportLogger - ⚙️Loading test data: pwIsWithSpecialChar
+2026-07-03 10:54:34 ERROR hooks.Hooks - Scenario FAILED: Password field has at least 1 accepted special character
+2026-07-03 10:54:36 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:54:36 INFO  hooks.Hooks - ========================================
+2026-07-03 10:54:36 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 10:54:36 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_10-51-02.html
+2026-07-03 10:54:36 INFO  hooks.Hooks - ========================================
+2026-07-03 10:56:05 INFO  hooks.Hooks - ========================================
+2026-07-03 10:56:05 INFO  hooks.Hooks - Starting Scenario: Password field is minimum characters
+2026-07-03 10:56:05 INFO  hooks.Hooks - ========================================
+2026-07-03 10:56:09 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:56:09 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:56:10 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:56:10 INFO  report.ReportLogger - ⚙️Loading test data: pwIsMinChar
+2026-07-03 10:56:12 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:56:12 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsMinChar
+2026-07-03 10:56:12 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-03 10:56:12 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-03 10:56:12 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:56:12 INFO  report.ReportLogger - ⚙️Verifying if the password criteria is enabled
+2026-07-03 10:56:12 INFO  report.ReportLogger - ⚙️Successfully verified that the password criteria is enabled
+2026-07-03 10:56:12 INFO  hooks.Hooks - Scenario PASSED: Password field is minimum characters
+2026-07-03 10:56:15 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:56:15 INFO  hooks.Hooks - ========================================
+2026-07-03 10:56:15 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 10:56:15 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_10-56-08.html
+2026-07-03 10:56:15 INFO  hooks.Hooks - ========================================
+2026-07-03 10:57:59 INFO  hooks.Hooks - ========================================
+2026-07-03 10:57:59 INFO  hooks.Hooks - Starting Scenario: Password field has at least 1 accepted special character
+2026-07-03 10:57:59 INFO  hooks.Hooks - ========================================
+2026-07-03 10:58:03 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:58:03 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:58:04 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:58:04 INFO  report.ReportLogger - ⚙️Loading test data: pwIsWithSpecialChar
+2026-07-03 10:58:04 ERROR hooks.Hooks - Scenario FAILED: Password field has at least 1 accepted special character
+2026-07-03 10:58:06 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:58:06 INFO  hooks.Hooks - ========================================
+2026-07-03 10:58:06 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 10:58:06 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_10-58-03.html
+2026-07-03 10:58:06 INFO  hooks.Hooks - ========================================
+2026-07-03 10:58:54 INFO  hooks.Hooks - ========================================
+2026-07-03 10:58:54 INFO  hooks.Hooks - Starting Scenario: Password field has at least 1 accepted special character
+2026-07-03 10:58:54 INFO  hooks.Hooks - ========================================
+2026-07-03 10:58:58 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 10:58:58 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 10:58:59 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 10:58:59 INFO  report.ReportLogger - ⚙️Loading test data: pwIsWithSpecialChar
+2026-07-03 10:59:01 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 10:59:01 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsWithSpecialChar
+2026-07-03 10:59:01 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-03 10:59:01 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-03 10:59:01 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 10:59:01 INFO  report.ReportLogger - ⚙️Verifying if the password criteria is enabled
+2026-07-03 10:59:01 INFO  report.ReportLogger - ⚙️Successfully verified that the password criteria is enabled
+2026-07-03 10:59:01 INFO  hooks.Hooks - Scenario PASSED: Password field has at least 1 accepted special character
+2026-07-03 10:59:03 INFO  hooks.Hooks - Browser closed.
+2026-07-03 10:59:04 INFO  hooks.Hooks - ========================================
+2026-07-03 10:59:04 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 10:59:04 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_10-58-58.html
+2026-07-03 10:59:04 INFO  hooks.Hooks - ========================================
+2026-07-03 11:14:39 INFO  hooks.Hooks - ========================================
+2026-07-03 11:14:39 INFO  hooks.Hooks - Starting Scenario: Confirm Password do not match
+2026-07-03 11:14:39 INFO  hooks.Hooks - ========================================
+2026-07-03 11:14:47 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 11:14:47 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 11:14:48 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 11:14:48 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsNotMatched
+2026-07-03 11:14:51 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 11:14:51 INFO  report.ReportLogger - ⚙️Verifying Proceed button if not clickable
+2026-07-03 11:14:51 INFO  report.ReportLogger - ✅Proceed button is not clickable
+2026-07-03 11:14:51 INFO  hooks.Hooks - Scenario PASSED: Confirm Password do not match
+2026-07-03 11:14:53 INFO  hooks.Hooks - Browser closed.
+2026-07-03 11:14:54 INFO  hooks.Hooks - ========================================
+2026-07-03 11:14:54 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 11:14:54 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_11-14-47.html
+2026-07-03 11:14:54 INFO  hooks.Hooks - ========================================
+2026-07-03 11:19:29 INFO  hooks.Hooks - ========================================
+2026-07-03 11:19:29 INFO  hooks.Hooks - Starting Scenario: Confirm Password do not match
+2026-07-03 11:19:29 INFO  hooks.Hooks - ========================================
+2026-07-03 11:19:33 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 11:19:33 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 11:19:34 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 11:19:34 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsNotMatched
+2026-07-03 11:19:36 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 11:19:36 INFO  report.ReportLogger - ⚙️Verifying Proceed button if not clickable
+2026-07-03 11:19:37 INFO  report.ReportLogger - ✅Proceed button is not clickable
+2026-07-03 11:19:37 INFO  hooks.Hooks - Scenario PASSED: Confirm Password do not match
+2026-07-03 11:19:39 INFO  hooks.Hooks - Browser closed.
+2026-07-03 11:19:39 INFO  hooks.Hooks - ========================================
+2026-07-03 11:19:39 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 11:19:39 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_11-19-33.html
+2026-07-03 11:19:39 INFO  hooks.Hooks - ========================================
+2026-07-03 13:47:44 INFO  hooks.Hooks - ========================================
+2026-07-03 13:47:44 INFO  hooks.Hooks - Starting Scenario: Password and Confirm Password field do not match
+2026-07-03 13:47:44 INFO  hooks.Hooks - ========================================
+2026-07-03 13:47:52 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 13:47:52 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 13:47:53 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 13:47:53 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsNotMatched
+2026-07-03 13:47:58 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 13:47:58 INFO  report.ReportLogger - ⚙️Validating inline error message for: cpwIsNotMatched
+2026-07-03 13:47:58 INFO  report.ReportLogger - ⚙️Expected: Passwords do not match.
+2026-07-03 13:47:58 INFO  report.ReportLogger - ⚙️Actual: Passwords do not match.
+2026-07-03 13:47:58 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 13:47:58 INFO  hooks.Hooks - Scenario PASSED: Password and Confirm Password field do not match
+2026-07-03 13:48:02 INFO  hooks.Hooks - Browser closed.
+2026-07-03 13:48:02 INFO  hooks.Hooks - ========================================
+2026-07-03 13:48:02 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 13:48:02 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_13-47-52.html
+2026-07-03 13:48:02 INFO  hooks.Hooks - ========================================
+2026-07-03 14:37:19 INFO  hooks.Hooks - ========================================
+2026-07-03 14:37:19 INFO  hooks.Hooks - Starting Scenario: Password and Confirm Password field do not match
+2026-07-03 14:37:19 INFO  hooks.Hooks - ========================================
+2026-07-03 14:37:26 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 14:37:26 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 14:37:27 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 14:37:27 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsNotMatched
+2026-07-03 14:37:31 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 14:37:31 INFO  report.ReportLogger - ⚙️Validating inline error message for: cpwIsNotMatched
+2026-07-03 14:37:31 INFO  report.ReportLogger - ⚙️Expected: Passwords do not match.
+2026-07-03 14:37:31 INFO  report.ReportLogger - ⚙️Actual: Passwords do not match.
+2026-07-03 14:37:31 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 14:37:31 INFO  hooks.Hooks - Scenario PASSED: Password and Confirm Password field do not match
+2026-07-03 14:37:36 INFO  hooks.Hooks - Browser closed.
+2026-07-03 14:37:36 INFO  hooks.Hooks - ========================================
+2026-07-03 14:37:36 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 14:37:36 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_14-37-25.html
+2026-07-03 14:37:36 INFO  hooks.Hooks - ========================================
+2026-07-03 14:55:44 INFO  hooks.Hooks - ========================================
+2026-07-03 14:55:44 INFO  hooks.Hooks - Starting Scenario: Password and Confirm Password field matches
+2026-07-03 14:55:44 INFO  hooks.Hooks - ========================================
+2026-07-03 14:55:49 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 14:55:49 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 14:55:50 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 14:55:50 INFO  report.ReportLogger - ⚙️Loading test data: 
+2026-07-03 14:55:50 ERROR hooks.Hooks - Scenario FAILED: Password and Confirm Password field matches
+2026-07-03 14:55:52 INFO  hooks.Hooks - Browser closed.
+2026-07-03 14:55:52 INFO  hooks.Hooks - ========================================
+2026-07-03 14:55:52 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 14:55:52 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_14-55-49.html
+2026-07-03 14:55:52 INFO  hooks.Hooks - ========================================
+2026-07-03 14:56:21 INFO  hooks.Hooks - ========================================
+2026-07-03 14:56:21 INFO  hooks.Hooks - Starting Scenario: Password and Confirm Password field matches
+2026-07-03 14:56:21 INFO  hooks.Hooks - ========================================
+2026-07-03 14:56:25 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 14:56:25 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 14:56:26 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 14:56:26 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsMatched
+2026-07-03 14:56:32 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 14:56:32 ERROR hooks.Hooks - Scenario FAILED: Password and Confirm Password field matches
+2026-07-03 14:56:35 INFO  hooks.Hooks - Browser closed.
+2026-07-03 14:56:35 INFO  hooks.Hooks - ========================================
+2026-07-03 14:56:35 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 14:56:35 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_14-56-25.html
+2026-07-03 14:56:35 INFO  hooks.Hooks - ========================================
+2026-07-03 15:01:34 INFO  hooks.Hooks - ========================================
+2026-07-03 15:01:34 INFO  hooks.Hooks - Starting Scenario: Password and Confirm Password field matches
+2026-07-03 15:01:34 INFO  hooks.Hooks - ========================================
+2026-07-03 15:01:38 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:01:39 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:01:39 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:01:39 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsMatched
+2026-07-03 15:01:42 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:01:42 ERROR hooks.Hooks - Scenario FAILED: Password and Confirm Password field matches
+2026-07-03 15:01:44 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:01:45 INFO  hooks.Hooks - ========================================
+2026-07-03 15:01:45 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 15:01:45 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_15-01-38.html
+2026-07-03 15:01:45 INFO  hooks.Hooks - ========================================
+2026-07-03 15:03:46 INFO  hooks.Hooks - ========================================
+2026-07-03 15:03:46 INFO  hooks.Hooks - Starting Scenario: Password and Confirm Password field matches
+2026-07-03 15:03:46 INFO  hooks.Hooks - ========================================
+2026-07-03 15:03:50 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:03:50 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:03:51 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:03:51 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsMatched
+2026-07-03 15:50:47 INFO  hooks.Hooks - ========================================
+2026-07-03 15:50:47 INFO  hooks.Hooks - Starting Scenario: Password and Confirm Password field do not match
+2026-07-03 15:50:47 INFO  hooks.Hooks - ========================================
+2026-07-03 15:50:51 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:50:51 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:50:52 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:50:52 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsNotMatched
+2026-07-03 15:50:55 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:50:55 INFO  report.ReportLogger - ⚙️Validating inline error message for: cpwIsNotMatched
+2026-07-03 15:50:55 INFO  report.ReportLogger - ⚙️Expected: Passwords do not match.
+2026-07-03 15:50:55 INFO  report.ReportLogger - ⚙️Actual: Passwords do not match.
+2026-07-03 15:50:55 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:50:55 INFO  hooks.Hooks - Scenario PASSED: Password and Confirm Password field do not match
+2026-07-03 15:50:58 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:50:58 INFO  hooks.Hooks - ========================================
+2026-07-03 15:50:58 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 15:50:58 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_15-50-51.html
+2026-07-03 15:50:58 INFO  hooks.Hooks - ========================================
+2026-07-03 15:51:28 INFO  hooks.Hooks - ========================================
+2026-07-03 15:51:28 INFO  hooks.Hooks - Starting Scenario: SMAC Web Registration Portal is displayed
+2026-07-03 15:51:28 INFO  hooks.Hooks - ========================================
+2026-07-03 15:51:32 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:51:32 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:51:33 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:51:33 INFO  report.ReportLogger - ⚙️Verifying portal: SMAC Web Registration
+2026-07-03 15:51:35 INFO  report.ReportLogger - ✅SMAC Web Registration displayed successfully
+2026-07-03 15:51:35 INFO  hooks.Hooks - Scenario PASSED: SMAC Web Registration Portal is displayed
+2026-07-03 15:51:38 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:51:38 INFO  hooks.Hooks - ========================================
+2026-07-03 15:51:38 INFO  hooks.Hooks - Starting Scenario: First Name field is blank
+2026-07-03 15:51:38 INFO  hooks.Hooks - ========================================
+2026-07-03 15:51:41 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:51:41 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:51:42 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:51:42 INFO  report.ReportLogger - ⚙️Loading test data: fnIsBlank
+2026-07-03 15:51:45 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:51:45 INFO  report.ReportLogger - ⚙️Validating inline error message for: fnIsBlank
+2026-07-03 15:51:45 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-07-03 15:51:45 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-07-03 15:51:45 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:51:45 INFO  hooks.Hooks - Scenario PASSED: First Name field is blank
+2026-07-03 15:51:47 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:51:47 INFO  hooks.Hooks - ========================================
+2026-07-03 15:51:47 INFO  hooks.Hooks - Starting Scenario: First Name field is numeric
+2026-07-03 15:51:47 INFO  hooks.Hooks - ========================================
+2026-07-03 15:51:51 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:51:51 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:51:51 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:51:51 INFO  report.ReportLogger - ⚙️Loading test data: fnIsNumericChar
+2026-07-03 15:51:54 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:51:54 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 15:51:54 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 15:51:54 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-07-03 15:51:54 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-07-03 15:51:54 INFO  report.ReportLogger - ⚙️Validating inline error message for: fnIsNumericChar
+2026-07-03 15:51:54 INFO  report.ReportLogger - ⚙️Expected: Enter a valid first name.
+2026-07-03 15:51:54 INFO  report.ReportLogger - ⚙️Actual: Enter a valid first name.
+2026-07-03 15:51:54 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:51:54 INFO  hooks.Hooks - Scenario PASSED: First Name field is numeric
+2026-07-03 15:51:57 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:51:57 INFO  hooks.Hooks - ========================================
+2026-07-03 15:51:57 INFO  hooks.Hooks - Starting Scenario: First Name field is special characters
+2026-07-03 15:51:57 INFO  hooks.Hooks - ========================================
+2026-07-03 15:52:00 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:52:00 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:52:01 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:52:01 INFO  report.ReportLogger - ⚙️Loading test data: fnIsSpecialChar
+2026-07-03 15:52:03 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:52:03 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 15:52:03 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 15:52:03 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-07-03 15:52:03 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-07-03 15:52:03 INFO  report.ReportLogger - ⚙️Validating inline error message for: fnIsSpecialChar
+2026-07-03 15:52:04 INFO  report.ReportLogger - ⚙️Expected: Enter a valid first name.
+2026-07-03 15:52:04 INFO  report.ReportLogger - ⚙️Actual: Enter a valid first name.
+2026-07-03 15:52:04 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:52:04 INFO  hooks.Hooks - Scenario PASSED: First Name field is special characters
+2026-07-03 15:52:06 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:52:06 INFO  hooks.Hooks - ========================================
+2026-07-03 15:52:06 INFO  hooks.Hooks - Starting Scenario: Last Name field is blank
+2026-07-03 15:52:06 INFO  hooks.Hooks - ========================================
+2026-07-03 15:52:09 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:52:09 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:52:10 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:52:10 INFO  report.ReportLogger - ⚙️Loading test data: lnIsBlank
+2026-07-03 15:52:13 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:52:13 INFO  report.ReportLogger - ⚙️Validating inline error message for: lnIsBlank
+2026-07-03 15:52:13 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-07-03 15:52:13 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-07-03 15:52:13 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:52:13 INFO  hooks.Hooks - Scenario PASSED: Last Name field is blank
+2026-07-03 15:52:15 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:52:15 INFO  hooks.Hooks - ========================================
+2026-07-03 15:52:15 INFO  hooks.Hooks - Starting Scenario: Last Name field is numeric
+2026-07-03 15:52:15 INFO  hooks.Hooks - ========================================
+2026-07-03 15:52:18 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:52:18 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:52:19 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:52:19 INFO  report.ReportLogger - ⚙️Loading test data: lnIsNumericChar
+2026-07-03 15:52:22 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:52:22 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 15:52:22 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 15:52:22 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-07-03 15:52:22 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-07-03 15:52:22 INFO  report.ReportLogger - ⚙️Validating inline error message for: lnIsNumericChar
+2026-07-03 15:52:23 INFO  report.ReportLogger - ⚙️Expected: Enter a valid last name.
+2026-07-03 15:52:23 INFO  report.ReportLogger - ⚙️Actual: Enter a valid last name.
+2026-07-03 15:52:23 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:52:23 INFO  hooks.Hooks - Scenario PASSED: Last Name field is numeric
+2026-07-03 15:52:25 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:52:25 INFO  hooks.Hooks - ========================================
+2026-07-03 15:52:25 INFO  hooks.Hooks - Starting Scenario: Last Name field is special characters
+2026-07-03 15:52:25 INFO  hooks.Hooks - ========================================
+2026-07-03 15:52:28 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:52:28 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:52:29 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:52:29 INFO  report.ReportLogger - ⚙️Loading test data: lnIsSpecialChar
+2026-07-03 15:52:32 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:52:32 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 15:52:32 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 15:52:32 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-07-03 15:52:32 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-07-03 15:52:32 INFO  report.ReportLogger - ⚙️Validating inline error message for: lnIsSpecialChar
+2026-07-03 15:52:32 INFO  report.ReportLogger - ⚙️Expected: Enter a valid last name.
+2026-07-03 15:52:32 INFO  report.ReportLogger - ⚙️Actual: Enter a valid last name.
+2026-07-03 15:52:32 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:52:32 INFO  hooks.Hooks - Scenario PASSED: Last Name field is special characters
+2026-07-03 15:52:35 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:52:35 INFO  hooks.Hooks - ========================================
+2026-07-03 15:52:35 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is blank
+2026-07-03 15:52:35 INFO  hooks.Hooks - ========================================
+2026-07-03 15:52:38 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:52:38 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:52:39 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:52:39 INFO  report.ReportLogger - ⚙️Loading test data: mobIsBlank
+2026-07-03 15:52:41 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:52:41 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsBlank
+2026-07-03 15:52:41 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-07-03 15:52:41 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-07-03 15:52:41 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:52:41 INFO  hooks.Hooks - Scenario PASSED: Mobile Number field is blank
+2026-07-03 15:52:43 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:52:43 INFO  hooks.Hooks - ========================================
+2026-07-03 15:52:43 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is alpha characters
+2026-07-03 15:52:43 INFO  hooks.Hooks - ========================================
+2026-07-03 15:52:46 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:52:46 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:52:47 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:52:47 INFO  report.ReportLogger - ⚙️Loading test data: mobIsAlphaChar
+2026-07-03 15:52:50 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:52:50 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 15:52:50 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 15:52:50 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsAlphaChar
+2026-07-03 15:52:50 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-07-03 15:52:50 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-07-03 15:52:50 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:52:50 INFO  hooks.Hooks - Scenario PASSED: Mobile Number field is alpha characters
+2026-07-03 15:52:53 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:52:53 INFO  hooks.Hooks - ========================================
+2026-07-03 15:52:53 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is special characters
+2026-07-03 15:52:53 INFO  hooks.Hooks - ========================================
+2026-07-03 15:52:56 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:52:56 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:52:56 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:52:56 INFO  report.ReportLogger - ⚙️Loading test data: mobIsSpecialChar
+2026-07-03 15:52:59 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:52:59 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 15:52:59 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 15:52:59 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsSpecialChar
+2026-07-03 15:52:59 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-07-03 15:52:59 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-07-03 15:52:59 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:52:59 INFO  hooks.Hooks - Scenario PASSED: Mobile Number field is special characters
+2026-07-03 15:53:01 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:53:01 INFO  hooks.Hooks - ========================================
+2026-07-03 15:53:01 INFO  hooks.Hooks - Starting Scenario: Mobile Number field is less than 10 numeric characters
+2026-07-03 15:53:01 INFO  hooks.Hooks - ========================================
+2026-07-03 15:53:05 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:53:05 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:53:06 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:53:06 INFO  report.ReportLogger - ⚙️Loading test data: mobIsIncomplete
+2026-07-03 15:53:08 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:53:08 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 15:53:08 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 15:53:08 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsIncomplete
+2026-07-03 15:53:08 INFO  report.ReportLogger - ⚙️Expected: Please enter a complete mobile number.
+2026-07-03 15:53:08 INFO  report.ReportLogger - ⚙️Actual: Please enter a complete mobile number.
+2026-07-03 15:53:08 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:53:08 INFO  hooks.Hooks - Scenario PASSED: Mobile Number field is less than 10 numeric characters
+2026-07-03 15:53:11 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:53:11 INFO  hooks.Hooks - ========================================
+2026-07-03 15:53:11 INFO  hooks.Hooks - Starting Scenario: Mobile Number is in invalid format
+2026-07-03 15:53:11 INFO  hooks.Hooks - ========================================
+2026-07-03 15:53:14 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:53:14 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:53:15 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:53:15 INFO  report.ReportLogger - ⚙️Loading test data: mobIsInvalidFormat
+2026-07-03 15:53:18 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:53:18 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsInvalidFormat
+2026-07-03 15:53:18 INFO  report.ReportLogger - ⚙️Expected: Please enter a complete mobile number.
+2026-07-03 15:53:18 INFO  report.ReportLogger - ⚙️Actual: Please enter a complete mobile number.
+2026-07-03 15:53:18 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:53:18 INFO  hooks.Hooks - Scenario PASSED: Mobile Number is in invalid format
+2026-07-03 15:53:20 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:53:20 INFO  hooks.Hooks - ========================================
+2026-07-03 15:53:20 INFO  hooks.Hooks - Starting Scenario: Mobile Number already exist
+2026-07-03 15:53:20 INFO  hooks.Hooks - ========================================
+2026-07-03 15:53:23 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:53:23 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:53:24 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:53:24 INFO  report.ReportLogger - ⚙️Loading test data: mobIsAlreadyExist
+2026-07-03 15:53:26 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:53:26 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 15:53:26 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 15:53:26 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-07-03 15:53:27 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-07-03 15:53:27 INFO  report.ReportLogger - ⚙️Validating inline error message for: mobIsAlreadyExist
+2026-07-03 15:53:30 INFO  report.ReportLogger - ⚙️Expected: Mobile number already used to register a SMAC account. Please download the SMAC&SHOP and login instead.
+2026-07-03 15:53:30 INFO  report.ReportLogger - ⚙️Actual: Mobile number already used to register a SMAC account. Please download the SMAC&SHOP and login instead.
+2026-07-03 15:53:30 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:53:30 INFO  hooks.Hooks - Scenario PASSED: Mobile Number already exist
+2026-07-03 15:53:33 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:53:33 INFO  hooks.Hooks - ========================================
+2026-07-03 15:53:33 INFO  hooks.Hooks - Starting Scenario: Email Address has invalid format
+2026-07-03 15:53:33 INFO  hooks.Hooks - ========================================
+2026-07-03 15:53:36 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:53:36 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:53:37 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:53:37 INFO  report.ReportLogger - ⚙️Loading test data: emailIsInvalidFormat
+2026-07-03 15:53:39 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:53:39 INFO  report.ReportLogger - ⚙️Ticking consent checkbox
+2026-07-03 15:53:39 INFO  report.ReportLogger - ✅Consent checkbox selected
+2026-07-03 15:53:39 INFO  report.ReportLogger - ⚙️Clicking Proceed button
+2026-07-03 15:53:39 INFO  report.ReportLogger - ✅Proceed button clicked
+2026-07-03 15:53:39 INFO  report.ReportLogger - ⚙️Validating inline error message for: emailIsInvalidFormat
+2026-07-03 15:53:40 INFO  report.ReportLogger - ⚙️Expected: Please enter a complete email address.
+2026-07-03 15:53:40 INFO  report.ReportLogger - ⚙️Actual: Please enter a complete email address.
+2026-07-03 15:53:40 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:53:40 INFO  hooks.Hooks - Scenario PASSED: Email Address has invalid format
+2026-07-03 15:53:42 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:53:42 INFO  hooks.Hooks - ========================================
+2026-07-03 15:53:42 INFO  hooks.Hooks - Starting Scenario: Birthday field is blank
+2026-07-03 15:53:42 INFO  hooks.Hooks - ========================================
+2026-07-03 15:53:45 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:53:45 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:53:46 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:53:46 INFO  report.ReportLogger - ⚙️Loading test data: dobIsBlank
+2026-07-03 15:53:49 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:53:49 INFO  report.ReportLogger - ⚙️Validating inline error message for: dobIsBlank
+2026-07-03 15:53:49 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-07-03 15:53:49 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-07-03 15:53:49 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:53:49 INFO  hooks.Hooks - Scenario PASSED: Birthday field is blank
+2026-07-03 15:53:52 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:53:52 INFO  hooks.Hooks - ========================================
+2026-07-03 15:53:52 INFO  hooks.Hooks - Starting Scenario: Birthday field is alpha characters
+2026-07-03 15:53:52 INFO  hooks.Hooks - ========================================
+2026-07-03 15:53:55 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:53:55 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:53:56 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:53:56 INFO  report.ReportLogger - ⚙️Loading test data: dobIsAlphaChar
+2026-07-03 15:53:58 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:53:58 INFO  report.ReportLogger - ⚙️Validating inline error message for: dobIsAlphaChar
+2026-07-03 15:53:58 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-07-03 15:53:58 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-07-03 15:53:58 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:53:59 INFO  hooks.Hooks - Scenario PASSED: Birthday field is alpha characters
+2026-07-03 15:54:01 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:54:01 INFO  hooks.Hooks - ========================================
+2026-07-03 15:54:01 INFO  hooks.Hooks - Starting Scenario: Birthday field is special characters
+2026-07-03 15:54:01 INFO  hooks.Hooks - ========================================
+2026-07-03 15:54:04 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:54:04 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:54:05 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:54:05 INFO  report.ReportLogger - ⚙️Loading test data: dobIsSpecialChar
+2026-07-03 15:54:07 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:54:07 INFO  report.ReportLogger - ⚙️Validating inline error message for: dobIsSpecialChar
+2026-07-03 15:54:07 INFO  report.ReportLogger - ⚙️Expected: This field is required.
+2026-07-03 15:54:07 INFO  report.ReportLogger - ⚙️Actual: This field is required.
+2026-07-03 15:54:07 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:54:07 INFO  hooks.Hooks - Scenario PASSED: Birthday field is special characters
+2026-07-03 15:54:10 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:54:10 INFO  hooks.Hooks - ========================================
+2026-07-03 15:54:10 INFO  hooks.Hooks - Starting Scenario: Birthday field is invalid format
+2026-07-03 15:54:10 INFO  hooks.Hooks - ========================================
+2026-07-03 15:54:13 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:54:13 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:54:14 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:54:14 INFO  report.ReportLogger - ⚙️Loading test data: dobIsInvalidFormat
+2026-07-03 15:54:16 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:54:16 INFO  report.ReportLogger - ⚙️Validating inline error message for: dobIsInvalidFormat
+2026-07-03 15:54:16 INFO  report.ReportLogger - ⚙️Expected: Please enter a valid date.
+2026-07-03 15:54:16 INFO  report.ReportLogger - ⚙️Actual: Please enter a valid date.
+2026-07-03 15:54:16 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:54:16 INFO  hooks.Hooks - Scenario PASSED: Birthday field is invalid format
+2026-07-03 15:54:18 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:54:18 INFO  hooks.Hooks - ========================================
+2026-07-03 15:54:18 INFO  hooks.Hooks - Starting Scenario: Birthday field is below 18 years old
+2026-07-03 15:54:18 INFO  hooks.Hooks - ========================================
+2026-07-03 15:54:22 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:54:22 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:54:22 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:54:22 INFO  report.ReportLogger - ⚙️Loading test data: dobIsBelowReq
+2026-07-03 15:54:25 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:54:25 INFO  report.ReportLogger - ⚙️Validating inline error message for: dobIsBelowReq
+2026-07-03 15:54:25 INFO  report.ReportLogger - ⚙️Expected: SMAC members should be at least 18 years old.
+2026-07-03 15:54:25 INFO  report.ReportLogger - ⚙️Actual: SMAC members should be at least 18 years old.
+2026-07-03 15:54:25 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:54:25 INFO  hooks.Hooks - Scenario PASSED: Birthday field is below 18 years old
+2026-07-03 15:54:27 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:54:27 INFO  hooks.Hooks - ========================================
+2026-07-03 15:54:27 INFO  hooks.Hooks - Starting Scenario: Password field is blank
+2026-07-03 15:54:27 INFO  hooks.Hooks - ========================================
+2026-07-03 15:54:31 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:54:31 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:54:31 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:54:31 INFO  report.ReportLogger - ⚙️Loading test data: pwIsBlank
+2026-07-03 15:54:34 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:54:34 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsBlank
+2026-07-03 15:54:34 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-03 15:54:34 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-03 15:54:34 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:54:34 INFO  hooks.Hooks - Scenario PASSED: Password field is blank
+2026-07-03 15:54:36 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:54:36 INFO  hooks.Hooks - ========================================
+2026-07-03 15:54:36 INFO  hooks.Hooks - Starting Scenario: Confirm Password field is blank
+2026-07-03 15:54:36 INFO  hooks.Hooks - ========================================
+2026-07-03 15:54:39 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:54:39 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:54:40 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:54:40 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsBlank
+2026-07-03 15:54:42 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:54:42 INFO  report.ReportLogger - ⚙️Verifying Proceed button if not clickable
+2026-07-03 15:54:42 INFO  report.ReportLogger - ✅Proceed button is not clickable
+2026-07-03 15:54:43 INFO  hooks.Hooks - Scenario PASSED: Confirm Password field is blank
+2026-07-03 15:54:45 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:54:45 INFO  hooks.Hooks - ========================================
+2026-07-03 15:54:45 INFO  hooks.Hooks - Starting Scenario: Password field is minimum characters
+2026-07-03 15:54:45 INFO  hooks.Hooks - ========================================
+2026-07-03 15:54:48 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:54:48 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:54:49 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:54:49 INFO  report.ReportLogger - ⚙️Loading test data: pwIsMinChar
+2026-07-03 15:54:52 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:54:52 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsMinChar
+2026-07-03 15:54:52 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-03 15:54:52 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-03 15:54:52 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:54:52 INFO  report.ReportLogger - ⚙️Verifying if the password criteria is enabled
+2026-07-03 15:54:52 INFO  report.ReportLogger - ⚙️Successfully verified that the password criteria is enabled
+2026-07-03 15:54:52 INFO  hooks.Hooks - Scenario PASSED: Password field is minimum characters
+2026-07-03 15:54:55 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:54:55 INFO  hooks.Hooks - ========================================
+2026-07-03 15:54:55 INFO  hooks.Hooks - Starting Scenario: Password field has upper and lower case
+2026-07-03 15:54:55 INFO  hooks.Hooks - ========================================
+2026-07-03 15:54:58 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:54:58 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:54:59 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:54:59 INFO  report.ReportLogger - ⚙️Loading test data: pwIsUpperAndLower
+2026-07-03 15:55:02 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:55:02 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsUpperAndLower
+2026-07-03 15:55:02 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-03 15:55:02 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-03 15:55:02 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:55:02 INFO  report.ReportLogger - ⚙️Verifying if the password criteria is enabled
+2026-07-03 15:55:02 INFO  report.ReportLogger - ⚙️Successfully verified that the password criteria is enabled
+2026-07-03 15:55:02 INFO  hooks.Hooks - Scenario PASSED: Password field has upper and lower case
+2026-07-03 15:55:04 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:55:04 INFO  hooks.Hooks - ========================================
+2026-07-03 15:55:04 INFO  hooks.Hooks - Starting Scenario: Password field has mixed letter and numbers
+2026-07-03 15:55:04 INFO  hooks.Hooks - ========================================
+2026-07-03 15:55:07 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:55:07 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:55:08 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:55:08 INFO  report.ReportLogger - ⚙️Loading test data: pwIsMixChar
+2026-07-03 15:55:11 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:55:11 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsMixChar
+2026-07-03 15:55:11 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-03 15:55:11 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-03 15:55:11 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:55:11 INFO  report.ReportLogger - ⚙️Verifying if the password criteria is enabled
+2026-07-03 15:55:11 INFO  report.ReportLogger - ⚙️Successfully verified that the password criteria is enabled
+2026-07-03 15:55:11 INFO  hooks.Hooks - Scenario PASSED: Password field has mixed letter and numbers
+2026-07-03 15:55:13 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:55:13 INFO  hooks.Hooks - ========================================
+2026-07-03 15:55:13 INFO  hooks.Hooks - Starting Scenario: Password field has at least 1 accepted special character
+2026-07-03 15:55:13 INFO  hooks.Hooks - ========================================
+2026-07-03 15:55:16 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:55:16 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:55:17 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:55:17 INFO  report.ReportLogger - ⚙️Loading test data: pwIsWithSpecialChar
+2026-07-03 15:55:20 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:55:20 INFO  report.ReportLogger - ⚙️Validating inline error message for: pwIsWithSpecialChar
+2026-07-03 15:55:20 INFO  report.ReportLogger - ⚙️Expected: Password not strong enough.
+2026-07-03 15:55:20 INFO  report.ReportLogger - ⚙️Actual: Password not strong enough.
+2026-07-03 15:55:20 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:55:20 INFO  report.ReportLogger - ⚙️Verifying if the password criteria is enabled
+2026-07-03 15:55:20 INFO  report.ReportLogger - ⚙️Successfully verified that the password criteria is enabled
+2026-07-03 15:55:20 INFO  hooks.Hooks - Scenario PASSED: Password field has at least 1 accepted special character
+2026-07-03 15:55:22 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:55:22 INFO  hooks.Hooks - ========================================
+2026-07-03 15:55:22 INFO  hooks.Hooks - Starting Scenario: Password and Confirm Password field do not match
+2026-07-03 15:55:22 INFO  hooks.Hooks - ========================================
+2026-07-03 15:55:25 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:55:25 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:55:26 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:55:26 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsNotMatched
+2026-07-03 15:55:28 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:55:28 INFO  report.ReportLogger - ⚙️Validating inline error message for: cpwIsNotMatched
+2026-07-03 15:55:28 INFO  report.ReportLogger - ⚙️Expected: Passwords do not match.
+2026-07-03 15:55:28 INFO  report.ReportLogger - ⚙️Actual: Passwords do not match.
+2026-07-03 15:55:28 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-03 15:55:29 INFO  hooks.Hooks - Scenario PASSED: Password and Confirm Password field do not match
+2026-07-03 15:55:31 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:55:31 INFO  hooks.Hooks - ========================================
+2026-07-03 15:55:31 INFO  hooks.Hooks - Starting Scenario: Password and Confirm Password field matches
+2026-07-03 15:55:31 INFO  hooks.Hooks - ========================================
+2026-07-03 15:55:34 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 15:55:34 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 15:55:35 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 15:55:35 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsMatched
+2026-07-03 15:55:37 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 15:55:37 INFO  report.ReportLogger - ⚙️Validating inline error message for: cpwIsMatched
+2026-07-03 15:55:37 ERROR report.ReportLogger - ❌Unknown test case: cpwIsMatched
+2026-07-03 15:55:37 ERROR hooks.Hooks - Scenario FAILED: Password and Confirm Password field matches
+2026-07-03 15:55:40 INFO  hooks.Hooks - Browser closed.
+2026-07-03 15:55:40 INFO  hooks.Hooks - ========================================
+2026-07-03 15:55:40 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 15:55:40 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_15-51-32.html
+2026-07-03 15:55:40 INFO  hooks.Hooks - ========================================
+2026-07-03 16:10:58 INFO  hooks.Hooks - ========================================
+2026-07-03 16:10:58 INFO  hooks.Hooks - Starting Scenario: Password and Confirm Password field matches
+2026-07-03 16:10:58 INFO  hooks.Hooks - ========================================
+2026-07-03 16:11:03 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 16:11:03 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 16:11:04 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 16:11:04 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsMatched
+2026-07-03 16:11:07 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 16:11:07 INFO  report.ReportLogger - ⚙️Validating inline error message for: cpwIsMatched
+2026-07-03 16:11:07 ERROR report.ReportLogger - ❌Unknown test case: cpwIsMatched
+2026-07-03 16:11:07 ERROR hooks.Hooks - Scenario FAILED: Password and Confirm Password field matches
+2026-07-03 16:11:09 INFO  hooks.Hooks - Browser closed.
+2026-07-03 16:11:09 INFO  hooks.Hooks - ========================================
+2026-07-03 16:11:09 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 16:11:09 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_16-11-03.html
+2026-07-03 16:11:09 INFO  hooks.Hooks - ========================================
+2026-07-03 16:11:38 INFO  hooks.Hooks - ========================================
+2026-07-03 16:11:38 INFO  hooks.Hooks - Starting Scenario: Password and Confirm Password field matches
+2026-07-03 16:11:38 INFO  hooks.Hooks - ========================================
+2026-07-03 16:11:42 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 16:11:42 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 16:11:44 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 16:11:44 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsMatched
+2026-07-03 16:11:47 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 16:11:47 INFO  report.ReportLogger - ⚙️Validating inline error message for: cpwIsMatched
+2026-07-03 16:11:47 INFO  report.ReportLogger - ⚙️Expected: 
+2026-07-03 16:11:47 INFO  report.ReportLogger - ⚙️Actual: Passwords do not match.
+2026-07-03 16:11:47 WARN  report.ReportLogger - ⚠️Inline error message mismatch. Expected:'', Actual:'Passwords do not match.'
+2026-07-03 16:11:47 ERROR hooks.Hooks - Scenario FAILED: Password and Confirm Password field matches
+2026-07-03 16:11:50 INFO  hooks.Hooks - Browser closed.
+2026-07-03 16:11:50 INFO  hooks.Hooks - ========================================
+2026-07-03 16:11:50 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 16:11:50 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_16-11-42.html
+2026-07-03 16:11:50 INFO  hooks.Hooks - ========================================
+2026-07-03 16:31:41 INFO  hooks.Hooks - ========================================
+2026-07-03 16:31:41 INFO  hooks.Hooks - Starting Scenario: Password and Confirm Password field matches
+2026-07-03 16:31:41 INFO  hooks.Hooks - ========================================
+2026-07-03 16:31:46 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 16:31:46 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 16:31:47 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 16:31:47 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsMatched
+2026-07-03 16:31:49 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 16:31:49 INFO  report.ReportLogger - ⚙️Validating inline error message for: cpwIsMatched
+2026-07-03 16:31:49 INFO  report.ReportLogger - ⚙️Expected: 
+2026-07-03 16:31:49 INFO  report.ReportLogger - ⚙️Actual: Passwords do not match.
+2026-07-03 16:31:49 WARN  report.ReportLogger - ⚠️Inline error message mismatch. Expected:'', Actual:'Passwords do not match.'
+2026-07-03 16:31:49 ERROR hooks.Hooks - Scenario FAILED: Password and Confirm Password field matches
+2026-07-03 16:31:52 INFO  hooks.Hooks - Browser closed.
+2026-07-03 16:31:52 INFO  hooks.Hooks - ========================================
+2026-07-03 16:31:52 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 16:31:52 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_16-31-45.html
+2026-07-03 16:31:52 INFO  hooks.Hooks - ========================================
+2026-07-03 16:32:40 INFO  hooks.Hooks - ========================================
+2026-07-03 16:32:40 INFO  hooks.Hooks - Starting Scenario: Password and Confirm Password field matches
+2026-07-03 16:32:40 INFO  hooks.Hooks - ========================================
+2026-07-03 16:32:44 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 16:32:44 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 16:32:45 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 16:32:45 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsMatched
+2026-07-03 16:32:48 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 16:32:48 INFO  report.ReportLogger - ⚙️Validating inline error message for: cpwIsMatched
+2026-07-03 16:32:48 INFO  report.ReportLogger - ⚙️Expected: 
+2026-07-03 16:32:48 INFO  report.ReportLogger - ⚙️Actual: Passwords do not match.
+2026-07-03 16:32:48 WARN  report.ReportLogger - ⚠️Inline error message mismatch. Expected:'', Actual:'Passwords do not match.'
+2026-07-03 16:32:48 ERROR hooks.Hooks - Scenario FAILED: Password and Confirm Password field matches
+2026-07-03 16:32:50 INFO  hooks.Hooks - Browser closed.
+2026-07-03 16:32:51 INFO  hooks.Hooks - ========================================
+2026-07-03 16:32:51 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 16:32:51 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_16-32-44.html
+2026-07-03 16:32:51 INFO  hooks.Hooks - ========================================
+2026-07-03 17:44:53 INFO  hooks.Hooks - ========================================
+2026-07-03 17:44:53 INFO  hooks.Hooks - Starting Scenario: Password and Confirm Password field matches
+2026-07-03 17:44:53 INFO  hooks.Hooks - ========================================
+2026-07-03 17:44:59 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 17:44:59 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 17:45:00 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 17:45:00 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsMatched
+2026-07-03 17:45:03 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 17:45:03 INFO  report.ReportLogger - ⚙️Validating inline error message for: cpwIsMatched
+2026-07-03 17:45:03 INFO  report.ReportLogger - ⚙️Expected: 
+2026-07-03 17:45:03 INFO  report.ReportLogger - ⚙️Actual: Passwords do not match.
+2026-07-03 17:45:03 WARN  report.ReportLogger - ⚠️Inline error message mismatch. Expected:'', Actual:'Passwords do not match.'
+2026-07-03 17:45:03 ERROR hooks.Hooks - Scenario FAILED: Password and Confirm Password field matches
+2026-07-03 17:45:05 INFO  hooks.Hooks - Browser closed.
+2026-07-03 17:45:06 INFO  hooks.Hooks - ========================================
+2026-07-03 17:45:06 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 17:45:06 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_17-44-59.html
+2026-07-03 17:45:06 INFO  hooks.Hooks - ========================================
+2026-07-03 17:46:22 INFO  hooks.Hooks - ========================================
+2026-07-03 17:46:22 INFO  hooks.Hooks - Starting Scenario: Password and Confirm Password field matches
+2026-07-03 17:46:22 INFO  hooks.Hooks - ========================================
+2026-07-03 17:46:26 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-03 17:46:26 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-03 17:46:26 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-03 17:46:26 INFO  report.ReportLogger - ⚙️Loading test data: cpwIsMatched
+2026-07-03 17:46:29 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-03 17:46:29 INFO  report.ReportLogger - ⚙️Validating inline error message for: cpwIsMatched
+2026-07-03 17:46:40 ERROR hooks.Hooks - Scenario FAILED: Password and Confirm Password field matches
+2026-07-03 17:46:45 INFO  hooks.Hooks - Browser closed.
+2026-07-03 17:46:45 INFO  hooks.Hooks - ========================================
+2026-07-03 17:46:45 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-03 17:46:45 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-03_17-46-25.html
+2026-07-03 17:46:45 INFO  hooks.Hooks - ========================================

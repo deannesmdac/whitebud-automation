@@ -3,6 +3,7 @@ package page;
 import base.BasePage;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import report.ReportLogger;
 
 
 public class RegistrationPage extends BasePage {
@@ -200,6 +201,83 @@ public class RegistrationPage extends BasePage {
         return isElementEnabled(proceedButtonDP);
     }
 
+    public boolean isPasswordRuleActive(String ruleText){
+        By locator = By.xpath(
+                "//div[contains(@class,'password-rule')]" +
+                        "[.//div[@class='label' and normalize-space()='" + ruleText + "']]"
+        );
+
+        WebElement rule = wait.until(
+                ExpectedConditions.visibilityOfElementLocated(locator)
+        );
+
+        String classes = rule.getAttribute("class");
+
+        return classes.contains("rule-active");
+    }
+
+    /*
+     * fieldName is from the suffix of the fields' id locator.
+     */
+    public String getInlineErrorByField(String fieldName) {
+        By locator = By.xpath(
+                "//input[contains(@id,'Input_" + fieldName + "')]" +
+                        "/following-sibling::span[@class='validation-message']"
+        );
+
+        return getElementText(locator);
+    }
+
+    public String getFieldNameByTestCase(String testCaseName) {
+
+        switch (testCaseName) {
+
+            case "fnIsBlank":
+            case "fnIsNumericChar":
+            case "fnIsSpecialChar":
+                return getInlineErrorByField("FirstName");
+
+            case "lnIsBlank":
+            case "lnIsNumericChar":
+            case "lnIsSpecialChar":
+                return getInlineErrorByField("LastName");
+
+            case "mobIsBlank":
+            case "mobIsAlphaChar":
+            case "mobIsSpecialChar":
+            case "mobIsIncomplete":
+            case "mobIsInvalidFormat":
+            case "mobIsAlreadyExist":
+                return getInlineErrorByField("MobNum");
+
+            case "emailIsInvalidFormat":
+                return getInlineErrorByField("EmailAddress");
+
+            case "dobIsBlank":
+            case "dobIsAlphaChar":
+            case "dobIsSpecialChar":
+            case "dobIsInvalidFormat":
+            case "dobIsBelowReq":
+                return getInlineErrorByField("Birthday");
+
+            case "pwIsBlank":
+            case "pwIsMinChar":
+            case "pwIsUpperAndLower":
+            case "pwIsMixChar":
+            case "pwIsWithSpecialChar":
+                return getInlineErrorByField("Password");
+
+            case "cpwIsNotMatched":
+            case "cpwIsMatched":
+                return getInlineErrorByField("PasswordConfirmation");
+
+            default:
+                ReportLogger.fail("Unknown test case: " + testCaseName);
+                throw new IllegalArgumentException(
+                        "Unknown test case: " + testCaseName);
+        }
+    }
+
     // =========================
     // ACTIONS
     // =========================
@@ -261,7 +339,5 @@ public class RegistrationPage extends BasePage {
         scrollTo(proceedButtonDP);
         click(proceedButtonDP);
     }
-
-
 
 }
