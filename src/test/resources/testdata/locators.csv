@@ -1,0 +1,27 @@
+LocatorName,LocatorType,LocatorValue
+detailsTab,id,b5-b1-Title
+linkCardTab,id,b5-b3-Title
+verificationTab,id,b5-b5-Title
+registrationTitle,xpath,//span[@class='margin-right-s' and text()='Mobile Number']
+nameLabel,xpath,//*[@id='b6-b1-b2-Column1']/div/label/span
+mobileNumberLabel,xpath,Copy string literal text to the clipboard
+emailAddressLabel,xpath,//label[@for='b6-b1-Input_EmailAddress']
+birthdayLabel,xpath,//label[@for='b6-b1-Input_Birthday']
+passwordLabel,xpath,//label[@for='b6-b1-Input_Password']
+confirmPasswordLabel,xpath,//label[@for='b6-b1-Input_PasswordConfirmation']
+emailOptionalText,xpath,//span[text()='(optional)']
+firstNameField,id,b6-b1-Input_FirstName
+lastNameField,id,b6-b1-Input_LastName
+mobileNumberField,id,b6-b1-Input_MobNum
+emailField,id,b6-b1-Input_EmailAddress
+birthdayField,id,b6-b1-Input_Birthday
+passwordField,id,b6-b1-Input_Password
+confirmPasswordField,id,b6-b1-Input_PasswordConfirmation
+enterSMACNumberField,id,b6-b2-Input_CardNumber
+updatesCheckbox,id,b6-b1-Checkbox_UpdatesConsent
+consentCheckbox,id,b6-b1-Checkbox_SMACConsent
+proceedButtonDP,xpath,//*[@id="b6-b1-Container_"]/button
+backButtonLCP,id,b3-Icon
+homeButtonLCP3,id,b4-Icon
+termsAndConditionsLink,xpath,//span[text()='Terms and Conditions']
+privacyPolicyLink,xpath,//span[text()='Privacy Policy']

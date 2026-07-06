@@ -5,12 +5,12 @@ import java.io.FileReader;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CsvReader {
+public class TestDataReader {
 
     private static final String FILE_PATH =
-            "src/test/resources/testdata/registration.csv";
+            "src/test/resources/testdata/registrationTestData.csv";
 
-    public static Map<String, String> getTestData(String testCaseName) {
+    public static Map<String, String> getTestData(String TestCaseName) {
 
         try (BufferedReader br =
                      new BufferedReader(new FileReader(FILE_PATH))) {
@@ -23,7 +23,7 @@ public class CsvReader {
 
                 String[] values = line.split(",", -1);
 
-                if (values[0].equals(testCaseName)) {
+                if (values[0].equals(TestCaseName)) {
 
                     Map<String, String> data = new HashMap<>();
 
@@ -43,7 +43,7 @@ public class CsvReader {
         }
 
         throw new RuntimeException(
-                "Test case not found: " + testCaseName
+                "Test case not found: " + TestCaseName
         );
     }
 }

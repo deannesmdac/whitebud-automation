@@ -1,7 +1,8 @@
-﻿testCaseName,FirstName,LastName,MobileNumber,EmailAddress,Birthday,Password,ConfirmPassword,ErrorMessage
+﻿TestCaseName,FirstName,LastName,MobileNumber,EmailAddress,Birthday,Password,ConfirmPassword,ErrorMessage
 fnIsBlank,,Doe,9497379639,dee123@yopmail.com,01011990,Alpha123!,Alpha123!,This field is required.
 fnIsNumericChar,123,Doe,9497379639,dee123@yopmail.com,01011990,Alpha123!,Alpha123!,Enter a valid first name.
 fnIsSpecialChar,!@#$%,Doe,9497379639,dee123@yopmail.com,01011990,Alpha123!,Alpha123!,Enter a valid first name.
+fnIsValid,Jane,123,9497379639,dee123@yopmail.com,01011990,Alpha123!,Alpha123!,
 lnIsBlank,Jane,,9497379639,dee123@yopmail.com,01011990,Alpha123!,Alpha123!,This field is required.
 lnIsNumericChar,Jane,123,9497379639,dee123@yopmail.com,01011990,Alpha123!,Alpha123!,Enter a valid last name.
 lnIsSpecialChar,Jane,!@#$%,9497379639,dee123@yopmail.com,01011990,Alpha123!,Alpha123!,Enter a valid last name.

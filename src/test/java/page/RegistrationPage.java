@@ -4,6 +4,9 @@ import base.BasePage;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import report.ReportLogger;
+import utils.LocatorReader;
+
+import java.util.List;
 
 
 public class RegistrationPage extends BasePage {
@@ -121,16 +124,6 @@ public class RegistrationPage extends BasePage {
             By.xpath("//span[text()='Privacy Policy']");
 
     // =========================
-    // PASSWORD CRITERIA LOCATORS
-    // =========================
-
-    private final By minimumChar = By.id("b6-b1-$b17");
-    private final By capitalAndSmallChar = By.id("b6-b1-$b20");
-    private final By mixChar = By.id("b6-b1-$b18");
-    private final By withSpecialChar = By.id("b6-b1-$b21");
-
-
-    // =========================
     // PAGE VALIDATION
     // =========================
 
@@ -237,6 +230,9 @@ public class RegistrationPage extends BasePage {
             case "fnIsSpecialChar":
                 return getInlineErrorByField("FirstName");
 
+            case "fnIsValid":
+                return "FirstName";
+
             case "lnIsBlank":
             case "lnIsNumericChar":
             case "lnIsSpecialChar":
@@ -268,14 +264,28 @@ public class RegistrationPage extends BasePage {
                 return getInlineErrorByField("Password");
 
             case "cpwIsNotMatched":
-            case "cpwIsMatched":
                 return getInlineErrorByField("PasswordConfirmation");
+
+            case "cpwIsMatched":
+                return "PasswordConfirmation";
 
             default:
                 ReportLogger.fail("Unknown test case: " + testCaseName);
                 throw new IllegalArgumentException(
                         "Unknown test case: " + testCaseName);
         }
+    }
+
+    public boolean isInlineErrorDisplayed(String fieldName) {
+
+        By locator = By.xpath(
+                "//input[contains(@id,'Input_" + fieldName + "')]" +
+                        "/following-sibling::span[@class='validation-message']"
+        );
+
+        List<WebElement> elements = driver.findElements(locator);
+
+        return !elements.isEmpty() && elements.get(0).isDisplayed();
     }
 
     // =========================

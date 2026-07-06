@@ -11,21 +11,24 @@ Feature: Whitebud Registration
 
       Scenario: First Name field is numeric
         When the member enters registration details for "fnIsNumericChar"
-        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
-        And the member clicks the Proceed button
+        And the member scrolls to the "proceedButtonDP"
+        And the member ticks the SMAC Terms&Conditions and Data Privacy Policy
+        And the member clicks the "proceedButtonDP"
         Then the inline error message "fnIsNumericChar" is displayed
 
       Scenario: First Name field is special characters
         When the member enters registration details for "fnIsSpecialChar"
-        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
-        And the member clicks the Proceed button
+        And the member scrolls to the "proceedButtonDP"
+        And the member ticks the SMAC Terms&Conditions and Data Privacy Policy
+        And the member clicks the "proceedButtonDP"
         Then the inline error message "fnIsSpecialChar" is displayed
 
-#      Scenario: First Name field is alpha characters
-#        When the member enters registration details for ""
-#        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
-#        And the member clicks the Proceed button
-#        Then the inline error message "" is displayed
+      Scenario: First Name field is alpha characters
+        When the member enters registration details for "fnIsValid"
+        And the member ticks the SMAC Terms&Conditions and Data Privacy Policy
+        And the member clicks the "proceedButtonDP"
+        And the member scrolls to the "firstNameField"
+        Then no inline error message is displayed for "fnIsValid"
 
       Scenario: Last Name field is blank
         When the member enters registration details for "lnIsBlank"
@@ -33,14 +36,14 @@ Feature: Whitebud Registration
 
       Scenario: Last Name field is numeric
         When the member enters registration details for "lnIsNumericChar"
-        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
-        And the member clicks the Proceed button
+        And the member ticks the SMAC Terms&Conditions and Data Privacy Policy
+        And the member clicks the "proceedButtonDP"
         Then the inline error message "lnIsNumericChar" is displayed
 
       Scenario: Last Name field is special characters
         When the member enters registration details for "lnIsSpecialChar"
-        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
-        And the member clicks the Proceed button
+        And the member ticks the SMAC Terms&Conditions and Data Privacy Policy
+        And the member clicks the "proceedButtonDP"
         Then the inline error message "lnIsSpecialChar" is displayed
 
 #      Scenario: Last Name field is alpha characters
@@ -55,12 +58,12 @@ Feature: Whitebud Registration
 
       Scenario: Mobile Number field is alpha characters
         When the member enters registration details for "mobIsAlphaChar"
-        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
+        And the member ticks the SMAC Terms&Conditions and Data Privacy Policy
         Then the inline error message "mobIsAlphaChar" is displayed
 
       Scenario: Mobile Number field is special characters
         When the member enters registration details for "mobIsSpecialChar"
-        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
+        And the member ticks the SMAC Terms&Conditions and Data Privacy Policy
         Then the inline error message "mobIsSpecialChar" is displayed
 
 #      Scenario: Mobile Number field is numeric characters
@@ -70,7 +73,7 @@ Feature: Whitebud Registration
 
       Scenario: Mobile Number field is less than 10 numeric characters
         When the member enters registration details for "mobIsIncomplete"
-        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
+        And the member ticks the SMAC Terms&Conditions and Data Privacy Policy
         Then the inline error message "mobIsIncomplete" is displayed
 
       Scenario: Mobile Number is in invalid format
@@ -79,8 +82,8 @@ Feature: Whitebud Registration
 
       Scenario: Mobile Number already exist
         When the member enters registration details for "mobIsAlreadyExist"
-        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
-        And the member clicks the Proceed button
+        And the member ticks the SMAC Terms&Conditions and Data Privacy Policy
+        And the member clicks the "proceedButtonDP"
         Then the inline error message "mobIsAlreadyExist" is displayed
 
 #      Scenario: Mobile Number is in valid format
@@ -111,8 +114,8 @@ Feature: Whitebud Registration
 
       Scenario: Email Address has invalid format
         When the member enters registration details for "emailIsInvalidFormat"
-        And the member ticks the SMAC Terms and Conditions and Data Privacy Policy
-        And the member clicks the Proceed button
+        And the member ticks the SMAC Terms&Conditions and Data Privacy Policy
+        And the member clicks the "proceedButtonDP"
         Then the inline error message "emailIsInvalidFormat" is displayed
 
 #      Scenario: Email Address already exist
@@ -164,7 +167,8 @@ Feature: Whitebud Registration
         Then the inline error message "pwIsBlank" is displayed
 
       Scenario: Confirm Password field is blank
-        When the member enters registration details for "cpwIsBlank"
+        When the member enters registration details for "dobIsBlank"
+        And the member ticks the SMAC Terms&Conditions and Data Privacy Policy
         Then the proceed button is not clickable
 
       Scenario: Password field is minimum characters
@@ -193,7 +197,7 @@ Feature: Whitebud Registration
 
       Scenario: Password and Confirm Password field matches
         When the member enters registration details for "cpwIsMatched"
-        Then the inline error message "cpwIsMatched" is displayed
+        Then no inline error message is displayed for "cpwIsMatched"
 
 
 

@@ -6,11 +6,10 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import page.RegistrationPage;
 import report.ReportLogger;
-import utils.CsvReader;
+import utils.TestDataReader;
 import java.util.Map;
 import java.util.Objects;
 
@@ -63,7 +62,7 @@ public class RegistrationStep {
         ReportLogger.info("Loading test data: " + testCaseName);
 
         Map<String, String> data =
-                CsvReader.getTestData(testCaseName);
+                TestDataReader.getTestData(testCaseName);
 
         registrationPage.enterFirstNameField(data.get("FirstName"));
         registrationPage.enterLastNameField(data.get("LastName"));
@@ -76,27 +75,7 @@ public class RegistrationStep {
         ReportLogger.pass("Registration details entered successfully");
     }
 
-    @And("the member ticks the SMAC Terms and Conditions and Data Privacy Policy")
-    public void theMemberTicksTheSMACTermsAndConditionsAndDataPrivacyPolicy() {
-
-        ReportLogger.info("Ticking consent checkbox");
-
-        registrationPage.clickConsentCheckbox();
-
-        ReportLogger.pass("Consent checkbox selected");
-    }
-
-    @And("the member clicks the Proceed button")
-    public void memberClicksTheProceedButton() {
-
-        ReportLogger.info("Clicking Proceed button");
-
-        registrationPage.clickProceedButtonDP();
-
-        ReportLogger.pass("Proceed button clicked");
-    }
-
-    @Then("the Link Card Page should be displayed")
+     @Then("the Link Card Page should be displayed")
     public void theLinkCardTabShouldBeDisplayed() {
 
         ReportLogger.info("Verifying Link Card page");
@@ -115,7 +94,7 @@ public class RegistrationStep {
         ReportLogger.info("Validating inline error message for: " + testCaseName);
 
         Map<String, String> data =
-                CsvReader.getTestData(testCaseName);
+                TestDataReader.getTestData(testCaseName);
 
         String actualMessage = registrationPage.getFieldNameByTestCase(testCaseName);
         String expectedMessage = data.get("ErrorMessage");
@@ -161,33 +140,58 @@ public class RegistrationStep {
         ReportLogger.info("Successfully verified that the password criteria is enabled");
     }
 
-    @Then("no inline error message is displayed")
-    public void noInlineErrorMessageIsDisplayed(String testCaseName) {
-        ReportLogger.info("Validating inline error message for: " + testCaseName);
+    @Then("no inline error message is displayed for {string}")
+    public void theNoInlineErrorMessageIsDisplayedFor(String testCaseName) {
+        ReportLogger.info("Validating no inline error message for: " + testCaseName);
 
-        Map<String, String> data =
-                CsvReader.getTestData(testCaseName);
+        String fieldName = registrationPage.getFieldNameByTestCase(testCaseName);
 
-        String actualMessage = registrationPage.getFieldNameByTestCase(testCaseName);
-        String expectedMessage = data.get("ErrorMessage");
+        boolean isErrorDisplayed = registrationPage.isInlineErrorDisplayed(fieldName);
 
-        ReportLogger.info("Expected: " + expectedMessage);
-        ReportLogger.info("Actual: " + actualMessage);
+        ReportLogger.info("Inline error displayed: " + isErrorDisplayed);
 
-        if (!Objects.equals(actualMessage, expectedMessage)) {
+        if (isErrorDisplayed) {
+            String actualMessage = registrationPage.getInlineErrorByField(fieldName);
+
             ReportLogger.warning(
-                    "Inline error message mismatch. Expected:'{}', Actual:'{}'",
-                    expectedMessage,
+                    "Unexpected inline error message displayed: '{}'",
                     actualMessage
             );
         }
 
-        Assert.assertEquals(
-                actualMessage,
-                expectedMessage,
-                "Inline error message mismatch."
+        Assert.assertFalse(
+                isErrorDisplayed,
+                "Inline error message should not be displayed."
         );
 
-        ReportLogger.pass("Inline error message validated successfully");
+        ReportLogger.pass("No inline error message is displayed.");
+    }
+
+    @And("the member scrolls to the {string}")
+    public void theMemberScrollsToThe(String LocatorName) {
+        ReportLogger.info("Verifying page scrolls to the First Name field");
+
+        registrationPage.scrollToLocator(LocatorName);
+
+        ReportLogger.pass("Successfully scrolled to First Name field");
+
+    }
+
+    @And("the member clicks the {string}")
+    public void theMemberClicksThe(String LocatorName) {
+        ReportLogger.info("Verifying if locator is clickable");
+
+        registrationPage.clickLocator(LocatorName);
+
+        ReportLogger.pass("Successfully clicked the locator");
+    }
+
+    @And("the member ticks the SMAC Terms&Conditions and Data Privacy Policy")
+    public void theMemberTicksTheSMACSHOPUpdateAndTermsConditions() {
+        ReportLogger.info("Verifying page scrolls to the First Name field");
+
+        registrationPage.clickConsentCheckbox();
+
+        ReportLogger.pass("Successfully scrolled to First Name field");
     }
 }

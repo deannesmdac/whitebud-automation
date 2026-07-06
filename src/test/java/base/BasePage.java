@@ -3,8 +3,10 @@ package base;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utils.LocatorReader;
 
 import java.time.Duration;
+import java.util.Map;
 
 public class BasePage {
 
@@ -145,6 +147,18 @@ public class BasePage {
     public boolean isElementEnabled(By locator){
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         return element.isEnabled();
+    }
+
+    public void clickLocator(String locatorName) {
+        click(LocatorReader.getLocator(locatorName));
+    }
+
+    public void enterText(String locatorName, String text) {
+        type(LocatorReader.getLocator(locatorName), text);
+    }
+
+    public void scrollToLocator(String locatorName) {
+        scrollTo(LocatorReader.getLocator(locatorName));
     }
 
 }
