@@ -4,7 +4,6 @@ import base.BasePage;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import report.ReportLogger;
-import utils.LocatorReader;
 
 import java.util.List;
 
@@ -350,4 +349,7 @@ public class RegistrationPage extends BasePage {
         click(proceedButtonDP);
     }
 
+    public String checkDisable_ProceedButtonDP() {
+        return isDisabled(proceedButtonDP);
+    }
 }

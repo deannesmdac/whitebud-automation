@@ -167,9 +167,9 @@ Feature: Whitebud Registration
         Then the inline error message "pwIsBlank" is displayed
 
       Scenario: Confirm Password field is blank
-        When the member enters registration details for "dobIsBlank"
+        When the member enters registration details for "cpwIsBlank"
         And the member ticks the SMAC Terms&Conditions and Data Privacy Policy
-        Then the proceed button is not clickable
+        Then the proceed button is "clickable"
 
       Scenario: Password field is minimum characters
         When the member enters registration details for "pwIsMinChar"

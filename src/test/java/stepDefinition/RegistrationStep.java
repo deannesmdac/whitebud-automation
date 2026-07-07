@@ -119,14 +119,37 @@ public class RegistrationStep {
         ReportLogger.pass("Inline error message validated successfully");
     }
 
-    @Then("the proceed button is not clickable")
-    public void theProceedButtonIsNotClickable() {
-        ReportLogger.info("Verifying Proceed button if not clickable");
+    @Then("the proceed button is {string}")
+    public void theProceedButtonIsNotClickable(String state) {
+        switch (state) {
 
-        Assert.assertFalse(registrationPage.isProceedButtonEnabled(),
-                "Proceed button should not be clickable.");
+            case "not clickable":
+                String isProceedDisabled = registrationPage.checkDisable_ProceedButtonDP();
 
-        ReportLogger.pass("Proceed button is not clickable");
+                ReportLogger.info("Verifying Proceed button if not clickable");
+
+                Assert.assertEquals(isProceedDisabled,"disabled",
+                        "Proceed button is clickable");
+
+                ReportLogger.pass("Proceed button is clickable");
+                break;
+
+            case "clickable":
+                 String isProceedEnabled = registrationPage.checkDisable_ProceedButtonDP();
+
+                ReportLogger.info("Verifying Proceed button if not clickable");
+
+                Assert.assertNull(isProceedEnabled,
+                        "Proceed button is not clickable");
+
+                ReportLogger.pass("Proceed button is not clickable");
+                break;
+
+            default:
+                Assert.fail("State Unknown: " + state);
+
+        }
+
 
     }
 
@@ -179,6 +202,10 @@ public class RegistrationStep {
 
     @And("the member clicks the {string}")
     public void theMemberClicksThe(String LocatorName) {
+        String checkEnabled =registrationPage.checkDisable_ProceedButtonDP();
+
+        Assert.assertNull(checkEnabled);
+
         ReportLogger.info("Verifying if locator is clickable");
 
         registrationPage.clickLocator(LocatorName);

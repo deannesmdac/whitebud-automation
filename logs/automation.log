@@ -11404,3 +11404,128 @@ Session ID: 73e27ca29aeed2cac59db6a7f011facb
 2026-07-06 18:27:05 INFO  hooks.Hooks - Extent Report generated successfully.
 2026-07-06 18:27:05 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-06_18-26-53.html
 2026-07-06 18:27:05 INFO  hooks.Hooks - ========================================
+2026-07-07 10:20:31 INFO  hooks.Hooks - ========================================
+2026-07-07 10:20:31 INFO  hooks.Hooks - Starting Scenario: Email Address has invalid format
+2026-07-07 10:20:31 INFO  hooks.Hooks - ========================================
+2026-07-07 10:20:37 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-07 10:20:37 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-07 10:20:38 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-07 10:20:38 INFO  report.ReportLogger - ⚙️Loading test data: emailIsInvalidFormat
+2026-07-07 10:20:41 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-07 10:20:41 INFO  report.ReportLogger - ⚙️Verifying page scrolls to the First Name field
+2026-07-07 10:20:41 INFO  report.ReportLogger - ✅Successfully scrolled to First Name field
+2026-07-07 10:20:41 ERROR hooks.Hooks - Scenario FAILED: Email Address has invalid format
+2026-07-07 10:20:43 INFO  hooks.Hooks - Browser closed.
+2026-07-07 10:20:44 INFO  hooks.Hooks - ========================================
+2026-07-07 10:20:44 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-07 10:20:44 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-07_10-20-37.html
+2026-07-07 10:20:44 INFO  hooks.Hooks - ========================================
+2026-07-07 10:21:18 INFO  hooks.Hooks - ========================================
+2026-07-07 10:21:18 INFO  hooks.Hooks - Starting Scenario: Email Address has invalid format
+2026-07-07 10:21:18 INFO  hooks.Hooks - ========================================
+2026-07-07 10:21:21 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-07 10:21:21 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-07 10:21:22 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-07 10:21:22 INFO  report.ReportLogger - ⚙️Loading test data: emailIsInvalidFormat
+2026-07-07 10:21:24 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-07 10:21:24 INFO  report.ReportLogger - ⚙️Verifying page scrolls to the First Name field
+2026-07-07 10:21:24 INFO  report.ReportLogger - ✅Successfully scrolled to First Name field
+2026-07-07 10:21:24 INFO  report.ReportLogger - ⚙️Verifying if locator is clickable
+2026-07-07 10:21:24 INFO  report.ReportLogger - ✅Successfully clicked the locator
+2026-07-07 10:21:24 INFO  report.ReportLogger - ⚙️Validating inline error message for: emailIsInvalidFormat
+2026-07-07 10:21:25 INFO  report.ReportLogger - ⚙️Expected: Please enter a complete email address.
+2026-07-07 10:21:25 INFO  report.ReportLogger - ⚙️Actual: Please enter a complete email address.
+2026-07-07 10:21:25 INFO  report.ReportLogger - ✅Inline error message validated successfully
+2026-07-07 10:21:25 INFO  hooks.Hooks - Scenario PASSED: Email Address has invalid format
+2026-07-07 10:21:28 INFO  hooks.Hooks - Browser closed.
+2026-07-07 10:21:28 INFO  hooks.Hooks - ========================================
+2026-07-07 10:21:28 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-07 10:21:28 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-07_10-21-21.html
+2026-07-07 10:21:28 INFO  hooks.Hooks - ========================================
+2026-07-07 10:25:42 INFO  hooks.Hooks - ========================================
+2026-07-07 10:25:42 INFO  hooks.Hooks - Starting Scenario: Confirm Password field is blank
+2026-07-07 10:25:42 INFO  hooks.Hooks - ========================================
+2026-07-07 10:25:45 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-07 10:25:45 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-07 10:25:46 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-07 10:25:46 INFO  report.ReportLogger - ⚙️Loading test data: validFields
+2026-07-07 10:25:48 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-07 10:25:48 INFO  report.ReportLogger - ⚙️Verifying page scrolls to the First Name field
+2026-07-07 10:25:48 INFO  report.ReportLogger - ✅Successfully scrolled to First Name field
+2026-07-07 10:25:48 INFO  report.ReportLogger - ⚙️Verifying Proceed button if not clickable
+2026-07-07 10:25:49 ERROR hooks.Hooks - Scenario FAILED: Confirm Password field is blank
+2026-07-07 10:25:51 INFO  hooks.Hooks - Browser closed.
+2026-07-07 10:25:51 INFO  hooks.Hooks - ========================================
+2026-07-07 10:25:51 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-07 10:25:51 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-07_10-25-45.html
+2026-07-07 10:25:51 INFO  hooks.Hooks - ========================================
+2026-07-07 10:29:25 INFO  hooks.Hooks - ========================================
+2026-07-07 10:29:25 INFO  hooks.Hooks - Starting Scenario: Confirm Password field is blank
+2026-07-07 10:29:25 INFO  hooks.Hooks - ========================================
+2026-07-07 10:29:28 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-07 10:29:28 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-07 10:29:29 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-07 10:29:29 INFO  report.ReportLogger - ⚙️Loading test data: validFields
+2026-07-07 10:29:32 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-07 10:29:32 INFO  report.ReportLogger - ⚙️Verifying page scrolls to the First Name field
+2026-07-07 10:29:32 INFO  report.ReportLogger - ✅Successfully scrolled to First Name field
+2026-07-07 10:29:32 INFO  report.ReportLogger - ⚙️Verifying Proceed button if not clickable
+2026-07-07 10:29:32 ERROR hooks.Hooks - Scenario FAILED: Confirm Password field is blank
+2026-07-07 10:29:34 INFO  hooks.Hooks - Browser closed.
+2026-07-07 10:29:35 INFO  hooks.Hooks - ========================================
+2026-07-07 10:29:35 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-07 10:29:35 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-07_10-29-28.html
+2026-07-07 10:29:35 INFO  hooks.Hooks - ========================================
+2026-07-07 10:35:50 INFO  hooks.Hooks - ========================================
+2026-07-07 10:35:50 INFO  hooks.Hooks - Starting Scenario: Confirm Password field is blank
+2026-07-07 10:35:50 INFO  hooks.Hooks - ========================================
+2026-07-07 10:35:54 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-07 10:35:54 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-07 10:35:55 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-07 10:35:55 INFO  report.ReportLogger - ⚙️Loading test data: validFields
+2026-07-07 10:35:58 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-07 10:35:58 INFO  report.ReportLogger - ⚙️Verifying page scrolls to the First Name field
+2026-07-07 10:35:58 INFO  report.ReportLogger - ✅Successfully scrolled to First Name field
+2026-07-07 10:35:58 INFO  report.ReportLogger - ⚙️Verifying Proceed button if not clickable
+2026-07-07 10:35:58 ERROR hooks.Hooks - Scenario FAILED: Confirm Password field is blank
+2026-07-07 10:36:00 INFO  hooks.Hooks - Browser closed.
+2026-07-07 10:36:00 INFO  hooks.Hooks - ========================================
+2026-07-07 10:36:00 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-07 10:36:00 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-07_10-35-54.html
+2026-07-07 10:36:00 INFO  hooks.Hooks - ========================================
+2026-07-07 10:36:24 INFO  hooks.Hooks - ========================================
+2026-07-07 10:36:24 INFO  hooks.Hooks - Starting Scenario: Confirm Password field is blank
+2026-07-07 10:36:24 INFO  hooks.Hooks - ========================================
+2026-07-07 10:36:27 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-07 10:36:27 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-07 10:36:28 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-07 10:36:28 INFO  report.ReportLogger - ⚙️Loading test data: validFields
+2026-07-07 10:36:32 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-07 10:36:32 INFO  report.ReportLogger - ⚙️Verifying page scrolls to the First Name field
+2026-07-07 10:36:32 INFO  report.ReportLogger - ✅Successfully scrolled to First Name field
+2026-07-07 10:36:32 INFO  report.ReportLogger - ⚙️Verifying Proceed button if not clickable
+2026-07-07 10:36:32 INFO  report.ReportLogger - ✅Proceed button is not clickable
+2026-07-07 10:36:32 ERROR hooks.Hooks - Scenario FAILED: Confirm Password field is blank
+2026-07-07 10:36:34 INFO  hooks.Hooks - Browser closed.
+2026-07-07 10:36:35 INFO  hooks.Hooks - ========================================
+2026-07-07 10:36:35 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-07 10:36:35 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-07_10-36-26.html
+2026-07-07 10:36:35 INFO  hooks.Hooks - ========================================
+2026-07-07 10:37:01 INFO  hooks.Hooks - ========================================
+2026-07-07 10:37:01 INFO  hooks.Hooks - Starting Scenario: Confirm Password field is blank
+2026-07-07 10:37:01 INFO  hooks.Hooks - ========================================
+2026-07-07 10:37:04 INFO  hooks.Hooks - Browser opened successfully.
+2026-07-07 10:37:04 INFO  report.ReportLogger - ⚙️Navigating to SMAC Registration Portal
+2026-07-07 10:37:05 INFO  report.ReportLogger - ✅Successfully opened SMAC Registration Portal
+2026-07-07 10:37:05 INFO  report.ReportLogger - ⚙️Loading test data: validFields
+2026-07-07 10:37:08 INFO  report.ReportLogger - ✅Registration details entered successfully
+2026-07-07 10:37:08 INFO  report.ReportLogger - ⚙️Verifying page scrolls to the First Name field
+2026-07-07 10:37:08 INFO  report.ReportLogger - ✅Successfully scrolled to First Name field
+2026-07-07 10:37:08 INFO  report.ReportLogger - ⚙️Verifying Proceed button if not clickable
+2026-07-07 10:37:08 INFO  report.ReportLogger - ✅Proceed button is not clickable
+2026-07-07 10:37:08 INFO  hooks.Hooks - Scenario PASSED: Confirm Password field is blank
+2026-07-07 10:37:10 INFO  hooks.Hooks - Browser closed.
+2026-07-07 10:37:10 INFO  hooks.Hooks - ========================================
+2026-07-07 10:37:10 INFO  hooks.Hooks - Extent Report generated successfully.
+2026-07-07 10:37:10 INFO  hooks.Hooks - Location: test-output/ExtentReport_2026-07-07_10-37-04.html
+2026-07-07 10:37:10 INFO  hooks.Hooks - ========================================

@@ -6,7 +6,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.LocatorReader;
 
 import java.time.Duration;
-import java.util.Map;
 
 public class BasePage {
 
@@ -148,6 +147,12 @@ public class BasePage {
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         return element.isEnabled();
     }
+
+    public String isDisabled(By locator){
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+       return  element.getAttribute("disabled");
+    }
+
 
     public void clickLocator(String locatorName) {
         click(LocatorReader.getLocator(locatorName));
